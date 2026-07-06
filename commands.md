@@ -1,14 +1,14 @@
 # Comandos Linux:
 
 
-##### Sumário
+### Sumário
 - [bg](#bg)
 
 
 ---
 
 
-##### bg
+#### bg
 
 Move os jobs para o background. Exemplo de uso:
 
