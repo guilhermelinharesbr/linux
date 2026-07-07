@@ -2,11 +2,22 @@
 
 
 ### Sumário
+- [adduser](#adduser)
 - [bg](#bg)
 
 
 ---
 
+#### adduser
+
+O _adduser_ é um script perl que usa useradd binary no backend. Tem um Wizard mais amigável que o _userddd_.
+
+Ex:  
+```bash
+adduser nome_usuario
+```
+
+---
 
 #### bg
 
