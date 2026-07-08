@@ -3,6 +3,7 @@
 
 ### Sumário
 - [adduser](#adduser)
+- [arch](#arch)
 - [bg](#bg)
 
 
@@ -16,6 +17,12 @@ Ex:
 ```bash
 adduser nome_usuario
 ```
+
+---
+
+#### arch
+
+Diz se o sistema é 64 ou 32 bits.
 
 ---
 
