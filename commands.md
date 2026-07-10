@@ -4,8 +4,9 @@
 ### Sumário
 - [adduser](#adduser)
 - [arch](#arch)
+- [arp](#arp)
 - [bg](#bg)
-- [bzip2]()
+- [bzip2](#bzip2)
 
 
 ---
@@ -23,6 +24,14 @@ Ex:
 #### arch
 
 Diz se o sistema é 64 ou 32 bits.
+
+---
+
+#### arp
+
+Manipula ou exibe os vizinhos de rede IPv4 do em cache do kernel. Ele pode adicionar entradas à tabela, excluir uma ou exibir a conteúdo atual.
+
+**arp -n** -> mostra endereços numéricos, ao invés de tentar determinar os nomes simbólicos da máquina, porta e usuário. Mostra MAC e IP.
 
 ---
 
