@@ -7,7 +7,7 @@
 - [arp](#arp)
 - [bg](#bg)
 - [bzip2](#bzip2)
-- [bunzip2]()
+- [bunzip2](#bunzip2)
 
 
 ---
