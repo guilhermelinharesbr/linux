@@ -7,6 +7,7 @@
 - [arp](#arp)
 - [bg](#bg)
 - [bzip2](#bzip2)
+- [bunzip2]()
 
 
 ---
@@ -60,5 +61,14 @@ Ex:
 
 Ex2:  
 **bzip2 -d** _arquivo.bz2_ -> O **-d** é de decompress. Serve para descomprimir um arquivo.
+
+---
+
+#### bunzip2
+
+Serve para descomprimir um arquivo.
+
+Ex:  
+**bunzip2** arquivo.bz2 
 
 ---
