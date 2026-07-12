@@ -8,6 +8,7 @@
 - [bg](#bg)
 - [bzip2](#bzip2)
 - [bunzip2](#bunzip2)
+- [cat](#cat)
 
 
 ---
@@ -70,5 +71,16 @@ Serve para descomprimir um arquivo.
 
 Ex:  
 **bunzip2** arquivo.bz2 
+
+---
+
+#### cat
+
+Concatena arquivos e imprimi na saída padrão.
+
+Ex:  
+**cat /etc/*-release**  -> Mostra qual a versão S.O. está instalada.  
+**cat /etc/shells**  -> Mostra quais shells estão instalados na máquina.  
+**cat /var/log/syslog | grep bat**  -> Mostra as linhas de Log do syslog onde tenham a palavra bat nelas. Esse bat faz referência ao antiga interface do Bacula.
 
 ---
