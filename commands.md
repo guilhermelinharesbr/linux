@@ -9,6 +9,7 @@
 - [bzip2](#bzip2)
 - [bunzip2](#bunzip2)
 - [cat](#cat)
+- [cd](#cd)
 
 
 ---
@@ -82,5 +83,23 @@ Ex:
 **cat /etc/*-release**  -> Mostra qual a versão S.O. está instalada.  
 **cat /etc/shells**  -> Mostra quais shells estão instalados na máquina.  
 **cat /var/log/syslog | grep bat**  -> Mostra as linhas de Log do syslog onde tenham a palavra bat nelas. Esse bat faz referência ao antiga interface do Bacula.
+
+---
+
+#### cd
+
+Altera o diretório de trabalho do shell.
+
+**cd Downloads**  -> Entra no diretório Downloads.             
+
+**cd ..**  -> Volta para o diretório anterior.
+
+**cd "Arquivos Variados"** ou **cd 'Arquivos Variados'**  -> Acessa diretórios com nomes compostos.
+
+**cd -**  -> Para voltar ao último diretório visitado antes do diretório atual.
+
+**cd** ou **cd ~** ou **cd ~/**  -> Para ir para o seu diretório home.
+
+**cd ../Documentos**  -> Para ir para um diretório do mesmo nível (diretório irmão) do diretório atual. No Linux Mint o Downloads e o Documentos são diretórios que estão no mesmo nível.   
 
 ---
