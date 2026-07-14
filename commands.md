@@ -10,6 +10,7 @@
 - [bunzip2](#bunzip2)
 - [cat](#cat)
 - [cd](#cd)
+- [chgrp](#chgrp)
 
 
 ---
@@ -98,8 +99,17 @@ Altera o diretório de trabalho do shell.
 
 **cd -**  -> Para voltar ao último diretório visitado antes do diretório atual.
 
-**cd** ou **cd ~** ou **cd ~/**  -> Para ir para o seu diretório home.
+**cd** ou **cd \~** ou **cd ~/**  -> Para ir para o seu diretório home.
 
 **cd ../Documentos**  -> Para ir para um diretório do mesmo nível (diretório irmão) do diretório atual. No Linux Mint o Downloads e o Documentos são diretórios que estão no mesmo nível.   
+
+---
+
+#### chgrp
+
+Altera o nome de grupo de arquivos.
+
+**chgrp -Rc desenvolvimento teste** -> Altera o grupo do diretório _teste_ e de todos os arquivos e diretórios que estão hierarquicamente abaixo do diretório teste, pois foi usada a opção **-R**, que vem de recursive. Como a opção **-c** é usada, será mostrada a lista dos arquivos e diretórios que tiveram o nome do grupo alterado, a opção **-c** vem de _changes_.
+A opção **-v** vem de _verbose_ -> Informa quais arquivos estão sendo processados (não necessariamente alterados).
 
 ---
