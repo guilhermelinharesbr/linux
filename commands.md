@@ -11,6 +11,7 @@
 - [cat](#cat)
 - [cd](#cd)
 - [chgrp](#chgrp)
+- [chmod](#chmod)
 
 
 ---
@@ -111,5 +112,15 @@ Altera o nome de grupo de arquivos.
 
 **chgrp -Rc desenvolvimento teste** -> Altera o grupo do diretório _teste_ e de todos os arquivos e diretórios que estão hierarquicamente abaixo do diretório teste, pois foi usada a opção **-R**, que vem de recursive. Como a opção **-c** é usada, será mostrada a lista dos arquivos e diretórios que tiveram o nome do grupo alterado, a opção **-c** vem de _changes_.
 A opção **-v** vem de _verbose_ -> Informa quais arquivos estão sendo processados (não necessariamente alterados).
+
+---
+
+#### chmod
+
+Permite alterar manualmente as configurações de permissão de um arquivo.
+
+**chmod -R 777 /home/pensador/Imagens** -> Faz com que todos os arquivos que estejam na pasta Imagens possam ser executados por qualquer usuário.
+
+**chmod 777 arquivo** é o mesmo que **chmod ugo+rwx arquivo**. 
 
 ---
