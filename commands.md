@@ -12,6 +12,7 @@
 - [cd](#cd)
 - [chgrp](#chgrp)
 - [chmod](#chmod)
+- [chown](#chown)
 
 
 ---
@@ -122,5 +123,39 @@ Permite alterar manualmente as configurações de permissão de um arquivo.
 **chmod -R 777 /home/pensador/Imagens** -> Faz com que todos os arquivos que estejam na pasta Imagens possam ser executados por qualquer usuário.
 
 **chmod 777 arquivo** é o mesmo que **chmod ugo+rwx arquivo**. 
+
+---
+
+#### chown
+
+Altera o dono do arquivo e pode também alterar o grupo a que este arquivo pertence.
+
+**chown pensador arquivo.txt** -> Altera o dono do arquivo arquivo.txt para o usuário pensador.
+
+**chown pensador. arquivo.txt** -> Altera o dono do arquivo _arquivo.txt_ para o usuário _pensador_ e o grupo do arquivo para o grupo do usuário.
+
+**chown pensador:users arquivo.txt** -> Altera o dono do arquivo arquivo.txt para o usuário pensador e o grupo para users.
+
+**chown .users arquivo.txt** -> Altera o grupo do arquivo para users e deixa inalterado o dono do arquivo. Dessa forma ele trabalha similar ao chgrp, mudando somente o grupo.
+
+**chown -R pensador /home/pensador** -> Altera o dono de todos os arquivos e diretórios dentro de /home/pensador para o usuário pensador. A opção -R vem de recursive.
+Um usuário comum somente pode passar a propriedade de arquivos e diretórios dos quais ele é dono. O usuário root pode alterar a propriedade de qualquer arquivo ou diretório.
+
+Exemplo:
+**ps aux | grep php**
+apache    1232  0.1  2.6 533340 208332 ?       S    mai25   3:12 php-fpm: pool www
+apache    1233  0.1  2.6 773088 205856 ?       Sl   mai25   3:57 php-fpm: pool www
+
+Neste exemplo, o usuário que está executando o php-fpm é o apache.
+Então, para dar permissão para o php gravar algo no diretório upload, não é necessário alterar a permissão, mas sim o dono do diretório:
+
+**ls -l | grep upload**
+drwxr-xr-x  2 root   root        4096 mai  25 22:33 upload
+
+Altera-se então o dono do diretório upload para o usuário apache. Desta forma, o processo do php-fpm será capaz de gravar, ler e acessar o diretório upload:
+
+**sudo chown apache upload**
+**ls -l | grep upload**
+drwxr-xr-x  2 apache   root        4096 mai  25 22:33 upload
 
 ---
