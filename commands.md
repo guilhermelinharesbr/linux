@@ -13,6 +13,7 @@
 - [chgrp](#chgrp)
 - [chmod](#chmod)
 - [chown](#chown)
+- [chroot](#chroot)
 
 
 ---
@@ -157,5 +158,11 @@ Altera-se então o dono do diretório upload para o usuário apache. Desta forma
 **sudo chown apache upload**
 **ls -l | grep upload**
 drwxr-xr-x  2 apache   root        4096 mai  25 22:33 upload
+
+---
+
+#### chroot
+
+Executa um comando ou um shell interativo de outro diretório e trata esse diretório como raiz. 
 
 ---
