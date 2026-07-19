@@ -14,6 +14,7 @@
 - [chmod](#chmod)
 - [chown](#chown)
 - [chroot](#chroot)
+- [clear](#clear)
 
 
 ---
@@ -164,5 +165,11 @@ drwxr-xr-x  2 apache   root        4096 mai  25 22:33 upload
 #### chroot
 
 Executa um comando ou um shell interativo de outro diretório e trata esse diretório como raiz. 
+
+---
+
+#### clear
+
+Serve para limpar a tela do terminal. Também pode-se usar o atalho _CTRL + L_.
 
 ---
