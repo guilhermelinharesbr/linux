@@ -15,6 +15,7 @@
 - [chown](#chown)
 - [chroot](#chroot)
 - [clear](#clear)
+- [cp]()
 
 
 ---
@@ -171,5 +172,19 @@ Executa um comando ou um shell interativo de outro diretório e trata esse diret
 #### clear
 
 Serve para limpar a tela do terminal. Também pode-se usar o atalho _CTRL + L_.
+
+---
+
+#### cp
+
+Serve para copiar arquivos e diretórios. 
+
+**cp -Rvi /home/user/imagem.jpg /home/user/Downloads**
+
+**cp -i**  -> A opção **-i** serve para perguntar se deseja sobrescrever algum arquivo com mesmo nome no diretório de destino.
+
+**cp -R** ou **cp -r** -> A opção serve para copiar os diretórios recursivamente.
+
+**cp -v** -> A opção **-v** é modo verbose, serve para mostrar o que está sendo copiado.
 
 ---
