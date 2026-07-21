@@ -15,7 +15,8 @@
 - [chown](#chown)
 - [chroot](#chroot)
 - [clear](#clear)
-- [cp]()
+- [cp](#cp)
+- [curl](#curl)
 
 
 ---
@@ -186,5 +187,18 @@ Serve para copiar arquivos e diretórios.
 **cp -R** ou **cp -r** -> A opção serve para copiar os diretórios recursivamente.
 
 **cp -v** -> A opção **-v** é modo verbose, serve para mostrar o que está sendo copiado.
+
+---
+
+#### curl
+
+Client URL. O uso mais simples do curl é para mostrar o conteúdo de uma página. Para saber se máquina tem conexão com a internet.
+
+Protocolos suportados: HTTP e HTTPS; FTP e FTPS; IMAP e IMAPS; POP3 e POP3S; SMB e SMBS; SFTP; SCP; TELNET; GOPHER; LDAP e LDAPS; SMTP e SMTPS.
+
+Ex:  
+**curl www.google.com.br**  
+**curl google.com**  
+**curl --connect-timeout 5 http://$IPADDRESS**  -> Imprime na tela o conteúdo do servidor, a opção de _conection-timeout_ serve para tentar somente até 5 segundos, depois disso ele não tenta novamente.
 
 ---
