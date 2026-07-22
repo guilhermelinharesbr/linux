@@ -17,6 +17,7 @@
 - [clear](#clear)
 - [cp](#cp)
 - [curl](#curl)
+- [date]()
 
 
 ---
@@ -200,5 +201,14 @@ Ex:
 **curl www.google.com.br**  
 **curl google.com**  
 **curl --connect-timeout 5 http://$IPADDRESS**  -> Imprime na tela o conteúdo do servidor, a opção de _conection-timeout_ serve para tentar somente até 5 segundos, depois disso ele não tenta novamente.
+
+---
+
+#### date
+
+Mostra ou define a data e hora do sistema.
+
+**date** ->   Mostra data e hora.  
+**date -s "05 JUN 2020 15:17:00"** -> Configura data e hora. A opção **-s** vem de _set_. Só usar caso o comando _ntpdate_ não resolva. 
 
 ---
