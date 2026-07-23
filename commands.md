@@ -17,7 +17,8 @@
 - [clear](#clear)
 - [cp](#cp)
 - [curl](#curl)
-- [date]()
+- [date](#date)
+- [df](#df)
 
 
 ---
@@ -210,5 +211,14 @@ Mostra ou define a data e hora do sistema.
 
 **date** ->   Mostra data e hora.  
 **date -s "05 JUN 2020 15:17:00"** -> Configura data e hora. A opção **-s** vem de _set_. Só usar caso o comando _ntpdate_ não resolva. 
+
+---
+
+#### df
+
+Mostra o quanto está sendo usado no disco.
+
+**df -h** -> A opção -h vem de human readable.  
+**df -Th** -> Para ver o tipo de sistema de arquivos, se é ext4, xfs, swap etc. A opção **-T** ou **--print-type** tem a mesma função.
 
 ---
