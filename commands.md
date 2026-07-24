@@ -19,6 +19,7 @@
 - [curl](#curl)
 - [date](#date)
 - [df](#df)
+- [du]()
 
 
 ---
@@ -220,5 +221,18 @@ Mostra o quanto está sendo usado no disco.
 
 **df -h** -> A opção -h vem de human readable.  
 **df -Th** -> Para ver o tipo de sistema de arquivos, se é ext4, xfs, swap etc. A opção **-T** ou **--print-type** tem a mesma função.
+
+---
+
+
+#### du
+
+DU vem de disk usage. 
+
+__du -sh *__ -> Mostra o tamanho de arquivos e diretórios. Tem que estar dentro do diretório para usar esse comando.
+
+**du -h | egrep -v "\./.+/" | sort -h** -> Mostra os maiores diretórios usando os comandos encadeados du, egrep e sort. Tem que estar dentro do diretório para usar esse comando.
+
+**du -h --max-depth=1 /home** -> Mostra o tamanho das pastas do /home.
 
 ---
