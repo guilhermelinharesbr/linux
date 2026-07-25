@@ -20,6 +20,7 @@
 - [date](#date)
 - [df](#df)
 - [du](#du)
+- [echo]()
 
 
 ---
@@ -224,7 +225,6 @@ Mostra o quanto está sendo usado no disco.
 
 ---
 
-
 #### du
 
 DU vem de disk usage. 
@@ -234,5 +234,12 @@ __du -sh *__ -> Mostra o tamanho de arquivos e diretórios. Tem que estar dentro
 **du -h | egrep -v "\./.+/" | sort -h** -> Mostra os maiores diretórios usando os comandos encadeados du, egrep e sort. Tem que estar dentro do diretório para usar esse comando.
 
 **du -h --max-depth=1 /home** -> Mostra o tamanho das pastas do /home.
+
+---
+
+#### echo
+
+Ex:  
+**echo > nome_arquivo.log** -> Para zerar arquivos de logs, se um arquivo tiver 25GB ele ficará com 0KB.
 
 ---
