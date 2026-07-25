@@ -22,6 +22,7 @@
 - [du](#du)
 - [echo](#echo)
 - [env](#env)
+- [ethtool](#ethtool)
 
 
 ---
@@ -264,5 +265,14 @@ echo $LIVRO
 **./lerlivro** -> Mostrou em tela Certicação Linux.
 **env LIVRO="TCC Trabalho de Conclusão de Curso" ./lerlivro** -> O env trocou o conteúdo da variável LIVRO e mandou esse conteúdo para o script lerlivro. Então o script mostrou em tela TCC  Trabalho de Conclusão de Curso.
 **./lerlivro** -> Mostrou em tela novamente Certificação Linux. Confirmando que a variável só havia sido alterada de maneira temporária.
+
+---
+
+#### ethtool
+
+Serve para ver informações detalhadas da interface de rede, como velocidade, duplex, link, auto-negociação, etc.
+
+Ex:  
+**ethtool eth0** -> mostra informações da interface eth0.
 
 ---
