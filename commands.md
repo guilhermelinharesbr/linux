@@ -20,7 +20,8 @@
 - [date](#date)
 - [df](#df)
 - [du](#du)
-- [echo]()
+- [echo](#echo)
+- [env](#env)
 
 
 ---
@@ -241,5 +242,27 @@ __du -sh *__ -> Mostra o tamanho de arquivos e diretórios. Tem que estar dentro
 
 Ex:  
 **echo > nome_arquivo.log** -> Para zerar arquivos de logs, se um arquivo tiver 25GB ele ficará com 0KB.
+
+---
+
+#### env
+
+É utilizado para executar um programa em um ambiente modificado, enviando para ele uma ou mais variáveis ambientais. 
+Servindo para trocar o conteúdo de uma variável de uma forma temporária e mandar isso para um comando e dentro desse comando vai ter acesso a essa variável e dentro desse comando vai ter acesso a essa variável com o valor diferente. 
+
+Exemplo de uso:  
+**echo \$LIVRO** -> visto que a variável LIVRO ainda não foi definida.
+**LIVRO="Certificação Linux"** -> Criada a variável LIVRO.
+**echo \$LIVRO** -> visto que a variável LIVRO foi definida.
+**vim lerlivro** -> Criando um script
+#!/bin/bash
+echo $LIVRO 
+:wq -> Script de apenas 2 linhas criado
+**chmod +x lerlivro** -> Fornecendo permissão de execução para o script.
+**./lerlivro** -> Não "leu nada", ou seja não mostrou nada em tela, pois a variável LIVRO não foi exportada.
+**export LIVRO** -> Exportada a variável LIVRO.
+**./lerlivro** -> Mostrou em tela Certicação Linux.
+**env LIVRO="TCC Trabalho de Conclusão de Curso" ./lerlivro** -> O env trocou o conteúdo da variável LIVRO e mandou esse conteúdo para o script lerlivro. Então o script mostrou em tela TCC  Trabalho de Conclusão de Curso.
+**./lerlivro** -> Mostrou em tela novamente Certificação Linux. Confirmando que a variável só havia sido alterada de maneira temporária.
 
 ---
