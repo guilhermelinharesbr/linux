@@ -23,6 +23,9 @@
 - [echo](#echo)
 - [env](#env)
 - [ethtool](#ethtool)
+- [exit]()
+- [export]()
+- [faillog]()
 
 
 ---
@@ -274,5 +277,11 @@ Serve para ver informações detalhadas da interface de rede, como velocidade, d
 
 Ex:  
 **ethtool eth0** -> mostra informações da interface eth0.
+
+---
+
+#### exit
+
+Serve para sair da sessão.
 
 ---
