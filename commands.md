@@ -23,9 +23,9 @@
 - [echo](#echo)
 - [env](#env)
 - [ethtool](#ethtool)
-- [exit]()
-- [export]()
-- [faillog]()
+- [exit](#exit)
+- [export](#export)
+- [faillog](#faillog)
 
 
 ---
@@ -291,7 +291,7 @@ Serve para sair da sessão.
 Comando do shell que permite configurar e compartilhar variáveis de ambiente entre diversos programas e bibliotecas acessados a partir do mesmo terminal.
 
 Ex:  
-**export -> mostra as variáveis de ambientes configuradas, inclusive senhas, caso tenham sido informadas. Exemplo de retorno declare -x MYSQL_ROOT_PASSWORD="q-+@l3O9uit)SV^{k"
+**export** -> mostra as variáveis de ambientes configuradas, inclusive senhas, caso tenham sido informadas. Exemplo de retorno declare -x MYSQL_ROOT_PASSWORD="q-+@l3O9uit)SV^{k37jdjdfsgn34kfgvdfklklj36"
 
 ---
 
