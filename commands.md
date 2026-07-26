@@ -285,3 +285,21 @@ Ex:
 Serve para sair da sessão.
 
 ---
+
+#### export
+
+Comando do shell que permite configurar e compartilhar variáveis de ambiente entre diversos programas e bibliotecas acessados a partir do mesmo terminal.
+
+Ex:  
+**export -> mostra as variáveis de ambientes configuradas, inclusive senhas, caso tenham sido informadas. Exemplo de retorno declare -x MYSQL_ROOT_PASSWORD="q-+@l3O9uit)SV^{k"
+
+---
+
+#### faillog
+
+Exibe o conteúdo do banco de dados de log de falhas (/var/log/faillog). Ele também pode definir os contadores de falhas e limites. Quando o faillog é executado sem argumentos, ele exibe apenas os registros de faillog dos usuários que tiveram uma falha de login.
+
+Ex:  
+**faillog -a** -> Mostra os registros de faillog para todos os usuários com um entrada no banco de dados faillog.
+
+---
