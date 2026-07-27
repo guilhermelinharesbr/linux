@@ -31,7 +31,7 @@
 - [fgrep](#fgrep)
 - [file](#file)
 - [find](#find)
-- [free]()
+- [free](#free)
 - [fsck]()
 - [grep]()
 
@@ -361,5 +361,15 @@ Determina o tipo do arquivo.
 Pesquisa arquivos em uma hierarquia de diretórios.
 
 **find / -iname “\*hba\*”** -> Pesquisa por qualquer arquivo no / do S.O. que tenha a palavra “hba” em qualquer parte do nome do arquivo. 
+
+---
+
+#### free
+
+Mostra a quantidade de memória livre e em uso.
+
+**free -h** -> Mostra a quantida de memória forma legível pelos humanos.
+
+**free -m** -> Mostra a quantida de memória em megabytes.
 
 ---
