@@ -28,7 +28,7 @@
 - [faillog](#faillog)
 - [fdisk](#fdisk)
 - [fg](#fg)
-- [fgrep]()
+- [fgrep](#fgrep)
 - [file]()
 - [find]()
 - [free]()
@@ -336,3 +336,12 @@ Exemplo 2:
 
 ---
 
+#### fgrep
+
+É parecido com o _grep_, mas ele não suporta expressões regulares, procurando somente uma chave de busca ou um texto comum nos arquivos. Por este motivo, é mais rápido que o grep, mas menos versátil. 
+
+Ele é o mesmo que a opção **-F** ou **--fixed-strings** do grep.
+
+**fgrep clube hino_fortaleza.txt** -> Pesquisa a palavra clube dentro do arquivo hino_fortaleza.txt
+
+---
