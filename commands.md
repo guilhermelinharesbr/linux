@@ -33,7 +33,7 @@
 - [find](#find)
 - [free](#free)
 - [fsck](#fsck)
-- [grep]()
+- [grep](#grep)
 
 
 ---
@@ -385,5 +385,23 @@ Opções úteis:
 **-A**: Faz a checagem de todos os discos especificados no arquivo /etc/fstab.
 **-p**: Repara automaticamente o sistema de arquivos.
 **-y**: Executa o fsck de modo não interativo, ou seja ele coloca _yes_ para todas as perguntas.
+
+---
+
+#### grep
+
+Mostra linhas que correspondem aos padrões. Ele filtra as linhas de um determinado arquivo procurando por uma expressão regular como padrão.
+
+Utiliza o padrão de Expressões Regulares POSIX BRE. Assim, os meta-characters ? + { } | (  )  não tem significado especial. No padrão BRE(Basic Regular Expression) esses caracteres somente são interpretados com significado especial se precedidos com a contra-barra  \\?   \\+   \\{   \\}  \\|   \\(   \\). Já no ERE(Extended Regular Expression) os símbolos falados acima já são considerados meta-characters sem precisar colocar o \\.
+
+**grep -i palavra** -> A opção **-i** ou **--ignore-case** serve para na pesquisa não ser case sensitive, tanto _grep -i id_ ou _grep -i Id_ retornarão o mesmo resultado. Se não usar o -i o grep só retornará como case sensitive.
+
+**grep -c [palavra_buscada] [arquivo]** -> Resultado foi 6, ou seja encontrou 6 vezes a palavra dentro do arquivo.
+
+**grep -h [palavra_buscada] [arquivo]** -> Mostra somente as linhas encontradas, sem a indicação do nome dos arquivos.
+
+**grep -n [palavra_buscada] [arquivo]** -> Mostra, além do texto das linhas encontradas, o número das linhas dentro dos arquivos.
+
+**grep -r [palavra_buscada] \*** -> Busca essa palavra em todos os arquivos do diretório atual, bem como subdiretórios. A opção **-r** vem de recursive.
 
 ---
