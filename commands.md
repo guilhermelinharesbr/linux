@@ -26,6 +26,14 @@
 - [exit](#exit)
 - [export](#export)
 - [faillog](#faillog)
+- [fdisk](#fdisk)
+- [fg]()
+- [fgrep]()
+- [file]()
+- [find]()
+- [free]()
+- [fsck]()
+- [grep]()
 
 
 ---
@@ -301,5 +309,13 @@ Exibe o conteúdo do banco de dados de log de falhas (/var/log/faillog). Ele tam
 
 Ex:  
 **faillog -a** -> Mostra os registros de faillog para todos os usuários com um entrada no banco de dados faillog.
+
+---
+
+#### fdisk
+
+É um programa baseado em diálogo para criação e manipulação de tabelas de partição. Ele compreende tabelas de partições GPT, MBR, Sun, SGI e BSD.
+
+**sudo fdisk -l** -> Mostra as partições dos dispositivos conectados na máquina, seja HD interno/externo ou pendrive. Precisa permissão de super usuário para executar. 
 
 ---
