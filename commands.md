@@ -30,7 +30,7 @@
 - [fg](#fg)
 - [fgrep](#fgrep)
 - [file](#file)
-- [find]()
+- [find](#find)
 - [free]()
 - [fsck]()
 - [grep]()
@@ -353,5 +353,13 @@ Determina o tipo do arquivo.
 **file livros_diversos.jpg** -> Resultado: livros_diversos.jpg: JPEG image data, baseline, precision 8, 640x480, components 3.
 
 **file -i churrasqueira_01.jpg** -> A opção **-i** vem de m**I**me type. Resultado: churrasqueira_01.jpg: image/jpeg; charset=binary.
+
+---
+
+#### find
+
+Pesquisa arquivos em uma hierarquia de diretórios.
+
+**find / -iname “\*hba\*”** -> Pesquisa por qualquer arquivo no / do S.O. que tenha a palavra “hba” em qualquer parte do nome do arquivo. 
 
 ---
