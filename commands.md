@@ -29,7 +29,7 @@
 - [fdisk](#fdisk)
 - [fg](#fg)
 - [fgrep](#fgrep)
-- [file]()
+- [file](#file)
 - [find]()
 - [free]()
 - [fsck]()
@@ -343,5 +343,15 @@ Exemplo 2:
 Ele é o mesmo que a opção **-F** ou **--fixed-strings** do grep.
 
 **fgrep clube hino_fortaleza.txt** -> Pesquisa a palavra clube dentro do arquivo hino_fortaleza.txt
+
+---
+
+#### file
+
+Determina o tipo do arquivo.
+
+**file livros_diversos.jpg** -> Resultado: livros_diversos.jpg: JPEG image data, baseline, precision 8, 640x480, components 3.
+
+**file -i churrasqueira_01.jpg** -> A opção **-i** vem de m**I**me type. Resultado: churrasqueira_01.jpg: image/jpeg; charset=binary.
 
 ---
