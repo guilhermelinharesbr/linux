@@ -27,7 +27,7 @@
 - [export](#export)
 - [faillog](#faillog)
 - [fdisk](#fdisk)
-- [fg]()
+- [fg](#fg)
 - [fgrep]()
 - [file]()
 - [find]()
@@ -319,3 +319,20 @@ Ex:
 **sudo fdisk -l** -> Mostra as partições dos dispositivos conectados na máquina, seja HD interno/externo ou pendrive. Precisa permissão de super usuário para executar. 
 
 ---
+
+#### fg
+
+Move os jobs para o foreground. 
+
+Exemplo de uso:  
+**ping 8.8.8.8
+CTRL+Z
+fg**
+
+Deixa o ping rodando em primeiro plano. Para cancelar basta usar o _CTRL+C_. 
+
+Exemplo 2:  
+**fg 2**  -> Para executar em foreground o comando que foi parado e recebeu o número de tarefa 2.
+
+---
+
