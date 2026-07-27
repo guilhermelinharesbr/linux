@@ -32,7 +32,7 @@
 - [file](#file)
 - [find](#find)
 - [free](#free)
-- [fsck]()
+- [fsck](#fsck)
 - [grep]()
 
 
@@ -371,5 +371,19 @@ Mostra a quantidade de memória livre e em uso.
 **free -h** -> Mostra a quantida de memória forma legível pelos humanos.
 
 **free -m** -> Mostra a quantida de memória em megabytes.
+
+---
+
+#### fsck
+
+Checa e repara o sistema de arquivos do Linux. [File System Check] 
+Precisa ser executado como root. Não é interessante executar o fsck em uma partição montada, pois no processo de checagem/reparação podem acontecer erros.
+
+**sudo fsck /dev/sdb1** -> Checa se o disco está com algum erro, ou bad block.
+
+Opções úteis:
+**-A**: Faz a checagem de todos os discos especificados no arquivo /etc/fstab.
+**-p**: Repara automaticamente o sistema de arquivos.
+**-y**: Executa o fsck de modo não interativo, ou seja ele coloca _yes_ para todas as perguntas.
 
 ---
