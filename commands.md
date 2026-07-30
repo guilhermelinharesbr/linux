@@ -34,6 +34,12 @@
 - [free](#free)
 - [fsck](#fsck)
 - [grep](#grep)
+- [gzip / gunzip](#gzip--gunzip)
+- [halt]()
+- [head]()
+- [history]()
+- [hostname]()
+- [id]()
 
 
 ---
@@ -405,3 +411,20 @@ Utiliza o padrão de Expressões Regulares POSIX BRE. Assim, os meta-characters 
 **grep -r [palavra_buscada] \*** -> Busca essa palavra em todos os arquivos do diretório atual, bem como subdiretórios. A opção **-r** vem de recursive.
 
 ---
+
+#### gzip / gunzip
+
+Comprimi ou expande arquivos.
+
+**gzip** -> Serve para comprimir arquivos. Gera um arquivo com a seguinte nomenclatura: *nome_arquivo.gz*.
+
+**gunzip** ou **gzip -d** -> Serve para descomprimir um arquivo.
+
+**gzip -l** -> Lista informações do arquivo comprimido, como tamanho do arq. comprido e descomprimido, porcentagem da compressão, etc.
+
+**gzip -r** -> Comprimi todos os arquivos dentro do diretório Recursivamente, mas não comprimi o diretório em si.
+
+**gzip -rd** -> Descomprimi todos os arquivos dentro do diretório recursivamente, mas não descomprimi o diretório em si.
+
+---
+
