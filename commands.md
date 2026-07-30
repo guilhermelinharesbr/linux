@@ -38,7 +38,7 @@
 - [halt](#halt)
 - [head](#head)
 - [history](#history)
-- [hostname]()
+- [hostname](#hostname)
 - [id]()
 
 
@@ -458,6 +458,16 @@ Uma outra forma de deletar alguma linha do history é ir no arquivo **.bash_hist
 
 #### hostname
 
+Mostra o nome da máquina.
+
+Também pode-se usar o _cat /etc/hostname_, que dá o mesmo resultado que somente hostname.
+
+**hostname -I** -> Mostra todos os endereços de rede do host. 
+
 ---
 
 #### id
+
+
+
+---
