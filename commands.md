@@ -35,7 +35,7 @@
 - [fsck](#fsck)
 - [grep](#grep)
 - [gzip / gunzip](#gzip--gunzip)
-- [halt]()
+- [halt](#halt)
 - [head]()
 - [history]()
 - [hostname]()
@@ -428,3 +428,22 @@ Comprimi ou expande arquivos.
 
 ---
 
+#### halt
+
+Emitir o comando halt interromperá todas as funções da CPU no sistema. Na maioria dos sistemas, isso o levará ao modo de usuário único e desligará a máquina.
+
+---
+
+#### head
+
+---
+
+#### history
+
+---
+
+#### hostname
+
+---
+
+#### id
