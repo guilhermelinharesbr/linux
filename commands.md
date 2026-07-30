@@ -436,6 +436,14 @@ Emitir o comando halt interromperá todas as funções da CPU no sistema. Na mai
 
 #### head
 
+Mostra as primeiras 10 linhas do início de um arquivo como padrão. É o oposto do comando _tail_.
+
+**head  nome_arquivo** -> Mostra as 10 primeiras linhas do arquivo.
+
+**head -n7 nome_arquivo** -> Mostra as 7 primeiras linhas do arquivo. A opção **-n** ou **--lines**: Configura o número de linhas que o head irá mostrar. 
+
+**head -n50 nome_arquivo** -> Mostra as 50 primeiras linhas do arquivo.
+
 ---
 
 #### history
