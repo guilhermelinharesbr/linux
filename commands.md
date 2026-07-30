@@ -468,6 +468,8 @@ Também pode-se usar o _cat /etc/hostname_, que dá o mesmo resultado que soment
 
 #### id
 
+Mostra os IDs e os grupos que determinado usuário faz parte.
 
+**id guilherme.linhares**
 
 ---
