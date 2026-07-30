@@ -36,8 +36,8 @@
 - [grep](#grep)
 - [gzip / gunzip](#gzip--gunzip)
 - [halt](#halt)
-- [head]()
-- [history]()
+- [head](#head)
+- [history](#history)
 - [hostname]()
 - [id]()
 
@@ -447,6 +447,12 @@ Mostra as primeiras 10 linhas do início de um arquivo como padrão. É o oposto
 ---
 
 #### history
+
+Mostra o histórico de comandos executados.
+
+**history -d 990** -> Exclui a linha de número 990 do history. Útil para apagar um comando quando não desejar que ele fique no histórico.
+
+Uma outra forma de deletar alguma linha do history é ir no arquivo **.bash_history** que fica no diretório home do usuário, Ex: /home/user ou /root, são arquivos diferentes para cada usuário. Após excluir o conteúdo via _vim_ ou _nano_ é necessário reiniciar o sistema.
 
 ---
 
