@@ -39,7 +39,15 @@
 - [head](#head)
 - [history](#history)
 - [hostname](#hostname)
-- [id]()
+- [id](#id)
+- [ifconfig](#ifconfig)
+- [inxi]()
+- [ip]()
+- [jobs]()
+- [kill]()
+- [last]()
+- [less]()
+
 
 
 ---
@@ -472,4 +480,24 @@ Mostra os IDs e os grupos que determinado usuário faz parte.
 
 **id guilherme.linhares**
 
+---
+
+#### ifconfig
+
+Mostra o IP e o MAC. O mac fica em endereço de HW.
+
+---
+
+#### inxi
+
+---
+#### ip
+---
+#### jobs
+---
+#### kill
+---
+#### last
+---
+#### less
 ---
