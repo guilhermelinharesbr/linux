@@ -41,7 +41,7 @@
 - [hostname](#hostname)
 - [id](#id)
 - [ifconfig](#ifconfig)
-- [inxi]()
+- [inxi](#inxi)
 - [ip]()
 - [jobs]()
 - [kill]()
@@ -489,6 +489,10 @@ Mostra o IP e o MAC. O mac fica em endereço de HW.
 ---
 
 #### inxi
+
+Script de informações do sistema de linha de comando para console e IRC (Internet Relay Chat).
+
+**inxi -F** -> Mostra muitas informações do sistema e da máquina, como a versão da distro, hostname, kernel. 
 
 ---
 #### ip
