@@ -45,8 +45,8 @@
 - [ip](#ip)
 - [jobs](#jobs)
 - [kill](#kill)
+- [killall](#killall)
 - [last]()
-- [less]()
 
 
 
@@ -534,13 +534,17 @@ bg 1**  -> Para executar em background o comando que foi parado e recebeu o núm
 
 ---
 
-#### last
+#### killall
 
+**killall htop** -> Mata processos pelo nome. Nesse exemplo mata todos os processos com o nome _htop_.
 
+**killall -I htop** -> Mata todos os processos com o nome _htop_ ignorando se está escrito com letra maiúscula ou minúscula. A opção I vem de ignore case.
+
+**killall -i htop** -> Mostra de maneira interativa todos os processos com o nome htop para você escolher quais matar. A opção **-i** vem de _interactive_.
 
 ---
 
-#### less
+#### last
 
 
 
