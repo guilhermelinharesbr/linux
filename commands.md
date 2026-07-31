@@ -44,7 +44,7 @@
 - [inxi](#inxi)
 - [ip](#ip)
 - [jobs](#jobs)
-- [kill]()
+- [kill](#kill)
 - [last]()
 - [less]()
 
@@ -525,9 +525,23 @@ jobs -l
 bg 1**  -> Para executar em background o comando que foi parado e recebeu o número de tarefa 1.
 
 ---
+
 #### kill
+
+**kill 2531** -> Mata um processo de maneira normal, no caso mata o processo de PID 2531.
+
+**kill -9 2531** -> Mata o processo abruptamente.
+
 ---
+
 #### last
+
+
+
 ---
+
 #### less
+
+
+
 ---
