@@ -42,7 +42,7 @@
 - [id](#id)
 - [ifconfig](#ifconfig)
 - [inxi](#inxi)
-- [ip]()
+- [ip](#ip)
 - [jobs]()
 - [kill]()
 - [last]()
@@ -495,7 +495,17 @@ Script de informações do sistema de linha de comando para console e IRC (Inter
 **inxi -F** -> Mostra muitas informações do sistema e da máquina, como a versão da distro, hostname, kernel. 
 
 ---
+
 #### ip
+
+Mostra/manipula roteamento, dispositivos, roteamento de políticas e túneis.
+
+**ip a** -> Mostra todos endereços de rede do host, muito similar ao comando ifconfig.
+
+**ip a | grep inet** -> Mostra todos os IPs de maneira mais legível.
+
+**ip neigh** -> é usado para listar, adicionar ou remover entradas na tabela de “neighbors”, ou tabela de associação entre endereços MAC e endereços IP. Eu vou evitar o termo “tabela ARP”, pois, como já foi dito, para endereços IPv6 o protocolo ARP não é usado. Aliás, o protocolo ARP irá morrer um dia junto com o IPv4.
+
 ---
 #### jobs
 ---
