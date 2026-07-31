@@ -46,7 +46,7 @@
 - [jobs](#jobs)
 - [kill](#kill)
 - [killall](#killall)
-- [last]()
+- [last](#last)
 
 
 
@@ -546,6 +546,6 @@ bg 1**  -> Para executar em background o comando que foi parado e recebeu o núm
 
 #### last
 
-
+Mostra os últimos logins (muito detalhado).
 
 ---
