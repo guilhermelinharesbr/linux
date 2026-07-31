@@ -43,7 +43,7 @@
 - [ifconfig](#ifconfig)
 - [inxi](#inxi)
 - [ip](#ip)
-- [jobs]()
+- [jobs](#jobs)
 - [kill]()
 - [last]()
 - [less]()
@@ -507,7 +507,23 @@ Mostra/manipula roteamento, dispositivos, roteamento de políticas e túneis.
 **ip neigh** -> é usado para listar, adicionar ou remover entradas na tabela de “neighbors”, ou tabela de associação entre endereços MAC e endereços IP. Eu vou evitar o termo “tabela ARP”, pois, como já foi dito, para endereços IPv6 o protocolo ARP não é usado. Aliás, o protocolo ARP irá morrer um dia junto com o IPv4.
 
 ---
+
 #### jobs
+
+Lista os processos que estão em execução em segundo plano. Se um número da tarefa é fornecido o comando retornará as informações pertinentes somente à tarefa em questão.
+
+**jobs -l** ->   Lista o PID dos processos em segundo plano.
+
+**jobs -r** ->   Lista somente os Jobs em execução (Running).
+
+**jobs -s** ->  Lista somente os Jobs parados (Stopped).
+
+Exemplo de uso:  
+**watch ping 8.8.8.8
+CTRL+Z
+jobs -l
+bg 1**  -> Para executar em background o comando que foi parado e recebeu o número de tarefa 1.
+
 ---
 #### kill
 ---
