@@ -566,11 +566,13 @@ O less é uma versão melhorada do aplicativo _more_.
 
 ---
 
-
-
 #### locate
 
+Este comando utiliza um banco de dados de nomes de arquivos para pesquisar um determinado nome. Esta base de dados é criada/atualizada pelo administrador do sistema através do comando updatedb e é armazenada em _/var/lib/mlocate/mlocate.db_.  
+É mais rápido que o _find_. Caso não encontre de primeira o arquivo procurado, deve-se rodar o _updatedb_ e depois o comando _locate_ novamente.
 
+Ex:  
+**locate nome_arquivo**
 
 ---
 
