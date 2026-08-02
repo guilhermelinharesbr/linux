@@ -578,7 +578,20 @@ Ex:
 
 #### ls
 
+Serve para listar o que tem dentro do diretório.  
 
+Ex:  
+**ls -a** ->     Serve para ver os arquivos ocultos da pasta.  
+**ls -l** ->      Serve para listar em formato de linhas, mostra os atributos e as permissões do arquivos que estão em um determinado diretório.  
+**ls -ld** ->     Serve para listar as permissões em um determinado diretório.  
+**ls -lh** ->    Mostra tudo o que o _ls -l_ mostra, mas com informações mais amigáveis para humanos.
+Obs: Se começar com _d_ é diretório, se começar com - é arquivo.
+Obs2: O primeiro trio é o Owner/User, depois Group, depois Other.  
+**ls -lhS** ->     Opção: _S_ maiúsculo ordena os arquivos do maior pro menor tamanho.  
+**ls -lhSr** ->    Opção: _r_ inverte a listagem colocando por último os maiores arquivos.  
+**ls | wc -l** ->  Mostra quantos arquivos tem dentro de uma pasta.  
+**ll** ->             Um alias para _ls -alF_  
+**ls -1 | wc -l**  -> Mostra o total de arquivos em um diretório.
 
 ---
 
