@@ -47,6 +47,11 @@
 - [kill](#kill)
 - [killall](#killall)
 - [last](#last)
+- [less]()
+- [locate]()
+- [ls]()
+- [lsblk]()
+- [lscpu]()
 
 
 
@@ -547,5 +552,42 @@ bg 1**  -> Para executar em background o comando que foi parado e recebeu o núm
 #### last
 
 Mostra os últimos logins (muito detalhado).
+
+---
+
+#### less
+
+Permite fazer a paginação de arquivos ou da entrada padrão.
+O less é uma versão melhorada do aplicativo _more_.
+
+**ls | less** -> Faz com que a listagem dos arquivos do diretório corrente seja paginada pelo _less_.
+
+**ls | less -N** -> A opção **-N** ou **--LINE-NUMBERS** numera as linhas do arquivo.
+
+---
+
+
+
+#### locate
+
+
+
+---
+
+#### ls
+
+
+
+---
+
+#### lsblk
+
+
+
+---
+
+#### lscpu
+
+
 
 ---
