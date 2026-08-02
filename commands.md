@@ -47,11 +47,11 @@
 - [kill](#kill)
 - [killall](#killall)
 - [last](#last)
-- [less]()
-- [locate]()
-- [ls]()
-- [lsblk]()
-- [lscpu]()
+- [less](#less)
+- [locate](#locate)
+- [ls](#ls)
+- [lsblk](#lsblk)
+- [lscpu](#lscpu)
 
 
 
@@ -606,6 +606,6 @@ Exibe informações sobre as partições do HD e outros dispositivos de armazena
 
 #### lscpu
 
-
+Exibi informações sobre a arquitetura da CPU.
 
 ---
