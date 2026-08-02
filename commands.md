@@ -597,7 +597,10 @@ Obs2: O primeiro trio é o Owner/User, depois Group, depois Other.
 
 #### lsblk
 
+Lista informações sobre todos os dispositivos de bloco disponíveis ou especificados. Lê o sistema de arquivos sysfs e o udev db para coletar informações.
+Exibe informações sobre as partições do HD e outros dispositivos de armazenamento como pen drives e CDs em formato de árvore.
 
+**lsblk -S** -> Mostra apenas os dispositivos SCSI(Small Computer System Interface), como CD-ROM, etc. 
 
 ---
 
