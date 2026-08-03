@@ -639,7 +639,8 @@ Ex:
 
 #### mount
 
-
+Monta um sistema de arquivos.  
+**mount -a** ou **mount --all** -> Monta todos os sistemas de arquivos listados no _/etc/fstab_. Exceto aqueles assinalados com a opção _noauto_.
 
 ---
 
