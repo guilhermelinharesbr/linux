@@ -52,10 +52,11 @@
 - [ls](#ls)
 - [lsblk](#lsblk)
 - [lscpu](#lscpu)
-- [man]()
-- [mkdir]()
-- [mount]()
-- [more]()
+- [man](#man)
+- [mkdir](#mkdir)
+- [more](#more)
+- [mount](#mount)
+
 
 ---
 
@@ -637,15 +638,19 @@ Ex:
 
 ---
 
+#### more
+
+Permite fazer a paginação de arquivos ou da entrada padrão.  
+O more tem uma versão melhorada que é o _less_.
+
+Ex:  
+**ls | more** -> Faz com que a listagem dos arquivos do diretório corrente seja paginada pelo more.
+
+---
+
 #### mount
 
 Monta um sistema de arquivos.  
 **mount -a** ou **mount --all** -> Monta todos os sistemas de arquivos listados no _/etc/fstab_. Exceto aqueles assinalados com a opção _noauto_.
-
----
-
-#### more
-
-
 
 ---
