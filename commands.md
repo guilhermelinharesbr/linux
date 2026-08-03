@@ -52,8 +52,10 @@
 - [ls](#ls)
 - [lsblk](#lsblk)
 - [lscpu](#lscpu)
-
-
+- [man]()
+- [mkdir]()
+- [mount]()
+- [more]()
 
 ---
 
@@ -607,5 +609,35 @@ Exibe informações sobre as partições do HD e outros dispositivos de armazena
 #### lscpu
 
 Exibi informações sobre a arquitetura da CPU.
+
+---
+
+#### man
+
+Mostra o manual do comando.  
+
+Ex:  
+**man nome_do_comando**
+
+Ex2:  
+**man ls**
+
+---
+
+#### mkdir
+
+
+
+---
+
+#### mount
+
+
+
+---
+
+#### more
+
+
 
 ---
