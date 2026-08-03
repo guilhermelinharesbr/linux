@@ -626,7 +626,14 @@ Ex2:
 
 #### mkdir
 
+Cria diretórios.
 
+Ex:  
+**mkdir pasta1** -> Cria um único diretório.  
+**mkdir pasta1 pasta2 pasta3** -> Cria três diretórios separados.  
+**mkdir -p pasta1/subpasta2** -> Cria um diretório com um subdiretório nele. A opção **p** vem de _parents_.  
+**mkdir -v pasta1 pasta2 pasta3** -> Cria três diretórios distintos, porém mostra eles sendo criados durante a execução do comando. A opção **v** vem de _verbose_.  
+**mkdir "curso de terminal"** ou **mkdir 'curso de terminal'** -> Cria um diretório com nome composto.
 
 ---
 
