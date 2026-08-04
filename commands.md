@@ -688,6 +688,45 @@ tcp6       0      0 :::443                  :::\*                    LISTEN     
 
 #### nl
 
+É utilizado para numerar as linhas de um arquivo. O comando considera condições especiais para o cabeçalho e o rodapé do arquivo.
 
+nl vem de _Number Lines_.
+
+As opções frequentemente utilizadas são:
+**-h** sub-opção: Utilizada para formatar o cabeçalho do texto. O padrão é não numerar o cabeçalho;
+
+**-b** sub-opção: Utilizada para formatar o corpo do texto. O padrão é numerar somente as linhas não vazias;
+
+**-f** sub-opção: Utilizada para formatar o rodapé do texto. O padrão é não numerar o rodapé.
+
+As sub-opções são:
+
+**A**: Numerar todas as linhas;
+**t**: Numerar somente as preenchidas;
+**n**: Não numerar as linhas.
+
+Suponha que o _arquivo.txt_ tenha o seguinte conteúdo:
+\\:\\:\\:
+Relatório de Notas e Frequência dos alunos de Engenharia de Software
+—————————————————————————————————
+Nome Nota Freq. Resultado
+—————————————————————————————————
+\\:\\:
+Carlos Torres 8,5 80% Aprovado
+Maria de Lourdes 10,0 100% Aprovado
+Mário Cabral 9,5 100% Aprovado
+\\:
+—————————————————————————————————
+**nl arquivo.txt**
+
+Resultado será:
+Relatório de Notas e Frequência dos alunos de Engenharia de Software
+—————————————————————————————————
+Nome Nota Freq. Resultado
+—————————————————————————————————
+**1** Carlos Torres 8,5 80% Aprovado
+**2** Maria de Lourdes 10,0 100% Aprovado
+**3** Mário Cabral 9,5 100% Aprovado
+—————————————————————————————————
 
 ---
