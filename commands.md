@@ -669,7 +669,20 @@ _Curses_ é uma biblioteca de controle de terminal para sistemas do tipo Unix, p
 
 #### netstat
 
+O Comando netstat no Linux faz parte do antigo pacote legado Net-Tools e exibe as conexões de rede, tabela de rotas, estatísticas das interfaces etc. Ele foi elegantemente substituído pelo comando _ss_.
 
+**sudo netstat -ltpn** -> Saída: netstat -ltpn         Opções: A opção **l** mostra somente os sockets listening, **t** mostra os sockets TCP, p mostra processos usando sockets, **n** não tenta resolver nomes de serviço e mostra valores de largura de banda exatos.
+
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:15974           0.0.0.0:*               LISTEN      822/sshd: /usr/sbin
+tcp        0      0 0.0.0.0:9102            0.0.0.0:*               LISTEN      2340/docker-proxy
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      2280/docker-proxy
+tcp        0      0 0.0.0.0:443             0.0.0.0:*               LISTEN      2303/docker-proxy
+tcp6       0      0 :::15974                :::\*                    LISTEN      822/sshd: /usr/sbin
+tcp6       0      0 :::9102                 :::\*                    LISTEN      2346/docker-proxy
+tcp6       0      0 :::80                   :::\*                    LISTEN      2288/docker-proxy
+tcp6       0      0 :::443                  :::\*                    LISTEN      2310/docker-proxy
 
 ---
 
