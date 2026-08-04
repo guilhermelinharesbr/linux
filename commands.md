@@ -56,7 +56,9 @@
 - [mkdir](#mkdir)
 - [more](#more)
 - [mount](#mount)
-
+- [ncdu](#ncdu)
+- [netstat](#netstat)
+- [nl](#nl)
 
 ---
 
@@ -652,5 +654,27 @@ Ex:
 
 Monta um sistema de arquivos.  
 **mount -a** ou **mount --all** -> Monta todos os sistemas de arquivos listados no _/etc/fstab_. Exceto aqueles assinalados com a opção _noauto_.
+
+---
+
+#### ncdu
+
+NCDU(NCurses Disk Usage) é uma versão baseada em curses do conhecido comando _du_ e fornece uma maneira rápida de ver quais diretórios estão usando seu espaço em disco.
+
+_Curses_ é uma biblioteca de controle de terminal para sistemas do tipo Unix, permitindo a construção de aplicativos de TUI(Text User Interface).
+
+É muito simples de navegar por meio desse TUI, ou seja é uma ótima escolha para substituir o comando _du_.
+
+---
+
+#### netstat
+
+
+
+---
+
+#### nl
+
+
 
 ---
