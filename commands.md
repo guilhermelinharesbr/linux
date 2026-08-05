@@ -743,7 +743,13 @@ Mostra o atual uso de rede, tando Incoming(download), quanto Outgoing(upload).
 
 #### nmap
 
+Ferramenta de exploração de Rede e Rastreio de Segurança / Portas.
 
+**nmap 8.8.8.8** -> Mostra as portas abertas do Google as portas 53(domain) e 443(https).
+
+**nmap 10.0.0.8** -> Mostra as portas abertas de um sistema interno 80(http), 443(https), etc.
+
+**nmap uol.com.br** -> Mostra as portas abertas da Uol as portas 80(http) e 443(https).
 
 ---
 
