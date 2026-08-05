@@ -59,6 +59,10 @@
 - [ncdu](#ncdu)
 - [netstat](#netstat)
 - [nl](#nl)
+- [nload](#nload)
+- [nmap](#nmap)
+- [nslookup](#nslookup)
+- [ntpdate](#ntpdate)
 
 ---
 
@@ -728,5 +732,29 @@ Nome Nota Freq. Resultado
 **2** Maria de Lourdes 10,0 100% Aprovado
 **3** Mário Cabral 9,5 100% Aprovado
 —————————————————————————————————
+
+---
+
+#### nload
+
+Mostra o atual uso de rede, tando Incoming(download), quanto Outgoing(upload).
+
+---
+
+#### nmap
+
+
+
+---
+
+#### nslookup
+
+
+
+---
+
+#### ntpdate
+
+
 
 ---
