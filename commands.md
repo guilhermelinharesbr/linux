@@ -755,7 +755,13 @@ Ferramenta de exploração de Rede e Rastreio de Segurança / Portas.
 
 #### nslookup
 
+Usado para consultar servidores de nomes de domínio da Internet para obter informações.
 
+**nslookup google.com** -> Saída:  Server:127.0.0.53                                               Address:127.0.0.53#53                                              Non-authoritative answer:                  Name:google.com                                      Address: 142.250.218.238                                                            Name:google.com                                        Address: 2800:3f0:4001:825::200e
+
+**nslookup 8.8.8.8** -> Saída:     8.8.8.8.in-addr.arpaname = dns.google.
+
+**nslookup openvpn.orgao.gov.br** -> Saída:  Non-authoritative answer:                                                                      Name:openvpn.orgao.gov.br                                                                      Address: 179.104.42.200                                                                      Name:openvpn.orgao.gov.br                                                                      Address: 177.14.224.200
 
 ---
 
