@@ -786,7 +786,24 @@ Usado em _Red Hat_ e derivados. Oferece uma interface simples para ativar ou des
 
 #### od
 
+O _od_ (Octal Dump) é utilizado para mostrar o conteúdo de um arquivo nos formatos hexadecimal, octal, ASCII e nome dos caracteres.
 
+A opção frequentemente utilizada é:
+**-t type**: Especifica o tipo de saída que o comando od deve gerar.
+
+Os tipos possíveis são:
+**a**: Nome do caractere;
+**c**: ASCII;
+**o**: Octal;
+**x**: Hexadecimal.
+
+Ex:  
+**cat arquivo.txt**
+Certificação Linux
+**od –t x arquivo.txt**
+0000000 74726543 63696669 6fe3e761 6e694c20
+0000020 00007875
+0000022
 
 ---
 
