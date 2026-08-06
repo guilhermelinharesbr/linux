@@ -63,6 +63,9 @@
 - [nmap](#nmap)
 - [nslookup](#nslookup)
 - [ntpdate](#ntpdate)
+- [ntsysv](#ntsysv)
+- [od](#od)
+- [passwd](#passwd)
 
 ---
 
@@ -772,5 +775,23 @@ Configura a data/hora via o protocolo NTP(Network Time Protocol).
 **ntpdate 10.0.0.12** -> pega data e hora com base no servidor 12. 
 
 **ntpdate a.ntp.br** -> pega data/hora com base no servidor público NTP.br(horário de Brasília), outros disponíveis: b.ntp.br e c.ntp.br.
+
+---
+
+#### ntsysv
+
+Usado em _Red Hat_ e derivados. Oferece uma interface simples para ativar ou desativar serviços. Você pode usar o ntsysv para ligar ou desligar um serviço gerenciado pelo _xinetd_. 
+
+---
+
+#### od
+
+
+
+---
+
+#### passwd
+
+
 
 ---
