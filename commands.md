@@ -809,6 +809,8 @@ Certificação Linux
 
 #### passwd
 
+Para alterar a senha de um usuário.
 
+**passwd** *nome_usuario*
 
 ---
