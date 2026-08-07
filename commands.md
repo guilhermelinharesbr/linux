@@ -66,6 +66,10 @@
 - [ntsysv](#ntsysv)
 - [od](#od)
 - [passwd](#passwd)
+- [paste]()
+- [ping]()
+- [pgrep]()
+- [poweroff]()
 
 ---
 
@@ -812,5 +816,50 @@ Certificação Linux
 Para alterar a senha de um usuário.
 
 **passwd** *nome_usuario*
+
+---
+
+#### paste
+
+É utilizado para concatenar as linhas de diversos arquivos em colunas verticais.
+
+As opções frequentemente utilizadas são:
+**-d’s’** -> Separa as colunas com o símbolo **s** nas aspas simples. A opção **d** vem de delimiters.
+
+**-s** -> Concatena todo o conteúdo de um arquivo com uma linha para cada arquivo. A opção **s** vem de serial.
+
+Exemplo:  
+Suponha que o arquivo1 tenha o seguinte conteúdo: 
+lmmoraes
+rrodrigues
+aduarte
+
+E o arquivo2 tenha o seguinte conteúdo:
+provedor.com.br
+provedor2.com.br
+provedor3.com.br
+
+Ao utilizarmos o comando paste, o resultado será o seguinte:
+**paste –d'@' arquivo1 arquivo2**
+lmmoraes@provedor.com.br
+rrodrigues@provedor2.com.br
+aduarte@provedor3.com.br
+
+---
+
+#### ping
+
+
+
+---
+
+#### pgrep
+
+
+---
+
+#### poweroff
+
+
 
 ---
