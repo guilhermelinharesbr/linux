@@ -866,6 +866,8 @@ Para instalar -> _apt install iputils-ping_
 
 #### poweroff
 
+**poweroff** -> Envia um sinal ACPI(Advanced Configuration and Power Interface) com instruções para desligar o sistema.
 
+**poweroff --reboot** -> Reinicia o sistema.
 
 ---
