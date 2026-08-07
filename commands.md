@@ -66,10 +66,10 @@
 - [ntsysv](#ntsysv)
 - [od](#od)
 - [passwd](#passwd)
-- [paste]()
-- [ping]()
-- [pgrep]()
-- [poweroff]()
+- [paste](#paste)
+- [ping](#ping)
+- [pgrep](#pgrep)
+- [poweroff](#poweroff)
 
 ---
 
@@ -860,6 +860,7 @@ Para instalar -> _apt install iputils-ping_
 
 #### pgrep
 
+**pgrep vim** -> Mostra o PID do editor VIM caso ele esteja aberto.
 
 ---
 
