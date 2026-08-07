@@ -849,7 +849,12 @@ aduarte@provedor3.com.br
 
 #### ping
 
+Envia ICMP ECHO_REQUEST para hosts de rede.
 
+Ex:  
+**ping 8.8.8.8**
+
+Para instalar -> _apt install iputils-ping_
 
 ---
 
