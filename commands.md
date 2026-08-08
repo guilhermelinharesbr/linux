@@ -916,7 +916,9 @@ Remove arquivos.
 
 #### runlevel
 
+Mostra o nível de execução SysV anterior e atual.
 
+**runlevel** -> Mostra o runlevel atual. 
 
 ---
 
