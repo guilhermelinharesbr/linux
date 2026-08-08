@@ -889,7 +889,18 @@ Ps vem de Process Status.
 
 #### rg
 
+O **ripgrep** (frequentemente abreviado como **rg**) é uma ferramenta de busca por linha de comando focada em texto. Em termos simples, ele serve para encontrar palavras ou padrões de texto dentro de arquivos, funcionando como um _substituto moderno_, ultraveloz e muito mais inteligente para o _clássico grep_.
 
+Obs: Pacote ripgrep.
+
+Ex:  
+**rg "network" saida-ifdown** -> Pesquisa pelo termo network no arquivo saida-ifdown.
+
+Ex2:  
+**rg -i "network" saida-ifdown** -> Pesquisa pelo termo network no arquivo saida-ifdown, ignorando letras maiúsculas e minúsculas. A opção **-i** vem de _--ignore-case_.
+
+Ex3:  
+**rg -w "network" saida-ifdown** -> Pesquisa pelo termo network no arquivo saida-ifdown, busca apenas pela palavra exata, por exemplo "network-manager" seria ignorando. A opção **-w** vem de _--word-regexp_.
 
 ---
 
