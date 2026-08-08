@@ -924,6 +924,21 @@ Mostra o nível de execução SysV anterior e atual.
 
 #### scp
 
+Comando para cópia segura de arquivos.
 
+De um Servidor para uma Máquina Local:
+**scp root@10.0.0.100:/tmp/file.sql /home/user/**  
+Obs.: Antes do /home tem um espaço em branco.
+
+**scp -P 14753 guilherme.linhares@10.0.0.100:/tmp/file.sql /home/user/**  
+Obs.: Antes do /home tem um espaço em branco.
+
+De um Servidor para um Servidor:
+**scp file.sql.gz root@10.0.0.100:/tmp/**  
+Obs.: Antes do root tem um espaço em branco.
+
+De uma Máquina Local para um Servidor:
+**scp -P14753 -r /home/user/print guilherme.linhares@10.0.0.100:/tmp**  
+Obs.: **-r** → Parâmetro p/ cópia _recursiva_.
 
 ---
