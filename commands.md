@@ -906,7 +906,11 @@ Ex3:
 
 #### rm
 
+Remove arquivos.
 
+**rm -f Relatório\ Serviço\ de\ Suporte.pdf** -> A opção **-f** remove o arquivo sem perguntar, sem pedir confirmação. Quando o nome do arquivo tiver espaços em branco é necessário usar o contra barra **\\** e depois apertar espaço, para ir autocompletando o nome do arquivo.
+
+**rm !(arq8.txt|arq9.txt)** -> Exclui todos os arquivos do diretório exceto os arquivos arq8.txt e arq9.txt.
 
 ---
 
