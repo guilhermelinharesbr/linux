@@ -70,6 +70,11 @@
 - [ping](#ping)
 - [pgrep](#pgrep)
 - [poweroff](#poweroff)
+- [ps](#ps)
+- [rg](#rg)
+- [rm](#rm)
+- [runlevel](#runlevel)
+- [scp](#scp)
 
 ---
 
@@ -869,5 +874,39 @@ Para instalar -> _apt install iputils-ping_
 **poweroff** -> Envia um sinal ACPI(Advanced Configuration and Power Interface) com instruções para desligar o sistema.
 
 **poweroff --reboot** -> Reinicia o sistema.
+
+---
+
+#### ps
+
+Ps vem de Process Status.
+
+**ps aux** -> Lista todos os processos rodando no sistema.
+
+**ps aux | grep mysql** -> Mostra se existe algum serviço com o nome mysql rodando.
+
+---
+
+#### rg
+
+
+
+---
+
+#### rm
+
+
+
+---
+
+#### runlevel
+
+
+
+---
+
+#### scp
+
+
 
 ---
