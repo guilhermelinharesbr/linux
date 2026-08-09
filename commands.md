@@ -984,7 +984,13 @@ Ordena as linhas de um arquivo.
 
 #### split
 
+É usado para dividir grandes arquivos em n-arquivos menores. Os arquivos de saída são gerados de acordo com o número de linhas do arquivo de entrada. O padrão é dividir o arquivo a cada 1000 linhas. Os nomes dos arquivos de saída seguem o padrão _arquivoaa arquivosab arquivoac_, assim por diante. É possível especificar um sufixo para o arquivo de saída.
 
+**split -[número_de_linhas_em_que_o_arquivo_será_divido] [arquivo_de_entrada] [sufixo]**
+
+**split -20 lista_de_compras lista**  -> Dividi o arquivo lista_de_compras em alguns arquivos, sempre quebrando a cada 20 linhas, e coloca o sufixo lista, ficando assim -> listaaa com 20 linhas, listaab com 20 linhas, listaac com as 18 linhas que faltavam.
+
+**split -20 lista_de_compras** -> Como não foi passado um sufixo com os nomes dos arquivos, fica por padrão com a letra x e mais o padrão aa, ab, ac, etc. Ficando xaa, xab, xac.
 
 ---
 
