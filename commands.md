@@ -960,7 +960,13 @@ Obs.: **-r** → Parâmetro p/ cópia _recursiva_.
 
 #### shutdown
 
+**shutdown now** -> Desliga o sistema imediatamente da mesma forma que o _init 0_.
 
+**shutdown -c** -> Cancela um desligamento agendado.
+
+**shutdown -r now** -> Reinicia o sistema da mesma forma que o _init 6_.
+
+**shutdown -r 11:35** -> Reinicia o sistema no horário especificado, no caso, 11:35am.
 
 ---
 
