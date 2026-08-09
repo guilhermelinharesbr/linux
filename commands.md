@@ -1010,6 +1010,6 @@ LISTEN     0          80                         *:3306                       *:
 
 #### ssh-keygen
 
-
+Gera uma chave privada e uma pública.
 
 ---
