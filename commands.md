@@ -972,7 +972,13 @@ Obs.: **-r** → Parâmetro p/ cópia _recursiva_.
 
 #### sort
 
+Ordena as linhas de um arquivo.
 
+**sort nome_arquivo**
+
+**sort -r nome_arquivo** -> A opção **-r** ou **--reverse** ordena em ordem inversa.
+
+**sort -n nome_arquivo** -> A opção **-n** ou **--numeric-sort** ordena de acordo com o valor numérico da string. Caso o arquivo sem ordenção contivesse os números 31 19 3 1 4 330 40. Ao usar a opção -n ele colocaria um número por vez com quebra de linha 1 3 4 19 31 40 330. Caso não usasse a opção -n sairia assim 1 19 3 31 330 4 40, mantendo a quebra de linha a cada número.
 
 ---
 
