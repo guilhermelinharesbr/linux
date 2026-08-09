@@ -75,6 +75,13 @@
 - [rm](#rm)
 - [runlevel](#runlevel)
 - [scp](#scp)
+- [sed](#sed)
+- [shutdown](#shutdown)
+- [sort](#sort)
+- [split](#split)
+- [ss](#ss)
+- [ssh-keygen](#ssh-keygen)
+
 
 ---
 
@@ -940,5 +947,43 @@ Obs.: Antes do root tem um espaço em branco.
 De uma Máquina Local para um Servidor:
 **scp -P14753 -r /home/user/print guilherme.linhares@10.0.0.100:/tmp**  
 Obs.: **-r** → Parâmetro p/ cópia _recursiva_.
+
+---
+
+#### sed
+
+É um editor poderoso de fluxo de textos, utilizado para filtrá-los e transformá-los. _Sed_ vem de **Stream editor** for filtering and transforming text.
+
+**echo "Estou estudando o comando sed" | sed 's/estudando/devorando/'** -> A saída foi _“Estou devorando o comando sed”_, ou seja, ele substitui a palavra _estudando_ por _devorando_.
+
+---
+
+#### shutdown
+
+
+
+---
+
+#### sort
+
+
+
+---
+
+#### split
+
+
+
+---
+
+#### ss
+
+
+
+---
+
+#### ssh-keygen
+
+
 
 ---
