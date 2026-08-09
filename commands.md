@@ -996,7 +996,15 @@ Ordena as linhas de um arquivo.
 
 #### ss
 
+**Socket statistics**. Usado para mostrar estatísticas de rede. É uma versão mais simples e rápida do comando _netstat_, agora obsoleto. Junto com o comando ip, ss é essencial para coletar informações de rede e solucionar problemas de rede.
 
+**ss -ltpn** -> Saída: ss -ltpn           Opções: A opção **l** mostra somente os sockets listening, **t** mostra os sockets TCP, **p** mostra processos usando sockets, **n** não tenta resolver nomes de serviço e mostra valores de largura de banda exatos.
+
+State      Recv-Q     Send-Q         Local Address:Port            Peer Address:Port     Process                                       
+LISTEN     0          4096           127.0.0.53%lo:53                   0.0.0.0:*         users:(("systemd-resolve",pid=629,fd=13))    
+LISTEN     0          128                  0.0.0.0:15974                0.0.0.0:*         users:(("sshd",pid=1284,fd=3))               
+LISTEN     0          50                   0.0.0.0:9102                 0.0.0.0:*         users:(("bacula-fd",pid=677,fd=3))                    
+LISTEN     0          80                         *:3306                       *:*         users:(("mysqld",pid=100812,fd=20))  
 
 ---
 
