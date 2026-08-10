@@ -85,7 +85,7 @@
 - [sudo](#sudo)
 - [swapoff / swapon](#swapoff--swapon)
 - [system-config-printer](#system-config-printer)
-- [systemctl](#systemctl)
+- [systemctl (SystemD) / initd e service (SysVinit)](#systemctl-systemd--initd-e-service-sysvinit)
 - [tac](#tac)
 - [tail](#tail)
 
@@ -1050,9 +1050,22 @@ Acessa diretamente as impressoras, para que possam ser configuradas.
 
 ---
 
-#### systemctl
+#### systemctl (SystemD) / initd e service (SysVinit)
+
+Todos os comandos fazem a mesma coisa, só que dois deles da maneira atual e dois deles da maneira legado.
+
+**SystemD**
+Atual: Usa o **systemctl**:
+sudo **systemctl status apache2.service**
+sudo **/bin/systemctl status apache2.service**
+
+**SysVinit**
+Legado: Usa o **init.d** e **service**:
+sudo **/etc/init.d/apache2 status**
+sudo **service apache2 status**
 
 
+**sudo systemctl restart NetworkManager.service** -> Reinicia a interface de rede no Ubuntu, demora um pouco para terminar o processo, mas funciona.
 
 ---
 
