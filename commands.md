@@ -1071,7 +1071,10 @@ sudo **service apache2 status**
 
 #### tac
 
+O comando _tac_ mostra o conteúdo de um ou mais arquivos sendo que cada arquivo é exibido de forma inversa (da última até a primeira linha). Note que o nome **tac** corresponde a **cat** lido de trás para frente. O comando _tac_ funciona de forma similar ao comando _cat_, a principal diferença entre os dois comandos se encontra na ordem de leitura do conteúdo de cada arquivo.
 
+Ex:  
+**tac arquivo**
 
 ---
 
