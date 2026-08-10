@@ -1040,7 +1040,7 @@ Torna-se root com **sudo su** ou **sudo -i**.
 
 #### swapoff / swapon
 
-
+**sudo swapon -a && sudo swapoff -a** -> Habilita/desabilita dispositivos e arquivos para paginação e swapping.
 
 ---
 
