@@ -88,6 +88,8 @@
 - [systemctl (SystemD) / initd e service (SysVinit)](#systemctl-systemd--initd-e-service-sysvinit)
 - [tac](#tac)
 - [tail](#tail)
+- [tar](#tar)
+- [tee](#tee)
 
 ---
 
@@ -1080,6 +1082,55 @@ Ex:
 
 #### tail
 
+Mostra as últimas 10 linhas do início de um arquivo como padrão. É o oposto do comando _head_.
 
+**tail /var/log/messages** -> Para verificar os arquivos de log. É necessário está dentro do servidor.
+
+**tail -n 50 /var/log/messages** -> Mostra as últimas 50 linhas do arquivo.
+
+**tail -f /var/log/messages** -> Mostra as últimas linhas finais de um arquivo continuamente enquanto outro processo grava mais linhas. Muito útil para visualizarmos arquivos de log.
+
+---
+
+#### tar
+
+**tar -cf arquivo.tar arq1 arq2** -> Empacota arquivos. Opções: **c** de create e **f** de file.
+
+**tar -xvf arquivo.tar** -> Desempacota arquivos. Opções: **x** de extract e **v** de verbose.
+
+**tar -xvf arquivo.tar arq1** -> Desempacota apenas um dos arquivos empacotados, no caso apenas o arq1.
+
+**tar -tf arquivo.tar** -> Lista o conteúdo do arquivo empacotado. Opção: **t** serve para listar.
+
+**tar -rf arquivo.tar arq3** -> Adiciona um novo arquivo no arquivo já empacotado. Opção: **r** serve para adicionar.
+
+**tar -f arquivo.tar --delete arq3** -> Deleta apenas um arquivo do arquivo já empacotado.
+
+**tar -zcvf arquivo.tar.gz arq1 arq2** -> Empacota e comprime o arquivo. Opção: **z** minúsculo faz referência ao gzip/gz.
+
+**tar -zxvf arquivo.tar.gz** -> Desempacota e descomprimi o arquivo tar.gz.
+
+**tar -jcvf arquivo.tar.bz2 arq1 arq2** -> Empacota e comprimi o arquivo. Opção: **j** minúsculo faz referência ao bzip2/bz2.
+
+**tar -jxvf arquivo.tar.bz2** -> Desempacota e descomprimi o arquivo tar.bz2.
+
+**tar -zcvf diretorio.tar.gz diretorio** -> Empacota e comprime o diretório/pasta.
+
+**tar -zxvf diretorio.tar.gz** -> Desempacota e descomprimi o diretório tar.gz.
+
+**tar -Jcvf arquivo.tar.xz arq1 arq2** -> Empacota e comprime o arquivo. Opção: **J** maiúsculo faz referência ao xz.
+
+**tar -Jxvf arquivo.tar.xz** -> Desempacota e descomprimi o arquivo xz.
+
+---
+
+#### tee
+
+Este utilitário ler dados na entrada padrão e os grava na saída padrão e em arquivos. No caso o que digitar na tela ele salva no arquivo.txt do exemplo. Geralmente usado para jogar logs em um arquivo.
+
+**tee arquivo.txt
+ls -l /tmp | tee arquivo-novo-log
+sort alunos.txt | uniq | tee resultado.out
+make -j4 bzImage > >(tee saida.txt) 2> >(tee erros.txt >&2)**
 
 ---
