@@ -1080,6 +1080,12 @@ Ex:
 
 #### tail
 
+Mostra as últimas 10 linhas do início de um arquivo como padrão. É o oposto do comando _head_.
 
+**tail /var/log/messages** -> Para verificar os arquivos de log. É necessário está dentro do servidor.
+
+**tail -n 50 /var/log/messages** -> Mostra as últimas 50 linhas do arquivo.
+
+**tail -f /var/log/messages** -> Mostra as últimas linhas finais de um arquivo continuamente enquanto outro processo grava mais linhas. Muito útil para visualizarmos arquivos de log.
 
 ---
