@@ -81,7 +81,13 @@
 - [split](#split)
 - [ss](#ss)
 - [ssh-keygen](#ssh-keygen)
-
+- [stress](#stress)
+- [sudo](#sudo)
+- [swapoff / swapon](#swapoff--swapon)
+- [system-config-printer](#system-config-printer)
+- [systemctl](#systemctl)
+- [tac](#tac)
+- [tail](#tail)
 
 ---
 
@@ -1011,5 +1017,50 @@ LISTEN     0          80                         *:3306                       *:
 #### ssh-keygen
 
 Gera uma chave privada e uma pública.
+
+---
+
+#### stress
+
+Ferramenta para impor carga e testar o estresse de um sistema de computador.
+
+Ex:  
+**stress --cpu 1 --vm-bytes 150m --vm 1 --vm-bytes 100m**  -> Para estressar o container ubuntu-C. Enviando 150MB para a CPU e 100MB para a memória. 
+
+---
+
+#### sudo
+
+
+
+---
+
+#### swapoff / swapon
+
+
+
+---
+
+#### system-config-printer
+
+
+
+---
+
+#### systemctl
+
+
+
+---
+
+#### tac
+
+
+
+---
+
+#### tail
+
+
 
 ---
