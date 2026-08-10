@@ -1046,7 +1046,7 @@ Torna-se root com **sudo su** ou **sudo -i**.
 
 #### system-config-printer
 
-
+Acessa diretamente as impressoras, para que possam ser configuradas.
 
 ---
 
