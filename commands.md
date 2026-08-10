@@ -1031,7 +1031,10 @@ Ex:
 
 #### sudo
 
+Concede privilégios administrativos para usuários comuns. 
+Torna-se root com **sudo su** ou **sudo -i**. 
 
+**sudo apt update**, após rodar o comando irá pedir a senha de root, a senha estará válida na sessão durante _15 minutos_, não sendo necessário digitar novamente sudo em algum comando digitado nesse intervalo de tempo. É possível editar esse tempo no arquivo dos sudoers por meio do comando **visudo**.
 
 ---
 
