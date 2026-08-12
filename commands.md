@@ -1154,7 +1154,10 @@ Checa o arquivo de configuração **smb.conf** indicando se tem algum caractere 
 
 #### time
 
+Informa quanto tempo levou para um comando concluir a execução.
 
+Ex:  
+**time scp -P15974 mysql-sei-20230426-2100.sql.gz root@10.0.0.215:/opt** -> Mostra quanto tempo demorou essa cópia.
 
 ---
 
