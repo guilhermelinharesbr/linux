@@ -1163,7 +1163,12 @@ Ex:
 
 #### timedatectl
 
+**timedatectl list-timezones** -> Lista as timezones disponíveis.
 
+sudo **timedatectl set-timezone America/Fortaleza** -> 
+Configura a time zone de Fortaleza UTC-3.
+
+**timedatectl** -> Para verificar se ficou com o horário de Fortaleza, ou usar o comando _date_.
 
 ---
 
