@@ -1174,6 +1174,14 @@ Configura a time zone de Fortaleza UTC-3.
 
 #### touch
 
+Serve para alterar os metadados de tempo dos arquivos, modificando a data de último acesso ou de modificação dos arquivos. 
+Isto pode ser útil para marcar um arquivo sofrer backup incremental ou diferencial a partir de uma determinada data, ou ser sincronizado num repositório, sem a necessidade de alterar o conteúdo do arquivo, bastando alterar a sua data de modificação.
 
+O comando _touch_ também é útil para criar um arquivo vazio, se o arquivo informado não existir.
+
+Ex:  
+**touch novo_arquivo**
+
+**touch arq{1..10}.txt** -> Cria dez arquivos, de arq1.txt até arq10.txt.
 
 ---
