@@ -91,6 +91,10 @@
 - [tar](#tar)
 - [tee](#tee)
 - [telnet](#telnet)
+- [testparm](#testparm)
+- [time](#time)
+- [timedatctl](#timedatectl)
+- [touch](#touch)
 
 ---
 
@@ -1139,5 +1143,29 @@ make -j4 bzImage > >(tee saida.txt) 2> >(tee erros.txt >&2)**
 #### telnet
 
 **telnet 10.0.0.14 5432** -> Para verificar se algum serviço está rodando na porta 5432 do servidor 10.0.0.14 ou se não tem nenhum serviço rodando nessa porta. No caso o serviço que estava rodando na porta era o PostgreSQL.
+
+---
+
+#### testparm
+
+Checa o arquivo de configuração **smb.conf** indicando se tem algum caractere escrito errado na configuração.
+
+---
+
+#### time
+
+
+
+---
+
+#### timedatectl
+
+
+
+---
+
+#### touch
+
+
 
 ---
