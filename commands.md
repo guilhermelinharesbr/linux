@@ -1204,7 +1204,10 @@ Ex:
 
 #### tree
 
+Lista o conteúdo de diretórios no formato de árvore.
 
+Ex:  
+**tree -h** -> Mostra os diretórios, arquivos em formato de árvore e os tamanhos deles, o **h** é de _human_.
 
 ---
 
