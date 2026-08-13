@@ -1213,7 +1213,10 @@ Ex:
 
 #### truncate
 
+Reduz ou estende o tamanho de um arquivo para o tamanho especificado. Cuidado ao usar, pois não tem como desfazer.
 
+Ex:  
+**truncate -s 0 OLX.zip** -> reduz o tamanho do arquivo que era anteriormente de 700Mb para _0bytes_, o parâmetro **-s** é de _size_.
 
 ---
 
