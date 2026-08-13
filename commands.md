@@ -1267,6 +1267,8 @@ O termo umask corresponde a “user mask”, ou seja, máscara do usuário.
 
 #### umount
 
+Desmonta sistemas de arquivos.
 
+sudo **umount /media/pensador/pendrive/** -> Desmonta um dispositivo.
 
 ---
