@@ -1222,7 +1222,30 @@ Ex:
 
 #### type
 
+Serve para informar se um programa ou comando é do tipo _alias_ ou _Comando Interno do shell_ ou _Comando Externo_.
 
+A opção **-t** da uma saída curta com apenas uma palavra sendo, 'alias', 'keyword', 'function', 'builtin', 'file'.
+
+**type** [nome_comando]
+
+**type cd** -> Saída: cd is a shell builtin
+
+**type -t cd** -> Saída: builtin
+
+**type ll** -> Saída: ll is aliased to `ls -alF'
+
+**type -t date** -> Saída: file
+
+**type date** -> Saída: date is /bin/date
+
+**type echo** -> Saída: echo is a shell builtin (comando interno do bash)
+
+**type cd** -> Saída: cd is a shell builtin (comando interno do bash)
+
+**type clear** -> Saída: clear is hashed (/usr/bin/clear) (comando está em cache interno, 
+pode acontecer se digitar um comando algumas vezes, no caso o comando clear havia sido executado duas vezes antes de rodar o comando type clear)
+
+**type tar** -> Saída: tar is /usr/bin/tar (comando externo ao bash)
 
 ---
 
