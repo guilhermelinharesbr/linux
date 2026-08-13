@@ -1251,7 +1251,17 @@ pode acontecer se digitar um comando algumas vezes, no caso o comando clear havi
 
 #### umask
 
+Quando o usuário cria um arquivo (diretório), o sistema associa ao objeto criado um conjunto de permissões de acesso. Estas permissões indicam quem pode ler, alterar e/ou executar (acessar) o arquivo (diretório).
 
+As permissões iniciais de um arquivo são 0666 (leitura e gravação para todo e qualquer usuário do sistema);
+
+As permissões iniciais de um diretório são 0777 (leitura, gravação e acesso para todo e qualquer usuário do sistema).
+
+**umask** -> retorna  0002
+
+**umask -S** -> retorna  u=rwx,g=rwx,o=rx
+
+O termo umask corresponde a “user mask”, ou seja, máscara do usuário.
 
 ---
 
