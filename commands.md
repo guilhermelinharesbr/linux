@@ -95,6 +95,13 @@
 - [time](#time)
 - [timedatctl](#timedatectl)
 - [touch](#touch)
+- [traceroute](#traceroute)
+- [tree](#tree)
+- [truncate](#truncate)
+- [type](#type)
+- [umask](#umask)
+- [umount](#umount)
+
 
 ---
 
@@ -1183,5 +1190,44 @@ Ex:
 **touch novo_arquivo**
 
 **touch arq{1..10}.txt** -> Cria dez arquivos, de arq1.txt até arq10.txt.
+
+---
+
+#### traceroute
+
+Imprimi a rota dos pacotes da origem até a rede de destino do host.
+
+Ex:  
+**traceroute 192.168.38.197**
+
+---
+
+#### tree
+
+
+
+---
+
+#### truncate
+
+
+
+---
+
+#### type
+
+
+
+---
+
+#### umask
+
+
+
+---
+
+#### umount
+
+
 
 ---
