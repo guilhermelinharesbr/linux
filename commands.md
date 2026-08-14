@@ -1306,7 +1306,11 @@ Remove as linhas duplicadas de um arquivo ordenado. Por isso ele é muito usado 
 
 #### uptime
 
+**uptime** -> Mostra quanto tempo o sistema está no ar, a quantidade de usuário logados e a carga da CPU.
 
+**uptime -p** -> Mostra desde quando o sistema está ligado de uma forma “bonitinha”, o **-p** é pretty.
+
+**uptime -s** -> Mostra desde quando o sistema está ligado no formato ano-mes-dia hora:minuto:segundo, o **-s** vem de since.
 
 ---
 
