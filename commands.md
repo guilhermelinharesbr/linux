@@ -101,7 +101,10 @@
 - [type](#type)
 - [umask](#umask)
 - [umount](#umount)
-
+- [uname](#uname)
+- [uniq](#uniq)
+- [uptime](#uptime)
+- [useradd](#useradd)
 
 ---
 
@@ -1270,5 +1273,35 @@ O termo umask corresponde a “user mask”, ou seja, máscara do usuário.
 Desmonta sistemas de arquivos.
 
 sudo **umount /media/pensador/pendrive/** -> Desmonta um dispositivo.
+
+---
+
+#### uname
+
+Mostra informações do sistema. 
+
+**uname**: Resultado -> Linux. 
+
+**uname -m**: Mostra muitas informações do sistema operacional incluindo a arquitetura se é 64 ou 32 bits, e o -m vem de (machine). Resultado → x86_64.
+
+**uname -r**: Mostra muitas informações do sistema operacional, e o **-r** mostra a (*r*elease) do _kernel_. Resultado → 5.4.0-105-generic.
+
+---
+
+#### uniq
+
+
+
+---
+
+#### uptime
+
+
+
+---
+
+#### useradd
+
+
 
 ---
