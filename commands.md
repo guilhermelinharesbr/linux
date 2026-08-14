@@ -1316,6 +1316,8 @@ Remove as linhas duplicadas de um arquivo ordenado. Por isso ele é muito usado 
 
 #### useradd
 
+O _useradd_ é um binário nativo compilado com o sistema. Cria um novo usuário local no Linux. 
 
+**useradd -m nome_usuario** -> A opção **-m** serve para criar o diretório /home caso ele não exista. O _adduser_ é mais amigável.
 
 ---
