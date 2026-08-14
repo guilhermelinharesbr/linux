@@ -1290,7 +1290,17 @@ Mostra informações do sistema.
 
 #### uniq
 
+Remove as linhas duplicadas de um arquivo ordenado. Por isso ele é muito usado em conjunto com o comando _sort_. 
 
+**-c** -> Indica no início das linhas o número de ocorrências;
+
+**-d** -> Imprime somente as linhas duplicadas;
+
+**-i** -> Ignora a diferença entre maiúsculas e minúsculas;
+
+**-u** -> Imprime somente as linhas únicas, que não têm duplicatas.
+
+**sort lista_supermercado | uniq** -> Ordena o arquivo lista_supermercado em ordem alfabética e remove as linhas duplicadas.
 
 ---
 
