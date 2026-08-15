@@ -1351,7 +1351,7 @@ O _useradd_ é um binário nativo compilado com o sistema. Cria um novo usuário
 
 #### w
 
-
+Mostra quem logou (detalhado).
 
 ---
 
