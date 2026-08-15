@@ -105,6 +105,11 @@
 - [uniq](#uniq)
 - [uptime](#uptime)
 - [useradd](#useradd)
+- [virsh](#virsh)
+- [visudo](#visudo)
+- [w](#w)
+- [wall](#wall)
+- [watch](#watch)
 
 ---
 
@@ -1319,5 +1324,45 @@ Remove as linhas duplicadas de um arquivo ordenado. Por isso ele é muito usado 
 O _useradd_ é um binário nativo compilado com o sistema. Cria um novo usuário local no Linux. 
 
 **useradd -m nome_usuario** -> A opção **-m** serve para criar o diretório /home caso ele não exista. O _adduser_ é mais amigável.
+
+---
+
+#### virsh
+
+É um utilitário criado para gerenciar máquinas virtuais de tecnologias como KVM, Xen, VMware ESX, QEMU entre outras. Esse suporte se deve ao fato do _virsh_ ser construído utilizando a _libvirt_ como base.
+
+**virsh destroy nomeVM** -> Faz um force shutdown na VM, tomar cuidado ao usar.
+
+**virsh list** -> Lista as VMs ligadas.
+
+**virsh list --all** -> Lista todas as VMs estejam elas ligadas ou desligadas.
+
+**virsh start nomeVM** -> Inicia uma VM. Ex: **virsh start D01LS023VDMZ**
+
+**virsh shutdown nomeVM** -> Desliga uma VM de maneira correta sem ser forçando o desligamento. Ex: **virsh shutdown D01LS023VDMZ**
+
+---
+
+#### visudo
+
+
+
+---
+
+#### w
+
+
+
+---
+
+#### wall
+
+
+
+---
+
+#### watch
+
+
 
 ---
