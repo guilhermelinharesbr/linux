@@ -1357,7 +1357,9 @@ Mostra quem logou (detalhado).
 
 #### wall
 
+Utilizado para transmitir uma mensagem para todas as pessoas conectadas aos terminais do Linux, ou seja, que estejam logadas ao mesmo tempo no mesmo servidor. Ele faz um broadcast. 
 
+**wall "Hora do café Pessoal"**
 
 ---
 
