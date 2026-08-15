@@ -1345,7 +1345,7 @@ O _useradd_ é um binário nativo compilado com o sistema. Cria um novo usuário
 
 #### visudo
 
-
+**sudo visudo** -> Edita o arquivo de sudoers.
 
 ---
 
