@@ -1365,6 +1365,10 @@ Utilizado para transmitir uma mensagem para todas as pessoas conectadas aos term
 
 #### watch
 
+Executa o comando repetidamente, exibindo sua saída e erros (a primeira tela cheia). Isto permite-lhe ver o programa mudança de saída ao longo do tempo. Por padrão, o comando é executado a cada 2 segundos e o watch será executado até ser interrompido.
 
+**watch -t -n 1 -d date** -> Saída: Wed 30 Mar 2022 02:16:56 PM -03  , atualiza a data a cada 1 segundo(parâmetro **n**), e sem o cabeçalho(parâmetro **t** no-title) e destaca cada diferença entre o segundo anterior(parâmetro **d** difference).
+
+**watch -d du -sh /home/thinker/Pictures/** -> Para ver quanto está enchendo a pasta. Bom para usar em conjunto com um comando de restore de uma base de dados ou uma cópia de arquivos ex: **cp -R OLX/\* /home/user/Pictures/** e depois roda o comando **watch -d du -sh /home/user/Pictures/** em outro terminal para ir acompanhando o crescimento do diretório.
 
 ---
