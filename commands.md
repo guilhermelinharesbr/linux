@@ -110,6 +110,7 @@
 - [w](#w)
 - [wall](#wall)
 - [watch](#watch)
+- [wc]()
 
 ---
 
@@ -1370,5 +1371,15 @@ Executa o comando repetidamente, exibindo sua saída e erros (a primeira tela ch
 **watch -t -n 1 -d date** -> Saída: Wed 30 Mar 2022 02:16:56 PM -03  , atualiza a data a cada 1 segundo(parâmetro **n**), e sem o cabeçalho(parâmetro **t** no-title) e destaca cada diferença entre o segundo anterior(parâmetro **d** difference).
 
 **watch -d du -sh /home/thinker/Pictures/** -> Para ver quanto está enchendo a pasta. Bom para usar em conjunto com um comando de restore de uma base de dados ou uma cópia de arquivos ex: **cp -R OLX/\* /home/user/Pictures/** e depois roda o comando **watch -d du -sh /home/user/Pictures/** em outro terminal para ir acompanhando o crescimento do diretório.
+
+---
+
+#### wc
+
+Word Count. Este utilitário conta linhas, palavras e caracteres de arquivos.
+
+**wc -l arquivo.txt** -> Resultado 5 arquivo.txt, significa que o arquivo possui 5 linhas já que **-l** serve para contar as linhas.
+
+**wc -w arquivo.txt** -> Resultado 3 arquivo.txt, significa que o arquivo possui 3 linhas já que **-w** serve para contar as palavras.
 
 ---
