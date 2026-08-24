@@ -1423,7 +1423,14 @@ Permite localizar arquivos binário, fonte e também as páginas de manual de co
 
 ### which
 
+Localiza o arquivo executável associado a um determinado comando.
 
+
+**which htop** -> retorna /usr/bin/htop.
+
+**which -a htop** -> retorna /usr/bin/htop. A opção **-a** serve para mostrar todos os nomes de caminho correspondentes de cada nome de arquivo correspondente. 
+
+O comando whereis pode ser considerado mais completo que o which, pois mostra binário, fonte e também as páginas de manual.
 
 ---
 
