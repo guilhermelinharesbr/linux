@@ -1391,7 +1391,7 @@ Word Count. Este utilitário conta linhas, palavras e caracteres de arquivos.
 
 ---
 
-### wget
+#### wget
 
 **wget https://url** -> Baixa arquivo direto da internet por meio da url.
 
@@ -1411,7 +1411,7 @@ Word Count. Este utilitário conta linhas, palavras e caracteres de arquivos.
 
 ---
 
-### whereis
+#### whereis
 
 Permite localizar arquivos binário, fonte e também as páginas de manual de comandos especificados no Linux.
 
@@ -1421,7 +1421,7 @@ Permite localizar arquivos binário, fonte e também as páginas de manual de co
 
 ---
 
-### which
+#### which
 
 Localiza o arquivo executável associado a um determinado comando.
 
@@ -1434,19 +1434,19 @@ O comando whereis pode ser considerado mais completo que o which, pois mostra bi
 
 ---
 
-### who
+#### who
 
 Mostra quem logou (pouco detalhado).
 
 ---
 
-### whoami
+#### whoami
 
 Mostra qual usuário está logado.
 
 ---
 
-### whois
+#### whois
 
 É um cliente para o serviço de diretório whois. O whois procura um objeto em um banco de dados whois. Informações de whois são obtidas através da pesquisa de whois, que entre outros objetivos, permite saber as pessoas ou entidades por trás de cada domínio, IP e serviços autônomos na Internet e assim ter asseguradas condições mínimas de segurança, transparência e manutenção das garantias e obrigações a que todos devem estar submetidos.
 
@@ -1456,7 +1456,7 @@ whois gmail.com
 
 ---
 
-### xz / unxz
+#### xz / unxz
 
 **xz -k** -> Comprimi o arquivo e mantém o arquivo original. Opção: **-k** de keep.
 
