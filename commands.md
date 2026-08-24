@@ -117,7 +117,7 @@
 - [who](#who)
 - [whoami](#whoami)
 - [whois](#whois)
-- [xz](#xz)
+- [xz / unxz](#xz--unxz)
 
 ---
 
@@ -1456,8 +1456,16 @@ whois gmail.com
 
 ---
 
-### xz
+### xz / unxz
 
+**xz -k** -> Comprimi o arquivo e mantém o arquivo original. Opção: **-k** de keep.
 
+**xz** -> Comprimi o arquivo e NÃO mantém o arquivo original. 
+
+**unxz** -> Descomprimi o arquivo e mantém o arquivo original com extensão .xz.     
+
+**unxz -k** -> Descomprimi o arquivo com extensão .xz e mantém o arquivo original.
+
+**xz -d** -> Descomprimi o arquivo e mantém o arquivo original com extensão .xz. 
 
 ---
