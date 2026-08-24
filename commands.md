@@ -1436,7 +1436,7 @@ O comando whereis pode ser considerado mais completo que o which, pois mostra bi
 
 ### who
 
-
+Mostra quem logou (pouco detalhado).
 
 ---
 
