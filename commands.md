@@ -1442,7 +1442,7 @@ Mostra quem logou (pouco detalhado).
 
 ### whoami
 
-
+Mostra qual usuário está logado.
 
 ---
 
