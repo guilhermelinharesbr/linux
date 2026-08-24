@@ -1448,7 +1448,11 @@ Mostra qual usuário está logado.
 
 ### whois
 
+É um cliente para o serviço de diretório whois. O whois procura um objeto em um banco de dados whois. Informações de whois são obtidas através da pesquisa de whois, que entre outros objetivos, permite saber as pessoas ou entidades por trás de cada domínio, IP e serviços autônomos na Internet e assim ter asseguradas condições mínimas de segurança, transparência e manutenção das garantias e obrigações a que todos devem estar submetidos.
 
+whois diariodonordeste.verdesmares.com.br
+
+whois gmail.com
 
 ---
 
