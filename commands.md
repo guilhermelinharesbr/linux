@@ -110,7 +110,14 @@
 - [w](#w)
 - [wall](#wall)
 - [watch](#watch)
-- [wc]()
+- [wc](#wc)
+- [wget](#wget)
+- [whereis](#whereis)
+- [which](#which)
+- [who](#who)
+- [whoami](#whoami)
+- [whois](#whois)
+- [xz](#xz)
 
 ---
 
@@ -1381,5 +1388,61 @@ Word Count. Este utilitário conta linhas, palavras e caracteres de arquivos.
 **wc -l arquivo.txt** -> Resultado 5 arquivo.txt, significa que o arquivo possui 5 linhas já que **-l** serve para contar as linhas.
 
 **wc -w arquivo.txt** -> Resultado 3 arquivo.txt, significa que o arquivo possui 3 linhas já que **-w** serve para contar as palavras.
+
+---
+
+### wget
+
+**wget https://url** -> Baixa arquivo direto da internet por meio da url.
+
+**wget https://url https://url https://url** -> Baixa arquivos em sequência direto da internet por meio das urls.
+
+**wget https://url/arquivo.iso -O mint.iso** -> Baixa o arquivo com o nome especificado. A opção **-O** maiúsculo de output-document.
+
+**wget https://url/arquivo.iso -P nova_pasta/mint.iso** -> Baixa o arquivo com o nome especificado e coloca dentro de uma pasta se ela não existir ele cria. A opção **-P** maiúsculo de prefix. 
+
+**wget --limit-rate=900k https://url** -> Limita a velocidade do download.
+
+**wget -c https://url** -> Continua o download de onde parou, caso o download tenha sido interrompido antes do término.
+
+**wget -c --limit-rate=900k https://url** -> Combina os comandos pra limitar o download e continuar.
+
+**wget -c -b https://url** -> Combina os comandos pra continuar o download e rodar o download em background. Cria um arquivo de nome web-log que por meio dele é possível acompanhar o download, sabendo o PID do processo que é informado ao rodar o comando. Comando para visualizar o progresso do download: tail -f pasta_download/web-log. A opção **-b** vem de backgroud.
+
+---
+
+### whereis
+
+
+
+---
+
+### which
+
+
+
+---
+
+### who
+
+
+
+---
+
+### whoami
+
+
+
+---
+
+### whois
+
+
+
+---
+
+### xz
+
+
 
 ---
