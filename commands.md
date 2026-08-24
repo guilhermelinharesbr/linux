@@ -1413,7 +1413,11 @@ Word Count. Este utilitário conta linhas, palavras e caracteres de arquivos.
 
 ### whereis
 
+Permite localizar arquivos binário, fonte e também as páginas de manual de comandos especificados no Linux.
 
+**whereis fdisk** -> Resultado: fdisk: /sbin/fdisk /usr/share/man/man8/fdisk.8.gz
+
+**whereis -m fdisk** -> Resultado: fdisk: /usr/share/man/man8/fdisk.8.gz  //Localizar apenas as páginas de manual do utilitário fdisk
 
 ---
 
