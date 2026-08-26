@@ -6,10 +6,7 @@
 - [CTRL + C](#ctrl--c)
 - [CTRL + D](#ctrl--d)
 - [CTRL + E](#ctrl--e)
-- []()
-
-
-
+- [CTRL + L](#ctrl--l)
 
 
 ---
@@ -35,5 +32,11 @@ Para fechar o terminal.
 #### CTRL + E
 
 Serve para o cursor ir para o fim da linha.
+
+---
+
+#### CTRL + L
+
+Serve para limpar a tela do terminal.
 
 ---
