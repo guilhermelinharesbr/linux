@@ -2,8 +2,8 @@
 
 
 ### Sumário
-- [CTRL + A]()
-- []()
+- [CTRL + A](#ctrl--a)
+- [CTRL + C](#ctrl--c)
 
 
 
@@ -18,6 +18,6 @@ Serve para o cursor ir para o início da linha.
 
 #### CTRL + C
 
-Diz se o sistema é 64 ou 32 bits.
+Cancela um comando.
 
 ---
