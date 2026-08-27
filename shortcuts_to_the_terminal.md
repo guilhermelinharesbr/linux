@@ -55,7 +55,7 @@ Usando o CTRL + R e depois digitando ssh ele irá autocompletar com  ssh guilher
 
 #### CTRL + U
 
-
+Para apagar tudo o que estiver a esquerda do cursor no terminal.
 
 ---
 
