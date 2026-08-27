@@ -2,6 +2,7 @@
 
 
 ### Sumário
+- [&](#símbolo-)
 - [adduser](#adduser)
 - [arch](#arch)
 - [arp](#arp)
@@ -118,6 +119,17 @@
 - [whoami](#whoami)
 - [whois](#whois)
 - [xz / unxz](#xz--unxz)
+
+---
+
+#### símbolo &
+
+Para executar um comando em background basta adicionar o operador & no final dele. 
+
+Exemplo:  
+ping 8.8.8.8&
+
+Deixa o ping rodando em segundo plano. Para cancelar não adianta usar o _CTRL+C_, para cancelar quando ele estiver em segundo plano é preciso acessar outro terminal rodar **ps aux | grep ping**, depois **kill** [id do processo do ping]. 
 
 ---
 
