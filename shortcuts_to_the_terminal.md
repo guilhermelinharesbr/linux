@@ -61,7 +61,11 @@ Para apagar tudo o que estiver a esquerda do cursor no terminal.
 
 #### CTRL + Z
 
+Para parar a execução de um processo rodando em primeiro plano, basta pressionar as teclas CTRL+Z. O programa em execução será pausado e será mostrado o número de seu job e o aviso de comando.
 
+Para retornar a execução de um comando pausado, use **fg** ou **bg**.
+
+O programa permanece na memória no ponto de processamento em que parou quando ele é interrompido. Você pode usar outros comandos ou rodar outros programas enquanto o programa atual está interrompido.
 
 ---
 
