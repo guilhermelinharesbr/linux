@@ -71,6 +71,6 @@ O programa permanece na memória no ponto de processamento em que parou quando e
 
 #### TAB
 
-
+É o autocomplete no terminal Linux, mas se ela estiver com caracteres separados pode-se usar a sequência \ TAB, traduzindo barra invertida, espaço, TAB.
 
 ---
