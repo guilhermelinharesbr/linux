@@ -17,17 +17,32 @@ Gerenciador de Pacotes padrão ALTO nível (Interface: Synaptic) para o S.O. Deb
 
 Atualiza repositórios automaticamente. Antigamente era apt-get update.
 
+Ex:
+```bash
+sudo apt update
+```
+
 ---
 
-#### 
+#### apt upgrade
 
+Atualiza softwares, bibliotecas do sistema. Antigamente era apt-get upgrade.
 
+Ex:
+```bash
+sudo apt upgrade
+```
 
 ---
 
-#### 
+#### apt update && apt upgrade
 
+Junção dos dois comandos em apenas um.
 
+Ex:
+```bash
+sudo apt update && sudo apt upgrade
+```
 
 ---
 
