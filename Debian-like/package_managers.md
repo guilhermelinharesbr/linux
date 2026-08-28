@@ -3,7 +3,10 @@
 
 ### Sumário
 - [apt / apt-get](#apt)
-- [apt update]()
+- [apt update](#apt-update)
+- [apt upgrade](#apt-upgrade)
+- [apt update && apt upgrade](#apt-update--apt-upgrade)
+- [apt install](#apt-install)
 
 ---
 
@@ -46,8 +49,13 @@ sudo apt update && sudo apt upgrade
 
 ---
 
-#### 
+#### apt install
 
+Instala softwares, bibliotecas do sistema. Antigamente era apt-get install.
 
+Ex:
+```bash
+sudo apt install nome_pacote
+```
 
 ---
