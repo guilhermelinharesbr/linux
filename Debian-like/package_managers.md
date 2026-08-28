@@ -7,6 +7,7 @@
 - [apt upgrade](#apt-upgrade)
 - [apt update && apt upgrade](#apt-update--apt-upgrade)
 - [apt install](#apt-install)
+- [apt remove](#apt-remove)
 
 ---
 
@@ -59,3 +60,15 @@ sudo apt install nome_pacote
 ```
 
 ---
+
+#### apt remove
+
+Remove softwares, bibliotecas do sistema. Antigamente era apt-get remove.
+
+Ex:
+```bash
+sudo apt remove nome_pacote
+```
+
+---
+
