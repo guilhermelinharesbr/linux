@@ -8,6 +8,7 @@
 - [apt update && apt upgrade](#apt-update--apt-upgrade)
 - [apt install](#apt-install)
 - [apt remove](#apt-remove)
+- [apt autoremove](#apt-autoremove)
 
 ---
 
@@ -72,3 +73,13 @@ sudo apt remove nome_pacote
 
 ---
 
+#### apt autoremove
+
+Algumas dependências podem permanecer no seu sistema. Se você ficar incomodado com isso, poderá então remover os pacotes que não estão sendo mais utilizados pelo Apt. Antigamente era apt-get autoremove.
+
+Ex:
+```bash
+sudo apt autoremove
+```
+
+---
