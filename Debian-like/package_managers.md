@@ -10,7 +10,7 @@
 - [apt remove](#apt-remove)
 - [apt autoremove](#apt-autoremove)
 - [apt search](#apt-search)
-- []()
+- [apt list](#apt-list)
 
 
 ---
@@ -101,6 +101,23 @@ Para procurar um pacote a ser instalado. Antigamente era apt-get search.
 Ex:
 ```bash
 sudo apt search termo_pesquisa
+```
+
+---
+
+#### apt list
+
+Lista todos os pacotes instalados com o Apt. 
+
+Ex:
+```bash
+sudo apt list --installed
+```
+
+Mostra os pacotes com nome vlc instalados:
+Ex:
+```bash
+sudo apt list --installed | grep vlc
 ```
 
 ---
