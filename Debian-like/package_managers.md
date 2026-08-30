@@ -11,7 +11,7 @@
 - [apt autoremove](#apt-autoremove)
 - [apt search](#apt-search)
 - []()
-- []()
+
 
 ---
 
@@ -72,6 +72,13 @@ Remove softwares, bibliotecas do sistema. Antigamente era apt-get remove.
 Ex:
 ```bash
 sudo apt remove nome_pacote
+```
+
+Remove todos os pacotes e seus arquivos de configuração:
+
+Ex2:
+```bash
+sudo apt remove nome_pacote --purge
 ```
 
 ---
