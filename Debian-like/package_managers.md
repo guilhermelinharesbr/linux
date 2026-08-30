@@ -9,6 +9,9 @@
 - [apt install](#apt-install)
 - [apt remove](#apt-remove)
 - [apt autoremove](#apt-autoremove)
+- [apt search](#apt-search)
+- []()
+- []()
 
 ---
 
@@ -80,6 +83,17 @@ Algumas dependências podem permanecer no seu sistema. Se você ficar incomodado
 Ex:
 ```bash
 sudo apt autoremove
+```
+
+---
+
+#### apt search
+
+Para procurar um pacote a ser instalado. Antigamente era apt-get search.
+
+Ex:
+```bash
+sudo apt search termo_pesquisa
 ```
 
 ---
