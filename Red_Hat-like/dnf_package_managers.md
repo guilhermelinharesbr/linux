@@ -7,7 +7,7 @@
 - [dnf install](#dnf-install)
 - [dnf remove](#dnf-remove)
 - [dnf autoremove](#dnf-autoremove)
-- [dnf search]()
+- [dnf search](#dnf-search)
 
 
 ---
@@ -65,6 +65,17 @@ Algumas dependências podem permanecer no seu sistema. Se você ficar incomodado
 Ex:
 ```bash
 sudo dnf autoremove
+``` 
+
+---
+
+#### dnf search
+
+Para procurar um pacote a ser instalado.
+
+Ex:
+```bash
+sudo dnf search nome_pacote
 ``` 
 
 ---
