@@ -6,7 +6,7 @@
 - [dnf update](#dnf-update)
 - [dnf install](#dnf-install)
 - [dnf remove](#dnf-remove)
-- [dnf autoremove]()
+- [dnf autoremove](#dnf-autoremove)
 - [dnf search]()
 
 
@@ -58,3 +58,13 @@ sudo dnf remove nome_pacote
 
 ---
 
+#### dnf autoremove
+
+Algumas dependências podem permanecer no seu sistema. Se você ficar incomodado com isso, poderá então remover os pacotes que não estão sendo mais utilizados pelo DNF.
+
+Ex:
+```bash
+sudo dnf autoremove
+``` 
+
+---
