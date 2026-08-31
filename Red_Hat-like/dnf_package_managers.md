@@ -5,7 +5,7 @@
 - [dnf](#dnf)
 - [dnf update](#dnf-update)
 - [dnf install](#dnf-install)
-- [dnf remove]()
+- [dnf remove](#dnf-remove)
 - [dnf autoremove]()
 - [dnf search]()
 
@@ -47,5 +47,14 @@ sudo dnf install $url
 
 ---
 
+#### dnf remove
 
+Remove softwares, bibliotecas do sistema.
+
+Ex:
+```bash
+sudo dnf remove nome_pacote
+``` 
+
+---
 
