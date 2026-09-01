@@ -4,7 +4,7 @@
 ### Sumário
 - [dpkg](#dpkg)
 - [dpkg -i](#dpkg--i)
-- []()
+- [dpkg -r](#dpkg--r)
 - []()
 - []()
 - []()
@@ -29,9 +29,14 @@ dpkg -i nome_pacote.deb
 
 ---
 
-#### dpkg
+#### dpkg -r
 
+Remover programas ou pacotes. Este comando remove o pacote inteiro, exceto os arquivos de configuração.
 
+Ex:
+```bash
+dpkg -r nome_pacote.deb
+```
 
 ---
 
