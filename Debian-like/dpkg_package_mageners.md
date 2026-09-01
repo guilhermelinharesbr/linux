@@ -3,6 +3,10 @@
 
 ### Sumário
 - [dpkg](#dpkg)
+- [dpkg -i](#dpkg--i)
+- []()
+- []()
+- []()
 - []()
 
 
@@ -14,3 +18,31 @@ Gerenciador de Pacotes padrão BAIXO nível para o S.O. Debian, Ubuntu, Linux Mi
 
 ---
 
+#### dpkg -i
+
+Instalar/atualizar programas ou pacotes.
+
+Ex:
+```bash
+dpkg -i nome_pacote.deb
+```
+
+---
+
+#### dpkg
+
+
+
+---
+
+#### dpkg
+
+
+
+---
+
+#### dpkg
+
+
+
+---
