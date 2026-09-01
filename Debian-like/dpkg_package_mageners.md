@@ -5,7 +5,7 @@
 - [dpkg](#dpkg)
 - [dpkg -i](#dpkg--i)
 - [dpkg -r](#dpkg--r)
-- []()
+- [dpkg -l](#dpkg--l)
 - []()
 - []()
 
@@ -40,9 +40,27 @@ dpkg -r nome_pacote.deb
 
 ---
 
+#### dpkg -l
+
+Listar pacotes atualmente instalados. 
+
+Ex:
+```bash
+dpkg -l
+```
+
+Ex2:
+```bash
+dpkg -l | grep vlc
+```
+
+---
+
 #### dpkg
 
 
+
+---
 
 ---
 
