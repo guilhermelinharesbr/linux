@@ -6,7 +6,7 @@
 - [dpkg -i](#dpkg--i)
 - [dpkg -r](#dpkg--r)
 - [dpkg -l](#dpkg--l)
-- []()
+- [dpkg -s](#dpkg--s)
 - []()
 
 
@@ -56,11 +56,14 @@ dpkg -l | grep vlc
 
 ---
 
-#### dpkg
+#### dpkg -s
 
+Verifica se um pacote específico está instalado.
 
-
----
+Ex:
+```bash
+dpkg -s nome_pacote.deb
+```
 
 ---
 
