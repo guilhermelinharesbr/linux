@@ -7,8 +7,9 @@
 - [dpkg -r](#dpkg--r)
 - [dpkg -l](#dpkg--l)
 - [dpkg -s](#dpkg--s)
+- [dpkg -L](#dpkg--l-1)
 - []()
-
+- []()
 
 ---
 
@@ -67,8 +68,13 @@ dpkg -s nome_pacote.deb
 
 ---
 
-#### dpkg
+#### dpkg -L
 
+Verifica o local onde o pacote está instalado.
 
+Ex:
+```bash
+dpkg -L nome_pacote.deb
+```
 
 ---
