@@ -11,7 +11,7 @@
 - [dpkg -c](#dpkg--c)
 - [dpkg --unpack](#dpkg---unpack)
 - [dpkg --configure](#dpkg---configure)
-- []()
+- [dpkg --help](#dpkg---help)
 
 ---
 
@@ -112,6 +112,17 @@ Depois de fazer alterações nos arquivos, use este comando para configurá-lo e
 Ex:
 ```bash
 dpkg --configure nome_pacote.deb
+```
+
+---
+
+#### dpkg --help
+
+Para consultar o manual.
+
+Ex:
+```bash
+dpkg --help
 ```
 
 ---
