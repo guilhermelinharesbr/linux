@@ -9,8 +9,8 @@
 - [dpkg -s](#dpkg--s)
 - [dpkg -L](#dpkg--l-1)
 - [dpkg -c](#dpkg--c)
-- [dpkg --unpack](#dpkg--unpack)
-- []()
+- [dpkg --unpack](#dpkg---unpack)
+- [dpkg --configure](#dpkg---configure)
 - []()
 
 ---
@@ -94,7 +94,7 @@ dpkg --contents nome_pacote.deb
 
 ---
 
-#### dpkg -unpack
+#### dpkg --unpack
 
 Descompactar um pacote .DEB.
 
@@ -105,3 +105,13 @@ dpkg --unpack nome_pacote.deb
 
 ---
 
+#### dpkg --configure
+
+Depois de fazer alterações nos arquivos, use este comando para configurá-lo e reempacotá-lo em um arquivo .DEB para instalação.
+
+Ex:
+```bash
+dpkg --configure nome_pacote.deb
+```
+
+---
