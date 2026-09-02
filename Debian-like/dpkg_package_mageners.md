@@ -8,6 +8,8 @@
 - [dpkg -l](#dpkg--l)
 - [dpkg -s](#dpkg--s)
 - [dpkg -L](#dpkg--l-1)
+- [dpkg -c](#dpkg--c)
+- []()
 - []()
 - []()
 
@@ -78,3 +80,17 @@ dpkg -L nome_pacote.deb
 ```
 
 ---
+
+#### dpkg -c
+
+Listar o conteúdo de um pacote.
+
+Ex:
+```bash
+dpkg -c nome_pacote.deb
+ou
+dpkg --contents nome_pacote.deb
+```
+
+---
+
