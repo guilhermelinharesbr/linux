@@ -4,7 +4,7 @@
 ### Sumário
 - [rpm](#rpm)
 - [rpm -Uvh](#rpm--uvh)
-- [rpm]()
+- [rpm -ivh](#rpm--ivh)
 - [rpm]()
 - [rpm]()
 - [rpm]()
@@ -28,4 +28,25 @@ rpm -Uvh nome_pacote
 
 ---
 
+#### rpm -ivh
 
+Instalar pacotes. **i**= install, **v**= verbose, **h**= hashing(porcentagem para terminar de instalar).
+
+Ex:
+```bash
+rpm -ivh nome_pacote
+``` 
+
+---
+
+#### rpm
+
+
+
+---
+
+#### rpm
+
+
+
+---
