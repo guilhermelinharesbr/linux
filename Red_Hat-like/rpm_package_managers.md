@@ -7,7 +7,6 @@
 - [rpm -ivh](#rpm--ivh)
 - [rpm -e](#rpm--e)
 - [rpm -q](#rpm--q)
-- [rpm]()
 
 ---
 
@@ -59,16 +58,18 @@ Ex:
 rpm -q nome_pacote
 ``` 
 
----
+Para verificar todos os pacotes instalados no sistema:
 
-#### rpm
+Ex2:
+```bash
+rpm -qa nome_pacote
+``` 
 
+Para exibir informações do pacote, tais como release, tamanho, etc:
 
-
----
-
-#### rpm
-
-
+Ex3:
+```bash
+rpm -qi nome_pacote
+``` 
 
 ---
