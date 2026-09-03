@@ -6,7 +6,7 @@
 - [rpm -Uvh](#rpm--uvh)
 - [rpm -ivh](#rpm--ivh)
 - [rpm -e](#rpm--e)
-- [rpm]()
+- [rpm -q](#rpm--q)
 - [rpm]()
 
 ---
@@ -47,6 +47,23 @@ Ex:
 ```bash
 rpm -e nome_pacote
 ``` 
+
+---
+
+#### rpm -q
+
+Para verificar se um pacote específico está instalado. **q**= query.
+
+Ex:
+```bash
+rpm -q nome_pacote
+``` 
+
+---
+
+#### rpm
+
+
 
 ---
 
