@@ -5,7 +5,7 @@
 - [rpm](#rpm)
 - [rpm -Uvh](#rpm--uvh)
 - [rpm -ivh](#rpm--ivh)
-- [rpm]()
+- [rpm -e](#rpm--e)
 - [rpm]()
 - [rpm]()
 
@@ -39,9 +39,14 @@ rpm -ivh nome_pacote
 
 ---
 
-#### rpm
+#### rpm -e
 
+Desinstalar pacotes. **e**= erase.
 
+Ex:
+```bash
+rpm -e nome_pacote
+``` 
 
 ---
 
