@@ -3,7 +3,7 @@
 
 ### Sumário
 - [snap](#snap)
-- []()
+- [snap refresh](#snap-refresh)
 - []()
 - []()
 - []()
@@ -17,9 +17,14 @@ Gerenciador de Pacotes para o S.O. **Ubuntu 16.04 em diante**. Aplicações em S
 
 ---
 
-#### snap21212
+#### snap refresh
 
+Atualizar um pacote com SNAP. O snap-store é o app que o Snapcraft usa pra gerenciar os pacotes instalados.
 
+Ex:
+```bash
+sudo snap refresh nome_pacote
+```
 
 ---
 
