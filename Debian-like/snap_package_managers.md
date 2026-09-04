@@ -4,7 +4,7 @@
 ### Sumário
 - [snap](#snap)
 - [snap refresh](#snap-refresh)
-- []()
+- [snap install](#snap-install)
 - []()
 - []()
 - []()
@@ -28,5 +28,14 @@ sudo snap refresh nome_pacote
 
 ---
 
+#### snap install
 
+Instala softwares, bibliotecas do sistema.
+
+Ex:
+```bash
+sudo snap install nome_pacote
+```
+
+---
 
