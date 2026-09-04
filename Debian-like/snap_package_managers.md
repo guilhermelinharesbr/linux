@@ -7,7 +7,7 @@
 - [snap install](#snap-install)
 - [snap remove](#snap-remove)
 - [snap find](#snap-find)
-- []()
+- [snap list](#snap-list)
 
 ---
 
@@ -59,6 +59,17 @@ Ex:
 sudo snap find palavra_chave_do_pacote 
 ou
 snap find | grep palavra_chave_do_pacote
+```
+
+---
+
+#### snap list
+
+Lista os pacotes instalados com o SNAP.
+
+Ex:
+```bash
+snap list
 ```
 
 ---
