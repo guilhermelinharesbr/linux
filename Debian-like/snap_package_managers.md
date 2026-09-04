@@ -6,7 +6,7 @@
 - [snap refresh](#snap-refresh)
 - [snap install](#snap-install)
 - [snap remove](#snap-remove)
-- []()
+- [snap find](#snap-find)
 - []()
 
 ---
@@ -46,6 +46,19 @@ Remove softwares, bibliotecas do sistema.
 Ex:
 ```bash
 sudo snap remove nome_pacote
+```
+
+---
+
+#### snap find
+
+Para procurar um pacote a ser instalado.
+
+Ex:
+```bash
+sudo snap find palavra_chave_do_pacote 
+ou
+snap find | grep palavra_chave_do_pacote
 ```
 
 ---
