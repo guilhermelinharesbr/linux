@@ -5,7 +5,7 @@
 - [snap](#snap)
 - [snap refresh](#snap-refresh)
 - [snap install](#snap-install)
-- []()
+- [snap remove](#snap-remove)
 - []()
 - []()
 
@@ -39,3 +39,13 @@ sudo snap install nome_pacote
 
 ---
 
+#### snap remove
+
+Remove softwares, bibliotecas do sistema.
+
+Ex:
+```bash
+sudo snap remove nome_pacote
+```
+
+---
