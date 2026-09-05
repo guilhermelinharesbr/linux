@@ -3,7 +3,7 @@
 
 ### Sumário
 - [yum](#yum)
-- [](#)
+- [yum update](#yum-update)
 - [](#)
 - [](#)
 - [](#)
@@ -19,13 +19,13 @@ Gerenciador de Pacotes padrão ALTO nível para o S.O. Fedora 21(2014) pra trás
 
 ---
 
-#### 
+#### yum update
 
-
+Atualiza repositórios automaticamente.
 
 Ex:
 ```bash
-
+sudo yum update
 ``` 
 
 ---
