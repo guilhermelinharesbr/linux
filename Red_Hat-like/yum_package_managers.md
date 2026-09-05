@@ -5,7 +5,7 @@
 - [yum](#yum)
 - [yum update](#yum-update)
 - [yum install](#yum-install)
-- [](#)
+- [yum remove](#yum-remove)
 - [](#)
 - [](#)
 
@@ -37,6 +37,17 @@ Instala softwares, bibliotecas do sistema.
 Ex:
 ```bash
 sudo yum install nome_pacote
+``` 
+
+---
+
+#### yum remove
+
+Remove softwares, bibliotecas do sistema.
+
+Ex:
+```bash
+sudo yum remove nome_pacote
 ``` 
 
 ---
