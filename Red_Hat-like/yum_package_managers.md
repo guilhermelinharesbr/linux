@@ -6,10 +6,7 @@
 - [yum update](#yum-update)
 - [yum install](#yum-install)
 - [yum remove](#yum-remove)
-- [](#)
-- [](#)
-
-
+- [yum search](#yum-search)
 
 ---
 
@@ -39,6 +36,11 @@ Ex:
 sudo yum install nome_pacote
 ``` 
 
+Instalação de pacotes a partir de uma URL:
+```bash
+sudo yum install $url
+``` 
+
 ---
 
 #### yum remove
@@ -48,6 +50,19 @@ Remove softwares, bibliotecas do sistema.
 Ex:
 ```bash
 sudo yum remove nome_pacote
+``` 
+
+Obs: O YUM **não inclui** um comando _autoremove_ para encontrar e remover dependências não utilizadas.
+
+---
+
+#### yum search
+
+Para procurar um pacote a ser instalado.
+
+Ex:
+```bash
+sudo yum search nome_pacote
 ``` 
 
 ---
