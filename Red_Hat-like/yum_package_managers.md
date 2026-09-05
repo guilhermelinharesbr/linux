@@ -4,7 +4,7 @@
 ### Sumário
 - [yum](#yum)
 - [yum update](#yum-update)
-- [](#)
+- [yum install](#yum-install)
 - [](#)
 - [](#)
 - [](#)
@@ -30,4 +30,13 @@ sudo yum update
 
 ---
 
+#### yum install
 
+Instala softwares, bibliotecas do sistema.
+
+Ex:
+```bash
+sudo yum install nome_pacote
+``` 
+
+---
