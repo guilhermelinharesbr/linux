@@ -18,11 +18,13 @@ O **iptables** é o programa padrão de firewall para sistemas Linux que control
 
 #### -V
 
-
+A opção **-V** ou **--version** serve para mostrar a versão do iptables.
 
 Ex:
 ```bash
 iptables -V
+ou
+iptables --version
 ``` 
 
 ---
