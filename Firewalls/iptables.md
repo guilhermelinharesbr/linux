@@ -3,7 +3,8 @@
 
 ### Sumário
 - [Definição](#definição)
-- [-V](#-v)
+- [-V / --version](#-v----version)
+- [-v / --verbose](#-v----verbose)
 - [-L](#-l)
 - [-n](#-n)
 - [iptables-save](#iptables-save)
@@ -18,7 +19,7 @@ O **iptables** é o programa padrão de firewall para sistemas Linux que control
 
 ---
 
-#### -V
+#### -V / --version
 
 A opção **-V** ou **--version** serve para mostrar a versão do iptables.
 
@@ -27,6 +28,17 @@ Ex:
 iptables -V
 ou
 iptables --version
+``` 
+
+---
+
+#### -v / --verbose
+
+A opção **-v** ou **--verbose** serve para mostrar mais detalhes.
+
+Ex:
+```bash
+iptables -L -n -v
 ``` 
 
 ---
