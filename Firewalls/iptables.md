@@ -5,6 +5,7 @@
 - [Definição](#definição)
 - [-V](#-v)
 - [-L](#-l)
+- [-n](#-n)
 
 
 ---
@@ -38,6 +39,19 @@ Ex:
 iptables -L
 ou
 iptables -L -t filter
+``` 
+
+---
+
+#### -n
+
+A opção **-n** ou **--numeric** serve para mostrar uma saída numérica, ou seja, sem traduzir os números em nomes. 
+
+Ex:
+```bash
+iptables -L -n
+ou
+iptables -L --numeric
 ``` 
 
 ---
