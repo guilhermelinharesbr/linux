@@ -6,6 +6,8 @@
 - [-V](#-v)
 - [-L](#-l)
 - [-n](#-n)
+- [iptables-save](#iptable-save)
+- [iptables-restore](#)
 
 
 ---
@@ -55,3 +57,15 @@ iptables -L --numeric
 ``` 
 
 ---
+
+#### iptable-save
+
+Salva as regras do iptables, geralmente se redireciona a sáida para um arquivo.
+
+Ex. Salvando a saída do comando em um arquivo:
+```bash
+iptables-save > /etc/iptables.rules
+``` 
+
+---
+
