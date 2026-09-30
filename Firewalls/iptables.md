@@ -9,6 +9,7 @@
 - [-n / --numeric](#-n----numeric)
 - [-A / --append | -p / --protocol | -j / --jump](#-a----append---p----protocol---j----jump)
 - [-D / --delete](#-d----delete)
+- [-d / --destination](#-d----destination)
 - [-F / --flush](#-f----flush)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
@@ -100,6 +101,17 @@ iptables -t filter -D INPUT -p icmp -j DROP
 ```
 
 A opção **-D** ou **--delete** serve para deletar uma regra de uma chain.
+
+---
+
+#### -d / --destination
+
+A opção **-d** ou **--destination** serve para definir um IP ou rede de destino.
+
+Ex:
+```bash
+iptables -t filter -A INPUT -p icmp -d 10.40.20.112 -j DROP
+```
 
 ---
 
