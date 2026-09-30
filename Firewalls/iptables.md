@@ -8,6 +8,7 @@
 - [-L / --list](#-l----list)
 - [-n / --numeric](#-n----numeric)
 - [-A / --append | -p / --protocol | -j / --jump](#-a----append---p----protocol---j----jump)
+- [-D / --delete](#-d----delete)
 - [-F / --flush](#-f----flush)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
@@ -86,6 +87,19 @@ A opção **-A** ou **--append** serve adicionar uma regra em uma chain, no caso
 A opção **-p** ou **--protocol** serve para indicar qual o protocolo.
 A opção **-j** ou **--jump** serve para indicar a ação que será executada, no caso acima é de **DROP**, ou seja, bloquear.
 Resumindo, foi adicionada uma regra na chain INPUT da tabela filter, bloqueando o protocolo **icmp**, não importando a origem e o destino.
+
+---
+
+#### -D / --delete
+
+Com base no exemplo abaixo será explicada a opção **-D**.
+
+Ex:
+```bash
+iptables -t filter -D INPUT -p icmp -j DROP
+```
+
+A opção **-D** ou **--delete** serve para deletar uma regra de uma chain.
 
 ---
 
