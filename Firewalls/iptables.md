@@ -7,7 +7,7 @@
 - [-v / --verbose](#-v----verbose)
 - [-L / --list](#-l----list)
 - [-n / --numeric](#-n----numeric)
-- [-A / --append](#)
+- [-A / --append | -p / --protocol | -j / --jump](#-a----append---p----protocol---j----jump)
 - [-F / --flush](#-f----flush)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
@@ -72,7 +72,7 @@ iptables -L --numeric
 
 ---
 
-#### -A / --append | -p / --protocol
+#### -A / --append | -p / --protocol | -j / --jump
 
 Com base no exemplo abaixo serão explicadas as opções **-A**, **-p** e **-j**.
 
