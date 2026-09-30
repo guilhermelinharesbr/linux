@@ -5,8 +5,9 @@
 - [Definição](#definição)
 - [-V / --version](#-v----version)
 - [-v / --verbose](#-v----verbose)
-- [-L](#-l)
-- [-n](#-n)
+- [-L / --list](#-l----list)
+- [-n / --numeric](#-n----numeric)
+- [-F / --flush](#-f----flush)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
 
@@ -43,7 +44,7 @@ iptables -L -n -v
 
 ---
 
-#### -L
+#### -L / --list
 
 Lista todas as chains da tabela filter bem como suas regras.
 Ao digitar iptables **-L** é o mesmo que digitar iptables **-L -t filter**, pois a tabela filter é a tabela default do comando iptables.
@@ -57,7 +58,7 @@ iptables -L -t filter
 
 ---
 
-#### -n
+#### -n / --numeric
 
 A opção **-n** ou **--numeric** serve para mostrar uma saída numérica, ou seja, sem traduzir os números em nomes. 
 
@@ -66,6 +67,22 @@ Ex:
 iptables -L -n
 ou
 iptables -L --numeric
+``` 
+
+---
+
+#### -F / --flush
+
+A opção **-F** ou **--flush** serve para deletar todas as regras de uma chain ou de todas as chains.
+
+Ex. Apagando as regras de todas as chain:
+```bash
+iptables -F
+``` 
+
+Ex2. Apagando as regras da chain OUTPUT:
+```bash
+iptables -F OUTPUT
 ``` 
 
 ---
