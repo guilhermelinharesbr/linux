@@ -7,6 +7,7 @@
 - [-v / --verbose](#-v----verbose)
 - [-L / --list](#-l----list)
 - [-n / --numeric](#-n----numeric)
+- [-A / --append](#)
 - [-F / --flush](#-f----flush)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
@@ -68,6 +69,23 @@ iptables -L -n
 ou
 iptables -L --numeric
 ``` 
+
+---
+
+#### -A / --append
+
+
+
+Ex:
+```bash
+iptables -t filter -A INPUT -p icmp -j DROP
+``` 
+
+Explicando o comando acima:
+A opção **-A** ou **--append** serve adicionar uma regra em uma chain, no caso acima foi na chain **INPUT**, além disso ao usar a opção -A, a regra sempre é adicionada no final. Lembrando que o iptables trabalha na estrutura top/down.
+A opção **-p** ou **--protocol** serve para indicar qual o protocolo.
+A opção **-j** ou **--jump** serve para indicar a ação que será executada, no caso acima é de **DROP**, ou seja, bloquear.
+Resumindo, foi adicionada uma regra na chain INPUT da tabela filter, bloqueando o protocolo **icmp**, não importando a origem e o destino.
 
 ---
 
