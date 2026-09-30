@@ -72,9 +72,9 @@ iptables -L --numeric
 
 ---
 
-#### -A / --append
+#### -A / --append | -p / --protocol
 
-
+Com base no exemplo abaixo serão explicadas as opções **-A**, **-p** e **-j**.
 
 Ex:
 ```bash
