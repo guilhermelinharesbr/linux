@@ -13,6 +13,8 @@
 - [-s / --source](#-s----source)
 - [-F / --flush](#-f----flush)
 - [-I / --insert](#-i----insert)
+- [--dport](#--dport)
+- [--sport](#)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
 
@@ -153,6 +155,22 @@ Ex:
 iptables -t filter -I INPUT 1 -p icmp -s 192.168.1.104 -j ACCEPT 
 ou
 iptables -t filter -I INPUT -p icmp -s 192.168.1.200 -j ACCEPT
+``` 
+
+Ex2. Colocando o número 3, para que a regra seja criada na posição 3:
+```bash
+iptables -t filter -I INPUT 3 -p icmp -s 192.168.1.230 -j ACCEPT
+``` 
+
+---
+
+#### --dport
+
+Com base no exemplo abaixo será explicada a opção **--dport**.
+
+Ex. Criando uma regra para barrar a porta de destino[destination port(dport)] 1234:
+```bash
+iptables -A FORWARD -p tcp --dport 1234 -j DROP
 ``` 
 
 ---
