@@ -14,7 +14,7 @@
 - [-F / --flush](#-f----flush)
 - [-I / --insert](#-i----insert)
 - [--dport](#--dport)
-- [--sport](#)
+- [--sport](#--sport)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
 
@@ -171,6 +171,17 @@ Com base no exemplo abaixo será explicada a opção **--dport**.
 Ex. Criando uma regra para barrar a porta de destino[destination port(dport)] 1234:
 ```bash
 iptables -A FORWARD -p tcp --dport 1234 -j DROP
+``` 
+
+---
+
+#### --sport
+
+Com base no exemplo abaixo será explicada a opção **--sport**.
+
+Ex. Criando uma regra para barrar a porta de origem[source port(sport)] 1234:
+```bash
+iptables -A INPUT -p tcp --sport 1234 -j DROP
 ``` 
 
 ---
