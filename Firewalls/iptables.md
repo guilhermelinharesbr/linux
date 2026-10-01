@@ -12,6 +12,7 @@
 - [-d / --destination](#-d----destination)
 - [-s / --source](#-s----source)
 - [-F / --flush](#-f----flush)
+- [-I / --insert](#-i----insert)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
 
@@ -139,6 +140,19 @@ iptables -F
 Ex2. Apagando as regras da chain OUTPUT:
 ```bash
 iptables -F OUTPUT
+``` 
+
+---
+
+#### -I / --insert
+
+A opção **-I** ou **--insert** serve para inserir uma regra em uma chain em uma determinada posição, a posição padrão é a 1, ou seja, se não colocar nada após o nome da chain a regra será colocada no topo da lista de regras da chain.
+
+Ex:
+```bash
+iptables -t filter -I INPUT 1 -p icmp -s 192.168.1.104 -j ACCEPT 
+ou
+iptables -t filter -I INPUT -p icmp -s 192.168.1.200 -j ACCEPT
 ``` 
 
 ---
