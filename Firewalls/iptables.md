@@ -10,6 +10,7 @@
 - [-A / --append | -p / --protocol | -j / --jump](#-a----append---p----protocol---j----jump)
 - [-D / --delete](#-d----delete)
 - [-d / --destination](#-d----destination)
+- [-s / --source](#-s----source)
 - [-F / --flush](#-f----flush)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
@@ -110,7 +111,18 @@ A opção **-d** ou **--destination** serve para definir um IP ou rede de destin
 
 Ex:
 ```bash
-iptables -t filter -A INPUT -p icmp -d 10.40.20.112 -j DROP
+iptables -t filter -A INPUT -p icmp -d 192.168.1.112 -j DROP
+```
+
+---
+
+#### -s / --source
+
+A opção **-s** ou **--source** serve para definir um IP ou rede de origem.
+
+Ex. Liberando o ping para a máquina de IP de origem 192.168.1.104:
+```bash
+iptables -t filter -A INPUT -p icmp -s 192.168.1.104 -j ACCEPT
 ```
 
 ---
