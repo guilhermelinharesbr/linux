@@ -15,6 +15,7 @@
 - [-I / --insert](#-i----insert)
 - [--dport](#--dport)
 - [--sport](#--sport)
+- [-i / --in-interface](#-i----in-interface)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
 
@@ -183,6 +184,17 @@ Ex. Criando uma regra para barrar a porta de origem[source port(sport)] 1234:
 ```bash
 iptables -A INPUT -p tcp --sport 1234 -j DROP
 ``` 
+
+---
+
+#### -i / --in-interface
+
+A opção **-i** ou **--in-interface** serve para indicar a interface de entrada, no caso esse **lo** é referente ao _loopback_.
+
+Ex:
+```bash
+iptables -A INPUT -i lo -j ACCEPT
+```
 
 ---
 
