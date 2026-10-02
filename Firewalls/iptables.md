@@ -16,6 +16,7 @@
 - [--dport](#--dport)
 - [--sport](#--sport)
 - [-i / --in-interface](#-i----in-interface)
+- [-o / --out-interface](#-o----out-interface)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
 
@@ -194,6 +195,17 @@ A opção **-i** ou **--in-interface** serve para indicar a interface de entrada
 Ex:
 ```bash
 iptables -A INPUT -i lo -j ACCEPT
+```
+
+---
+
+#### -o / --out-interface
+
+A opção **-o** ou **--out-interface** serve para indicar a interface de saída, no caso esse **lo** é referente ao _loopback_.
+
+Ex:
+```bash
+iptables -A OUTPUT -o lo -j ACCEPT
 ```
 
 ---
