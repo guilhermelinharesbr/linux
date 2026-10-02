@@ -18,6 +18,7 @@
 - [-i / --in-interface](#-i----in-interface)
 - [-o / --out-interface](#-o----out-interface)
 - [-P / --policy](#-p----policy)
+- [-m / --match](#-m----match)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
 
@@ -219,6 +220,18 @@ No caso, está sendo mudado a policy da chain INPUT de ACCEPT para DROP.
 Ex:
 ```bash
 iptables -P INPUT DROP
+```
+
+---
+
+#### -m / --match
+
+A opção **-m** ou **--match** serve para indicar uma correspondência estendida. 
+
+
+Ex. Regra criada para aceitar todos os pacotes que já tenha uma conexão estabelecida:
+```bash
+iptables -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 ```
 
 ---
