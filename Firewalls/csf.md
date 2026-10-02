@@ -3,7 +3,7 @@
 
 ### Sumário
 - [Definição](#definição)
-
+- [-h / --help](#)
 
 
 
@@ -25,13 +25,15 @@ Internamente, ele usa iptables (ou nftables em versões recentes), mas entrega u
 
 ---
 
-#### 
+#### -h / --help
 
-
+Mostra o meu de ajuda do comando csf.
 
 Ex:
 ```bash
-
+csf -h
+ou
+ou csf --help
 ``` 
 
 ---
