@@ -17,6 +17,7 @@
 - [--sport](#--sport)
 - [-i / --in-interface](#-i----in-interface)
 - [-o / --out-interface](#-o----out-interface)
+- [-P / --policy](#-p----policy)
 - [iptables-save](#iptables-save)
 - [iptables-restore](#iptables-restore)
 
@@ -206,6 +207,18 @@ A opção **-o** ou **--out-interface** serve para indicar a interface de saída
 Ex:
 ```bash
 iptables -A OUTPUT -o lo -j ACCEPT
+```
+
+---
+
+#### -P / --policy
+
+A opção **-P** ou **--policy** serve para mudar a policy de uma chain. 
+No caso, está sendo mudado a policy da chain INPUT de ACCEPT para DROP.
+
+Ex:
+```bash
+iptables -P INPUT DROP
 ```
 
 ---
