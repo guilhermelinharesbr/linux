@@ -3,9 +3,8 @@
 
 ### Sumário
 - [Definição](#definição)
-- [-h / --help](#)
-
-
+- [-h / --help](#-h----help)
+- [-v / --version](#-v----version)
 
 ---
 
@@ -38,4 +37,16 @@ ou csf --help
 
 ---
 
+#### -v / --version
+
+Mostra a versão do firewall csf.
+
+Ex:
+```bash
+csf -v
+ou
+ou csf --version
+``` 
+
+---
 
