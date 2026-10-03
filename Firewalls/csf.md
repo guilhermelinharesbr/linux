@@ -3,6 +3,7 @@
 
 ### Sumário
 - [Definição](#definição)
+- [Site e Repositório](#)
 - [Arquivos e Diretórios](#arquivos-e-diretórios)
 - [-h / --help](#-h----help)
 - [-v / --version](#-v----version)
@@ -24,6 +25,13 @@ O CSF é um _wrapper_ (camada de gerenciamento) para o _iptables_ ou _nftables_,
 
 
 Internamente, ele usa iptables (ou nftables em versões recentes), mas entrega um gerenciamento muito mais amigável.
+
+---
+
+#### Site e Repositório
+
+- [Site do Fork](https://docs.configserver.dev/)
+- [Repositório do GitHub do Fork](https://github.com/Aetherinox/csf-firewall)
 
 ---
 
