@@ -32,14 +32,9 @@ Internamente, ele usa iptables (ou nftables em versões recentes), mas entrega u
 - **/etc/csf/** -> Principal diretório de configuração.
 - /etc/csf/**csf.conf** -> Principal arquivo de configuração.
 - /etc/csf/**csf.allow** -> Lista os IPs permitidos.
-- /etc/csf/csf.deny
-/* Lista os IPs bloqueados. */
-- /var/log/lfd.log
-/* Log do LFD(Login Failure Daemon). */
-- /usr/sbin/csf
-/* Binário principal. */
-
-
+- /etc/csf/**csf.deny** -> Lista os IPs bloqueados.
+- /var/log/**lfd.log** -> Log do LFD(Login Failure Daemon).
+- **/usr/sbin/csf** -> Binário principal.
 
 ---
 
