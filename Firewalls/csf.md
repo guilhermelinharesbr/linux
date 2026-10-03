@@ -6,6 +6,7 @@
 - [-h / --help](#-h----help)
 - [-v / --version](#-v----version)
 - [-l / --status](#-l----status)
+- [-l6 / --status6](#-l6----status6)
 
 ---
 
@@ -60,6 +61,19 @@ Ex:
 csf -l
 ou
 csf --status
+``` 
+
+---
+
+#### -l6 / --status6
+
+Mostra a configuração das tabelas IPv6 do iptables.
+
+Ex:
+```bash
+csf -l6
+ou
+csf --status6
 ``` 
 
 ---
