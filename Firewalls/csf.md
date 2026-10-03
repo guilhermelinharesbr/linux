@@ -3,6 +3,7 @@
 
 ### Sumário
 - [Definição](#definição)
+- [Arquivos e Diretórios](#arquivos-e-diretórios)
 - [-h / --help](#-h----help)
 - [-v / --version](#-v----version)
 - [-l / --status](#-l----status)
@@ -23,6 +24,22 @@ O CSF é um _wrapper_ (camada de gerenciamento) para o _iptables_ ou _nftables_,
 
 
 Internamente, ele usa iptables (ou nftables em versões recentes), mas entrega um gerenciamento muito mais amigável.
+
+---
+
+#### Arquivos e Diretórios
+
+- **/etc/csf/** -> Principal diretório de configuração.
+- /etc/csf/**csf.conf** -> Principal arquivo de configuração.
+- /etc/csf/**csf.allow** -> Lista os IPs permitidos.
+- /etc/csf/csf.deny
+/* Lista os IPs bloqueados. */
+- /var/log/lfd.log
+/* Log do LFD(Login Failure Daemon). */
+- /usr/sbin/csf
+/* Binário principal. */
+
+
 
 ---
 
