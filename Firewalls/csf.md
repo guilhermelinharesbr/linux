@@ -5,6 +5,7 @@
 - [Definição](#definição)
 - [-h / --help](#-h----help)
 - [-v / --version](#-v----version)
+- [-l / --status](#-l----status)
 
 ---
 
@@ -32,7 +33,7 @@ Ex:
 ```bash
 csf -h
 ou
-ou csf --help
+csf --help
 ``` 
 
 ---
@@ -45,8 +46,20 @@ Ex:
 ```bash
 csf -v
 ou
-ou csf --version
+csf --version
 ``` 
 
 ---
 
+#### -l / --status
+
+Mostra a configuração das tabelas IPv4 do iptables.
+
+Ex:
+```bash
+csf -l
+ou
+csf --status
+``` 
+
+---
