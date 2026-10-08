@@ -9,7 +9,8 @@
 - [-v / --version](#-v----version)
 - [-l / --status](#-l----status)
 - [-l6 / --status6](#-l6----status6)
-- [-r / --restart](#)
+- [-r / --restart](#-r----restart)
+- [-s / --start](#-s----start)
 
 ---
 
@@ -107,7 +108,20 @@ Ex:
 ```bash
 csf -r
 ou
-csf --resart
+csf --restart
+``` 
+
+---
+
+#### -s / --start
+
+Inicia as regras do firewall.
+
+Ex:
+```bash
+csf -s
+ou
+csf --start
 ``` 
 
 ---
