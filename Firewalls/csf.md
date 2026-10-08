@@ -9,6 +9,7 @@
 - [-v / --version](#-v----version)
 - [-l / --status](#-l----status)
 - [-l6 / --status6](#-l6----status6)
+- [-r / --restart](#)
 
 ---
 
@@ -94,6 +95,19 @@ Ex:
 csf -l6
 ou
 csf --status6
+``` 
+
+---
+
+#### -r / --restart
+
+Reinicia as regras do firewall.
+
+Ex:
+```bash
+csf -r
+ou
+csf --resart
 ``` 
 
 ---
