@@ -26,5 +26,11 @@ apt install screen
 ```
 
 
+Derivados do Red Hat:
+```bash
+dnf install screen
+
+
+
 ---
 
