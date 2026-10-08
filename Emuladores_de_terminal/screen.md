@@ -25,12 +25,11 @@ Derivados do Debian:
 apt install screen
 ```
 
-
 Derivados do Red Hat:
 ```bash
 dnf install screen
-
-
+ou
+yum install screen
+```
 
 ---
-
