@@ -5,8 +5,7 @@
 - [Definição](#definição)
 - [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
-- [Comandos com CTRL + A](#)
-
+- [Comandos com CTRL + A](#comandos-com-ctrl--a)
 
 ---
 
@@ -39,5 +38,12 @@ dnf install screen
 ou
 yum install screen
 ```
+
+---
+
+#### Comandos com CTRL + A
+
+Existem diversos subcomandos do screen precisão ser precedidos por CTRL + A.
+Estes subcomandos serão mostrados mais abaixo neste artigo.
 
 ---
