@@ -8,6 +8,7 @@
 - [Comandos com CTRL + A](#comandos-com-ctrl--a)
 - [CTRL + A + :caption always %w](#ctrl--a--caption-always-w)
 - [CTRL + A + c](#ctrl--a--c)
+- [CTRL + A + n](#ctrl--a--n)
 
 ---
 
@@ -60,5 +61,11 @@ O **CTRL + A** habilita a parte de configuração do screen, digitar **:caption 
 #### CTRL + A + c
 
 O **CTRL + A** habilita a parte de configuração do screen, digitar **c** que vem de **create**, cria uma nova aba de terminal.
+
+---
+
+#### CTRL + A + n
+
+O **CTRL + A** habilita a parte de configuração do screen, digitar **n** que vem de **next**, vai para a próxima aba do terminal.
 
 ---
