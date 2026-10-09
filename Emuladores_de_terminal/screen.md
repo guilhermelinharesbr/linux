@@ -3,7 +3,9 @@
 
 ### Sumário
 - [Definição](#definição)
+- [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
+- [Comandos com CTRL + A](#)
 
 
 ---
@@ -15,6 +17,12 @@ O **screen** é um software que permite trabalharmos com vários terminais ao me
 Um item muito interessante é que o Screen permite anexar e desanexar sessões de terminais. 
 
 É _indicado_ para rodar comandos em servidores compartilhados, pois pode compartilhar a sessão com outros usuários, bem como rodar comandos em Background, ao invés do _Foreground_ usado pelos terminais padrões dos servidores Linux.  Ex: Dumps e Restores de bancos de dados.
+
+---
+
+#### Site Oficial
+
+- [GNU Screen](https://www.gnu.org/software/screen/)
 
 ---
 
