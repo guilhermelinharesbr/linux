@@ -7,6 +7,7 @@
 - [Pacote de instalação](#pacote-de-instalação)
 - [Comandos com CTRL + A](#comandos-com-ctrl--a)
 - [CTRL + A + :caption always %w](#ctrl--a--caption-always-w)
+- [CTRL + A + c](#ctrl--a--c)
 
 ---
 
@@ -53,5 +54,11 @@ Estes subcomandos serão mostrados mais abaixo neste artigo.
 
 
 O **CTRL + A** habilita a parte de configuração do screen, digitar **:caption always %w**, depois **Enter**, faz com que a tela passe a ter uma tarja branca na parte de baixo, facilanto identifcar que está dentro de uma screen.
+
+---
+
+#### CTRL + A + c
+
+O **CTRL + A** habilita a parte de configuração do screen, digitar **c** que vem de **create**, cria uma nova aba de terminal.
 
 ---
