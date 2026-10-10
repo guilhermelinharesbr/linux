@@ -13,7 +13,8 @@
 - [CTRL + A + p](#ctrl--a--p)
 - [CTRL + A + n](#ctrl--a--n)
 - [OPÇÕES DO COMANDO SCREEN](#opções-do-comando-screen)
-- [ls](#)
+- [-ls / -list](#-ls---list)
+- [-r](#-r)
 
 ---
 
@@ -100,8 +101,26 @@ Existem diversas opções do screen, onde elas serão mostradas mais abaixo nest
 
 ---
 
-#### ls
+#### -ls / -list
 
-O **screen ls** lista os terminais screen atachados ou desatachados.
+O **screen -ls** lista os terminais screen atachados ou desatachados.
+
+```bash
+screen -ls
+ou
+screen -list
+```
+
+---
+
+#### -r
+
+O **screen -r** lista os terminais Attached. Se tiver apenas um, ele já entra na sessão. O **r** vem de **reattach**.
+
+```bash
+screen -r
+ou
+screen -r 727447.ping_externo
+```
 
 ---
