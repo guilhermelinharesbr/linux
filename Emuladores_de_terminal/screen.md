@@ -13,6 +13,7 @@
 - [CTRL + A + p](#ctrl--a--p)
 - [CTRL + A + n](#ctrl--a--n)
 - [OPÇÕES DO COMANDO SCREEN](#opções-do-comando-screen)
+- [ls](#)
 
 ---
 
@@ -96,5 +97,11 @@ O **CTRL + A** habilita a parte de configuração do screen, digitar **n** que v
 ### OPÇÕES DO COMANDO SCREEN
 
 Existem diversas opções do screen, onde elas serão mostradas mais abaixo neste artigo.
+
+---
+
+#### ls
+
+O **screen ls** lista os terminais screen atachados ou desatachados.
 
 ---
