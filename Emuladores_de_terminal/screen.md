@@ -5,13 +5,14 @@
 - [Definição](#definição)
 - [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
-- [Comandos com CTRL + A](#comandos-com-ctrl--a)
+- [COMANDOS COM CTRL + A](#comandos-com-ctrl--a)
 - [CTRL + A + :caption always %w](#ctrl--a--caption-always-w)
 - [CTRL + A + c](#ctrl--a--c)
 - [CTRL + A + d](#ctrl--a--d)
 - [CTRL + A + k](#ctrl--a--k)
 - [CTRL + A + p](#ctrl--a--p)
 - [CTRL + A + n](#ctrl--a--n)
+- [OPÇÕES DO COMANDO SCREEN](#opções-do-comando-screen)
 
 ---
 
@@ -47,7 +48,7 @@ yum install screen
 
 ---
 
-### Comandos com CTRL + A
+### COMANDOS COM CTRL + A
 
 Existem diversos subcomandos do screen precisão ser precedidos por CTRL + A.
 Estes subcomandos serão mostrados mais abaixo neste artigo.
@@ -89,5 +90,11 @@ O **CTRL + A** habilita a parte de configuração do screen, digitar **p** que v
 #### CTRL + A + n
 
 O **CTRL + A** habilita a parte de configuração do screen, digitar **n** que vem de **next**, vai para a próxima aba do terminal.
+
+---
+
+### OPÇÕES DO COMANDO SCREEN
+
+Existem diversas opções do screen, onde elas serão mostradas mais abaixo neste artigo.
 
 ---
