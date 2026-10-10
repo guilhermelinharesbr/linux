@@ -8,6 +8,7 @@
 - [Comandos com CTRL + A](#comandos-com-ctrl--a)
 - [CTRL + A + :caption always %w](#ctrl--a--caption-always-w)
 - [CTRL + A + c](#ctrl--a--c)
+- [CTRL + A + d](#ctrl--a--d)
 - [CTRL + A + p](#ctrl--a--p)
 - [CTRL + A + n](#ctrl--a--n)
 
@@ -62,6 +63,12 @@ O **CTRL + A** habilita a parte de configuração do screen, digitar **:caption 
 #### CTRL + A + c
 
 O **CTRL + A** habilita a parte de configuração do screen, digitar **c** que vem de **create**, cria uma nova aba de terminal.
+
+---
+
+#### CTRL + A + d
+
+O **CTRL + A** habilita a parte de configuração do screen, digitar **d** que vem de **detached**, na prática ele sai do terminar sem matar a sessão.
 
 ---
 
