@@ -9,6 +9,7 @@
 - [CTRL + A + :caption always %w](#ctrl--a--caption-always-w)
 - [CTRL + A + c](#ctrl--a--c)
 - [CTRL + A + d](#ctrl--a--d)
+- [CTRL + A + k](#ctrl--a--k)
 - [CTRL + A + p](#ctrl--a--p)
 - [CTRL + A + n](#ctrl--a--n)
 
@@ -69,6 +70,13 @@ O **CTRL + A** habilita a parte de configuração do screen, digitar **c** que v
 #### CTRL + A + d
 
 O **CTRL + A** habilita a parte de configuração do screen, digitar **d** que vem de **detached**, na prática ele sai do terminar sem matar a sessão.
+
+---
+
+#### CTRL + A + k
+
+O **CTRL + A** habilita a parte de configuração do screen, digitar **k** que vem de **kill**, mata a sessão atual.
+Muito usado para cancelar um comando que tenha loop e que tenha sido executado dentro da screen.
 
 ---
 
