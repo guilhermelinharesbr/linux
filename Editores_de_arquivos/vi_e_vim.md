@@ -16,7 +16,7 @@ Em 1991, foi lançado o editor **Vim**, uma derivação melhorada do **vi** (o n
 
 O vi é o principal editor em modo texto do Linux.
 
-
+O vi ao ser executado procura por um arquivo de configuração  chamado “**.vimrc**” no diretório **HOME** dos usuários. Nem sempre este arquivo existe, mas pode ser criado pelo usuário para fazer algumas coisas bacanas com o vi, que serão mostradas no Exemplos desse arquivo do Google Drive.
 
 
 ---
