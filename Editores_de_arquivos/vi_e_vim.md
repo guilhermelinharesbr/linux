@@ -31,14 +31,14 @@ O vi ao ser executado procura por um arquivo de configuração  chamado “**.vi
 
 Derivados do Debian:
 ```bash
-apt install 
+apt install vim
 ```
 
 Derivados do Red Hat:
 ```bash
-dnf install
+dnf install vim
 ou
-yum install 
+yum install vim
 ```
 
 ---
