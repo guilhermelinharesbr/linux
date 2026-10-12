@@ -15,6 +15,7 @@
 - [OPÇÕES DO COMANDO SCREEN](#opções-do-comando-screen)
 - [-ls / -list](#-ls---list)
 - [-r](#-r)
+- [-S](#-s)
 
 ---
 
@@ -121,6 +122,17 @@ O **screen -r** lista os terminais Attached. Se tiver apenas um, ele já entra n
 screen -r
 ou
 screen -r 727447.ping_externo
+```
+
+---
+
+#### -S
+
+O **screen -S** coloca um nome em uma nova screen. O **S** vem de **sockname**.
+
+```bash
+screen -S imapsync
+screen -S backup
 ```
 
 ---
