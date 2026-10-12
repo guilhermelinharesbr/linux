@@ -16,6 +16,7 @@
 - [-ls / -list](#-ls---list)
 - [-r](#-r)
 - [-S](#-s)
+- [-x](#-x)
 
 ---
 
@@ -133,6 +134,17 @@ O **screen -S** coloca um nome em uma nova screen. O **S** vem de **sockname**.
 ```bash
 screen -S imapsync
 screen -S backup
+```
+
+---
+
+#### -x
+
+O **screen -x** é usado para _Multi-display_ entra em uma screen que já esteja _Attached_ em outra máquina, _sem derrubar a sessão_ da outra pessoa. 
+
+```bash
+screen -x 8059.imapsync
+screen -x 8098.backup
 ```
 
 ---
