@@ -8,6 +8,7 @@
 - [ATALHOS](#atalhos)
 - [/](#---barra)
 - [?](#---interrogação)
+- [\\](#---barra-invertida)
 
 ---
 
@@ -62,3 +63,13 @@ O **?** é usado para realizar uma pesquisa. Pesquisa do **final** do arquivo pa
 
 ---
 
+#### \ -> barra invertida
+
+O **\\** é usado para escapar um caractere especial. 
+
+Ex:  
+``/03\/May\/2022\:16`` para pesquisar uma data no caso **03/May/2022:16**. 
+
+Usa padrão _ERE_(Extended Regular Expression). A presença da contrabarra significa que o caractere posterior deve ser interpretado como literal. Isso significa que não são usadas barras invertidas para identificar metacaracteres.
+
+---
