@@ -12,6 +12,7 @@
 - [CTRL + A + k](#ctrl--a--k)
 - [CTRL + A + p](#ctrl--a--p)
 - [CTRL + A + n](#ctrl--a--n)
+- [CTRL + A + Nº](#ctrl--a--nº)
 - [OPÇÕES DO COMANDO SCREEN](#opções-do-comando-screen)
 - [-ls / -list](#-ls---list)
 - [-r](#-r)
@@ -94,6 +95,13 @@ O **CTRL + A** habilita a parte de configuração do screen, digitar **p** que v
 #### CTRL + A + n
 
 O **CTRL + A** habilita a parte de configuração do screen, digitar **n** que vem de **next**, vai para a próxima aba do terminal.
+
+---
+
+#### CTRL + A + Nº
+
+O **CTRL + A** habilita a parte de configuração do screen, digitar **3** vai pra _quarta_ aba, pois as abas são numeradas a partir do **0**.
+
 
 ---
 
