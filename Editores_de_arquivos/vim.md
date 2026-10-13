@@ -6,7 +6,7 @@
 - [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
 - [ATALHOS](#atalhos)
-- [/](#)
+- [/](#---barra)
 
 
 ---
@@ -44,11 +44,16 @@ yum install vim
 
 ---
 
-#### ATALHOS
+### ATALHOS
 
 O **vim** possui diversos atalhos para facilitar a sua atulização.
 
 ---
 
+#### / -> barra
+
+O **/** é usado para realizar uma pesquisa. Pesquisa do começo do arquivo para o final.
+
+---
 
 
