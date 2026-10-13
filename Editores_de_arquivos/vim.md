@@ -7,7 +7,7 @@
 - [Pacote de instalação](#pacote-de-instalação)
 - [ATALHOS](#atalhos)
 - [/](#---barra)
-
+- [?](#---interrogação)
 
 ---
 
@@ -52,8 +52,13 @@ O **vim** possui diversos atalhos para facilitar a sua atulização.
 
 #### / -> barra
 
-O **/** é usado para realizar uma pesquisa. Pesquisa do começo do arquivo para o final.
+O **/** é usado para realizar uma pesquisa. Pesquisa do **começo** do arquivo para o final.
 
 ---
 
+#### ? -> interrogação
+
+O **?** é usado para realizar uma pesquisa. Pesquisa do **final** do arquivo para o começo.
+
+---
 
