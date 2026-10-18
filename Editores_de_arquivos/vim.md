@@ -12,7 +12,8 @@
 - [\\](#---barra-invertida)
 - [n](#n)
 - [N](#n-maiúsculo)
-- [Comandos para INSERÇÃO](#)
+- [Comandos para INSERÇÃO](#comandos-para-inserção)
+- [i](#i)
 
 ---
 
@@ -95,5 +96,11 @@ Para encontrar as ocorrências anteriores. Do **final** do arquivo para o iníci
 ---
 
 ### Comandos para INSERÇÃO
+
+---
+
+#### i
+
+Entra no modo de Inserção. _Insere_ texto **antes** do cursor.
 
 ---
