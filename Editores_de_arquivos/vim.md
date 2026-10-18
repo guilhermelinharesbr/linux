@@ -9,6 +9,7 @@
 - [/](#---barra)
 - [?](#---interrogação)
 - [\\](#---barra-invertida)
+- [n](#n)
 
 ---
 
@@ -71,5 +72,11 @@ Ex:
 ``/03\/May\/2022\:16`` para pesquisar uma data no caso **03/May/2022:16**. 
 
 Usa padrão _ERE_(Extended Regular Expression). A presença da contrabarra significa que o caractere posterior deve ser interpretado como literal. Isso significa que não são usadas barras invertidas para identificar metacaracteres.
+
+---
+
+#### n 
+
+Para encontrar as próximas ocorrências(next). Do início do arquivo para o final se for usado em conjunto com o / e do fim do arquivo para o início se for usado em conjunto com o ? .
 
 ---
