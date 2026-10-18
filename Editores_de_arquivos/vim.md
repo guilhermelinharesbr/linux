@@ -6,6 +6,7 @@
 - [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
 - [ATALHOS](#atalhos)
+- [Comandos de PESQUISA](#comandos-de-pesquisa)
 - [/](#---barra)
 - [?](#---interrogação)
 - [\\](#---barra-invertida)
@@ -50,6 +51,10 @@ yum install vim
 ### ATALHOS
 
 O **vim** possui diversos atalhos para facilitar a sua atulização.
+
+---
+
+### Comandos de PESQUISA
 
 ---
 
