@@ -12,6 +12,7 @@
 - [\\](#---barra-invertida)
 - [n](#n)
 - [N](#n-maiúsculo)
+- [Comandos para INSERÇÃO](#)
 
 ---
 
@@ -90,5 +91,9 @@ Para encontrar as próximas ocorrências(next). Do **início** do arquivo para o
 #### N maiúsculo
 
 Para encontrar as ocorrências anteriores. Do **final** do arquivo para o início se for usado em conjunto com o / e do início do arquivo para o fim se for usado em conjunto com o ? .
+
+---
+
+### Comandos para INSERÇÃO
 
 ---
