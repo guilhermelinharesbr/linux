@@ -14,6 +14,7 @@
 - [N](#n-maiúsculo)
 - [Comandos para INSERÇÃO](#comandos-para-inserção)
 - [i](#i)
+- [o](#o)
 
 ---
 
@@ -102,5 +103,11 @@ Para encontrar as ocorrências anteriores. Do **final** do arquivo para o iníci
 #### i
 
 Entra no modo de Inserção. _Insere_ texto **antes** do cursor.
+
+---
+
+#### o
+
+Entra no modo de Inserção. Insere texto em uma nova linha em branco, no caso na linha **abaixo** de onde o cursor está.
 
 ---
