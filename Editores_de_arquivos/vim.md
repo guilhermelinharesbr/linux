@@ -10,6 +10,7 @@
 - [?](#---interrogação)
 - [\\](#---barra-invertida)
 - [n](#n)
+- [N](#n-maiúsculo)
 
 ---
 
@@ -77,6 +78,12 @@ Usa padrão _ERE_(Extended Regular Expression). A presença da contrabarra signi
 
 #### n 
 
-Para encontrar as próximas ocorrências(next). Do início do arquivo para o final se for usado em conjunto com o / e do fim do arquivo para o início se for usado em conjunto com o ? .
+Para encontrar as próximas ocorrências(next). Do **início** do arquivo para o final se for usado em conjunto com o / e do fim do arquivo para o início se for usado em conjunto com o ? .
+
+---
+
+#### N maiúsculo
+
+Para encontrar as ocorrências anteriores. Do **final** do arquivo para o início se for usado em conjunto com o / e do início do arquivo para o fim se for usado em conjunto com o ? .
 
 ---
