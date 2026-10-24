@@ -16,6 +16,7 @@
 - [i](#i)
 - [o](#o)
 - [O](#o-maiúsculo)
+- [a](#a)
 
 ---
 
@@ -116,5 +117,11 @@ Entra no modo de Inserção. Insere texto em uma nova linha em branco, no caso n
 #### O maiúsculo
 
 Entra no modo de Inserção. Insere texto em uma nova linha em branco, no caso na linha **acima** de onde o cursor está. 
+
+---
+
+#### a
+
+Entra no modo de Inserção. Insere texto **depois(after) do cursor**.  
 
 ---
