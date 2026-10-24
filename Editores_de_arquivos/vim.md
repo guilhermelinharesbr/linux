@@ -20,6 +20,7 @@
 - [A](#a-maiúsculo)
 - [Esc](#esc)
 - [Comandos para EDIÇÃO DE TEXTO](#comandos-para-edição-de-texto)
+- [c](#c)
 
 ---
 
@@ -142,5 +143,11 @@ Para sair do modo de inserção.
 ---
 
 ### Comandos para EDIÇÃO DE TEXTO
+
+---
+
+#### c
+
+Recorta(cut) o texto marcado. 
 
 ---
