@@ -19,6 +19,7 @@
 - [a](#a)
 - [A](#a-maiúsculo)
 - [Esc](#esc)
+- [Comandos para EDIÇÃO DE TEXTO](#comandos-para-edição-de-texto)
 
 ---
 
@@ -137,5 +138,9 @@ Entra no modo de Inserção. Insere texto no **final da linha** em que o cursor 
 #### Esc
 
 Para sair do modo de inserção.    
+
+---
+
+### Comandos para EDIÇÃO DE TEXTO
 
 ---
