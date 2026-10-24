@@ -18,6 +18,7 @@
 - [O](#o-maiúsculo)
 - [a](#a)
 - [A](#a-maiúsculo)
+- [Esc](#esc)
 
 ---
 
@@ -130,5 +131,11 @@ Entra no modo de Inserção. Insere texto **depois(after) do cursor**.
 #### A maiúsculo
 
 Entra no modo de Inserção. Insere texto no **final da linha** em que o cursor está.
+
+---
+
+#### Esc
+
+Para sair do modo de inserção.    
 
 ---
