@@ -5,8 +5,6 @@
 - [Definição](#definição)
 - [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
-- [ATALHOS](#atalhos)
-
 
 ---
 
@@ -31,14 +29,14 @@ Ao entrar no Nano ele abre um Menu na parte inferior da tela, onde aparece **^**
 
 Derivados do Debian:
 ```bash
-apt install 
+apt install nano
 ```
 
 Derivados do Red Hat:
 ```bash
-dnf install 
+dnf install nano
 ou
-yum install 
+yum install nano
 ```
 
 ---
