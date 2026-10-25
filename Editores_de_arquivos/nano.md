@@ -5,6 +5,7 @@
 - [Definição](#definição)
 - [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
+- [Comandos](#comandos)
 
 ---
 
@@ -40,3 +41,9 @@ yum install nano
 ```
 
 ---
+
+### Comandos
+
+---
+
+#### nano
