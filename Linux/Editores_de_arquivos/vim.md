@@ -21,6 +21,7 @@
     - [Esc](#esc)
 - [Comandos para EDIÇÃO DE TEXTO](#comandos-para-edição-de-texto)
     - [c](#c)
+    - [p](#p)
     - [u](#u)
     - [U](#u-maiúsculo)
 
@@ -151,6 +152,14 @@ Para sair do modo de inserção.
 #### c
 
 Recorta(cut) o texto marcado. 
+
+---
+
+#### p
+
+ Para colar(paste) texto marcado. Ele cola na linha **abaixo** do cursor.
+Não entra no modo de inserção após colar.
+
 
 ---
 
