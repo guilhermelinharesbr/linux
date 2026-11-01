@@ -22,6 +22,7 @@
 - [Comandos para EDIÇÃO DE TEXTO](#comandos-para-edição-de-texto)
     - [c](#c)
     - [u](#u)
+    - [U](#u-maiúsculo)
 
 ---
 
@@ -156,5 +157,11 @@ Recorta(cut) o texto marcado.
 #### u
 
 Desfaz a última alteração independente da linha. Ao continuar usando o **u** ele vai desfazendo cada alteração até não sobrar nenhuma. 
+
+---
+
+#### U maiúsculo
+
+Desfaz somente a última alteração em determinada linha. Ao continuar usando o **U** ele não tem efeito, pois só foca na última alteração de determinada linha.
 
 ---
