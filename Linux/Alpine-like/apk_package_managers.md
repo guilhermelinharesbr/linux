@@ -13,7 +13,9 @@
     - [apk update && apk upgrade](#apk-update--apk-upgrade)
 - [Consultando informações do pacote](#)
     - [apk search](#apk-search)
-    - [apk info](#)
+    - [apk info](#apk-info)
+- [Variados](#)
+    - [apk stats](#apk-stats)
 
 ---
 
@@ -113,7 +115,23 @@ Fornece informações detalhadas sobre pacotes ou repositórios.
 
 Ex:
 ```bash
-apk info termo_pesquisa
+apk info nome_pacote
+```
+
+---
+
+### Variados
+
+---
+
+#### apk stats
+
+Exibe estatísticas sobre repositórios e instalações, como pacotes instalados e disponíveis para instalação, total de arquivos e diretórios, etc.
+
+
+Ex:
+```bash
+apk stats
 ```
 
 ---
