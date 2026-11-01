@@ -11,9 +11,11 @@
     - [apk update](#apk-update)
     - [apk upgrade](#apk-upgrade)
     - [apk update && apk upgrade](#apk-update--apk-upgrade)
-- [Consultando informações do pacote](#)
+- [Consultando informações do pacote](#consultando-informações-do-pacote)
     - [apk search](#apk-search)
     - [apk info](#apk-info)
+- [Manutenção de repositórios e pacotes](#manutenção-de-repositórios-e-pacotes)
+    - [apk manifest](#apk-manifest)
 - [Variados](#)
     - [apk stats](#apk-stats)
 
@@ -116,6 +118,21 @@ Fornece informações detalhadas sobre pacotes ou repositórios.
 Ex:
 ```bash
 apk info nome_pacote
+```
+
+---
+
+### Manutenção de repositórios e pacotes
+
+---
+
+#### apk manifest
+
+Exibe os checksums do conteúdo do pacote.
+
+Ex:
+```bash
+apk manifest nome_pacote
 ```
 
 ---
