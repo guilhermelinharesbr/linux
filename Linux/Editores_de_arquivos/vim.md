@@ -7,20 +7,21 @@
 - [Pacote de instalação](#pacote-de-instalação)
 - [ATALHOS](#atalhos)
 - [Comandos de PESQUISA](#comandos-de-pesquisa)
-- [/](#---barra)
-- [?](#---interrogação)
-- [\\](#---barra-invertida)
-- [n](#n)
-- [N](#n-maiúsculo)
+    - [/](#---barra)
+    - [?](#---interrogação)
+    - [\\](#---barra-invertida)
+    - [n](#n)
+    - [N](#n-maiúsculo)
 - [Comandos para INSERÇÃO](#comandos-para-inserção)
-- [i](#i)
-- [o](#o)
-- [O](#o-maiúsculo)
-- [a](#a)
-- [A](#a-maiúsculo)
-- [Esc](#esc)
+    - [i](#i)
+    - [o](#o)
+    - [O](#o-maiúsculo)
+    - [a](#a)
+    - [A](#a-maiúsculo)
+    - [Esc](#esc)
 - [Comandos para EDIÇÃO DE TEXTO](#comandos-para-edição-de-texto)
-- [c](#c)
+    - [c](#c)
+    - [u](#u)
 
 ---
 
@@ -149,5 +150,11 @@ Para sair do modo de inserção.
 #### c
 
 Recorta(cut) o texto marcado. 
+
+---
+
+#### u
+
+Desfaz a última alteração independente da linha. Ao continuar usando o **u** ele vai desfazendo cada alteração até não sobrar nenhuma. 
 
 ---
