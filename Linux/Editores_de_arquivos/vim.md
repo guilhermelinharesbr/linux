@@ -21,6 +21,7 @@
     - [Esc](#esc)
 - [Comandos para EDIÇÃO DE TEXTO](#comandos-para-edição-de-texto)
     - [c](#c)
+    - [h](#h)
     - [p](#p)
     - [u](#u)
     - [U](#u-maiúsculo)
@@ -152,6 +153,12 @@ Para sair do modo de inserção.
 #### c
 
 Recorta(cut) o texto marcado. 
+
+---
+
+#### h
+
+Move o cursor para a esquerda.
 
 ---
 
