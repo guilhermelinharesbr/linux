@@ -29,6 +29,8 @@
 - [Comandos de MOVIMENTAÇÃO do cursor](#comandos-de-movimentação-do-cursor)
     - [h](#h)
     - [j](#j)
+    - [k](#k)
+    - [](#)
 
 
 ---
@@ -205,5 +207,11 @@ Move o cursor para a esquerda.
 #### j
 
 Move o cursor para a linha de baixo.
+
+---
+
+#### k
+
+Move o cursor para a linha de cima.
 
 ---
