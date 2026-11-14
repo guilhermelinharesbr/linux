@@ -30,7 +30,7 @@
     - [h](#h)
     - [j](#j)
     - [k](#k)
-    - [](#)
+    - [l](#l)
 
 
 ---
@@ -213,5 +213,11 @@ Move o cursor para a linha de baixo.
 #### k
 
 Move o cursor para a linha de cima.
+
+---
+
+#### l
+
+Move o cursor para a direita.
 
 ---
