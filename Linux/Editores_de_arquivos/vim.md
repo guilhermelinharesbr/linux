@@ -22,11 +22,14 @@
 - [Comandos para EDIÇÃO DE TEXTO](#comandos-para-edição-de-texto)
     - [c](#c)
     - [D](#d-maiúsculo)
-    - [h](#h)
     - [p](#p)
     - [P](#p-maiúsculo)
     - [u](#u)
     - [U](#u-maiúsculo)
+- [Comandos de MOVIMENTAÇÃO do cursor](#comandos-de-movimentação-do-cursor)
+    - [h](#h)
+    - [j](#j)
+
 
 ---
 
@@ -164,12 +167,6 @@ Deleta do cursor até o final da linha.
 
 ---
 
-#### h
-
-Move o cursor para a esquerda.
-
----
-
 #### p
 
  Para colar(paste) texto marcado. Ele cola na linha **abaixo** do cursor.
@@ -192,5 +189,21 @@ Desfaz a última alteração independente da linha. Ao continuar usando o **u** 
 #### U maiúsculo
 
 Desfaz somente a última alteração em determinada linha. Ao continuar usando o **U** ele não tem efeito, pois só foca na última alteração de determinada linha.
+
+---
+
+### Comandos de MOVIMENTAÇÃO do cursor
+
+---
+
+#### h
+
+Move o cursor para a esquerda.
+
+---
+
+#### j
+
+Move o cursor para a linha de baixo.
 
 ---
