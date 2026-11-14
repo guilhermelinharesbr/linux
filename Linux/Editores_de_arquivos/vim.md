@@ -31,6 +31,7 @@
     - [j](#j)
     - [k](#k)
     - [l](#l)
+    - [0](#0)
 
 
 ---
@@ -219,5 +220,13 @@ Move o cursor para a linha de cima.
 #### l
 
 Move o cursor para a direita.
+
+---
+
+#### 0
+
+Vai para o início da linha.
+ 
+Obs: número zero.
 
 ---
