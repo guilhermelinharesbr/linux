@@ -24,6 +24,7 @@
     - [D](#d-maiúsculo)
     - [h](#h)
     - [p](#p)
+    - [P](#p-maiúsculo)
     - [u](#u)
     - [U](#u-maiúsculo)
 
@@ -174,6 +175,11 @@ Move o cursor para a esquerda.
  Para colar(paste) texto marcado. Ele cola na linha **abaixo** do cursor.
 Não entra no modo de inserção após colar.
 
+---
+
+#### P maiúsculo
+
+Para colar(paste) texto marcado. Ele cola na linha acima do cursor.
 
 ---
 
