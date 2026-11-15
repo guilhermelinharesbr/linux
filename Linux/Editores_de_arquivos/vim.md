@@ -33,6 +33,7 @@
     - [l](#l)
     - [0](#0)
     - [$](#-caractere)
+    - [G](#g-maiúsculo)
 
 
 ---
@@ -236,4 +237,10 @@ Obs: número zero.
 
 O caractere **$** vai para o final da linha.
  
+---
+
+#### G maiúsculo
+
+A letra **G** maiúscula vai para a última linha do arquivo.
+
 ---
