@@ -34,6 +34,8 @@
     - [0](#0)
     - [$](#-caractere)
     - [G](#g-maiúsculo)
+- [Comandos do MODO DE COMANDOS](#comandos-do-modo-de-comandos)
+    - [:w](#w-comando)
 
 
 ---
@@ -242,5 +244,15 @@ O caractere **$** vai para o final da linha.
 #### G maiúsculo
 
 A letra **G** maiúscula vai para a última linha do arquivo.
+
+---
+
+### Comandos do MODO DE COMANDOS
+
+---
+
+#### :w comando
+
+O comando **:w** salva o arquivo.
 
 ---
