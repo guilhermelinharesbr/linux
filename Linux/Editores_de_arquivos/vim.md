@@ -32,6 +32,7 @@
     - [k](#k)
     - [l](#l)
     - [0](#0)
+    - [$](#-caractere)
 
 
 ---
@@ -225,8 +226,14 @@ Move o cursor para a direita.
 
 #### 0
 
-Vai para o início da linha.
+O número **0** vai para o início da linha.
  
 Obs: número zero.
 
+---
+
+#### $ caractere
+
+O caractere **$** vai para o final da linha.
+ 
 ---
