@@ -37,6 +37,7 @@
 - [Comandos do MODO DE COMANDOS](#comandos-do-modo-de-comandos)
     - [:w](#w-comando)
     - [:q](#q-comando)
+    - [:q!](#q-comando-1)
 
 
 ---
@@ -261,5 +262,11 @@ O comando **:w** salva(written) o arquivo.
 #### :q comando
 
 O comando **:q** sai(quit) do arquivo.
+
+---
+
+#### :q! comando
+
+O comando **:q!** sai(quit) do arquivo sem salvar qualquer alteração realizada. O **!** serve para ignorar qualquer aviso.
 
 ---
