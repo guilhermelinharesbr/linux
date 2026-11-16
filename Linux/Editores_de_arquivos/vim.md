@@ -41,6 +41,7 @@
     - [:q!](#q-comando-1)
     - [:wq](#wq-comando)
     - [:wq!](#wq-comando-1)
+    - [:ce](#ce-comando)
 - [Executando COMANDOS SEM SAIR do VIM](#)
     - [:!](#-comando)
 
@@ -291,6 +292,12 @@ O comando **:wq!** salva e sai do arquivo.
 #### :wq! comando
 
 O comando **:wq!** salva e sai do arquivo, ignorando qualquer aviso.
+
+---
+
+#### :ce comando
+
+O comando **:ce** sai(quit) centraliza(center) a linha em que o cursor está.
 
 ---
 
