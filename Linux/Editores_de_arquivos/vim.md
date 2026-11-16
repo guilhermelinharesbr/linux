@@ -38,6 +38,7 @@
     - [:w](#w-comando)
     - [:q](#q-comando)
     - [:q!](#q-comando-1)
+    - [:wq](#wq-comando)
 
 
 ---
@@ -268,5 +269,11 @@ O comando **:q** sai(quit) do arquivo.
 #### :q! comando
 
 O comando **:q!** sai(quit) do arquivo sem salvar qualquer alteração realizada. O **!** serve para ignorar qualquer aviso.
+
+---
+
+#### :wq comando
+
+O comando **:wq!** salva e sai do arquivo.
 
 ---
