@@ -35,6 +35,7 @@
     - [$](#-caractere)
     - [G](#g-maiúsculo)
 - [Comandos do MODO DE COMANDOS](#comandos-do-modo-de-comandos)
+    - [:help](#help-comando)
     - [:w](#w-comando)
     - [:q](#q-comando)
     - [:q!](#q-comando-1)
@@ -252,6 +253,12 @@ A letra **G** maiúscula vai para a última linha do arquivo.
 ---
 
 ### Comandos do MODO DE COMANDOS
+
+---
+
+#### :help comando
+
+O comando **:help** mostra a ajuda dentro do vim.
 
 ---
 
