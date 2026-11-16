@@ -41,6 +41,8 @@
     - [:q!](#q-comando-1)
     - [:wq](#wq-comando)
     - [:wq!](#wq-comando-1)
+- [Executando COMANDOS SEM SAIR do VIM](#)
+    - [:!](#-comando)
 
 
 ---
@@ -289,5 +291,21 @@ O comando **:wq!** salva e sai do arquivo.
 #### :wq! comando
 
 O comando **:wq!** salva e sai do arquivo, ignorando qualquer aviso.
+
+---
+
+#### Executando COMANDOS SEM SAIR do VIM
+
+---
+
+#### :! comando
+
+O comando **:!** é usado para executar um comando no sistema operacional sem sair do Vim.
+
+Ex: 
+```bash
+# Executando o comando ls -lh dentro do Vim:
+:! ls -lh
+```
 
 ---
