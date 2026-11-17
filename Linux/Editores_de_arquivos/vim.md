@@ -43,8 +43,8 @@
     - [:wq!](#wq-comando-1)
     - [:ce](#ce-comando)
     - [:ri](#ri-comando)
-    - [:](#)
-- [Executando COMANDOS SEM SAIR do VIM](#)
+    - [:le](#le-comando)
+- [Executando COMANDOS SEM SAIR do VIM](#executando-comandos-sem-sair-do-vim)
     - [:!](#-comando)
 
 
@@ -305,7 +305,13 @@ O comando **:ce** centraliza(center) a linha em que o cursor está.
 
 #### :ri comando
 
-O comando **:ce** alinha à direita(right) a linha em que o cursor está.
+O comando **:ri** alinha à direita(right) a linha em que o cursor está.
+
+---
+
+#### :le comando
+
+O comando **:le** alinha à esquerda(left) a linha em que o cursor está.
 
 ---
 
