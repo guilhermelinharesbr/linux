@@ -45,6 +45,7 @@
     - [:ce](#ce-comando)
     - [:ri](#ri-comando)
     - [:le](#le-comando)
+    - [:[número]](#número-comando)
 - [Executando COMANDOS SEM SAIR do VIM](#executando-comandos-sem-sair-do-vim)
     - [:!](#-comando)
 
@@ -272,7 +273,7 @@ O comando **:help** mostra a ajuda dentro do vim.
 
 O comando **:e** para abrir/editar(edit) um arquivo sem sair do vim.
 
-Sintaxe: 
+Exemplos: 
 **:e nome_arquivo** ou **:e [TAB]** para aparecer o arquivos que estão no mesmo diretório.
 
 ---
@@ -322,6 +323,16 @@ O comando **:ri** alinha à direita(right) a linha em que o cursor está.
 #### :le comando
 
 O comando **:le** alinha à esquerda(left) a linha em que o cursor está.
+
+---
+
+#### :[número] comando
+
+O comando **:[nº]** serve para ir direto para uma linha específica no arquivo.
+
+Exemplos: 
+**:5** -> vai para a linha 5 do arquivo.
+**:8** -> vai para a linha 8 do arquivo.
 
 ---
 
