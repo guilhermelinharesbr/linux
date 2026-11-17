@@ -36,6 +36,7 @@
     - [G](#g-maiúsculo)
 - [Comandos do MODO DE COMANDOS](#comandos-do-modo-de-comandos)
     - [:help](#help-comando)
+    - [:e](#e-comando)
     - [:w](#w-comando)
     - [:q](#q-comando)
     - [:q!](#q-comando-1)
@@ -264,6 +265,15 @@ A letra **G** maiúscula vai para a última linha do arquivo.
 #### :help comando
 
 O comando **:help** mostra a ajuda dentro do vim.
+
+---
+
+#### :e comando
+
+O comando **:e** para abrir/editar(edit) um arquivo sem sair do vim.
+
+Sintaxe: 
+**:e nome_arquivo** ou **:e [TAB]** para aparecer o arquivos que estão no mesmo diretório.
 
 ---
 
