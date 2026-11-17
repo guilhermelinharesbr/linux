@@ -22,6 +22,7 @@
 - [Comandos para EDIÇÃO DE TEXTO](#comandos-para-edição-de-texto)
     - [c](#c)
     - [D](#d-maiúsculo)
+    - [dG](#dg)
     - [p](#p)
     - [P](#p-maiúsculo)
     - [u](#u)
@@ -183,6 +184,12 @@ Recorta(cut) o texto marcado.
 #### D maiúsculo
 
 Deleta do cursor até o final da linha.
+
+---
+
+#### dG
+
+Deleta da linha do cursor até o final do arquivo.
 
 ---
 
