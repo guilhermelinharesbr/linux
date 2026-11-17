@@ -27,6 +27,7 @@
     - [P](#p-maiúsculo)
     - [u](#u)
     - [U](#u-maiúsculo)
+    - [yy](#yy)
 - [Comandos de MOVIMENTAÇÃO do cursor](#comandos-de-movimentação-do-cursor)
     - [h](#h)
     - [j](#j)
@@ -215,6 +216,13 @@ Desfaz a última alteração independente da linha. Ao continuar usando o **u** 
 #### U maiúsculo
 
 Desfaz somente a última alteração em determinada linha. Ao continuar usando o **U** ele não tem efeito, pois só foca na última alteração de determinada linha.
+
+---
+
+#### yy
+
+O **yy** copia(yanked”arrancado”) uma linha.
+Não entra no modo de inserção após copiar.
 
 ---
 
