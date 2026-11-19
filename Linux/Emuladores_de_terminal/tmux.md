@@ -21,3 +21,19 @@ Obs: Se uma sessão do Tmux for criada no _usuário root_ e outra pessoa rodar `
 - [Tmux](https://tmux.app/)
 
 ---
+
+#### Pacote de instalação
+
+Derivados do Debian:
+```bash
+apt install tmux
+```
+
+Derivados do Red Hat:
+```bash
+dnf install tmux
+ou
+yum install tmux
+```
+
+---
