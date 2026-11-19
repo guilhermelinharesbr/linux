@@ -6,6 +6,7 @@
 - [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
 - [COMANDOS COM CTRL + B](#comandos-com-ctrl--b)
+    - [CTRL + B + símbolo (+)](#ctrl--b--símbolo-)
 
 ---
 
@@ -44,5 +45,11 @@ yum install tmux
 
 Existem diversos subcomandos do tmux que precisam ser precedidos por CTRL + B.
 Estes subcomandos serão mostrados mais abaixo neste artigo.
+
+---
+
+#### CTRL + B + símbolo (+)
+
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **+** servirá para aumentar o _tamanho da fonte_ do terminal, é preciso nesse caso manter o Ctrl+b pressionado para só depois teclar no +.
 
 ---
