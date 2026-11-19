@@ -6,7 +6,9 @@
 - [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
 - [COMANDOS COM CTRL + B](#comandos-com-ctrl--b)
-    - [CTRL + B + símbolo (+)](#ctrl--b--símbolo-)
+    - [CTRL + B + símbolo (+)](#ctrl--b--símbolo--mais)
+    - [CTRL + B + símbolo (-)](#ctrl--b--símbolo---menos)
+    - [CTRL + B + símbolo (&)](#ctrl--b--símbolo--e-comercial)
 
 ---
 
@@ -48,8 +50,20 @@ Estes subcomandos serão mostrados mais abaixo neste artigo.
 
 ---
 
-#### CTRL + B + símbolo (+)
+#### CTRL + B + símbolo (+) mais
 
-O **CTRL + B** habilita a parte de configuração do tmux, digitar **+** servirá para aumentar o _tamanho da fonte_ do terminal, é preciso nesse caso manter o Ctrl+b pressionado para só depois teclar no +.
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **+** servirá para _aumentar o tamanho da fonte_ do terminal, é preciso nesse caso manter o Ctrl+b pressionado para só depois teclar no **+**.
+
+---
+
+#### CTRL + B + símbolo (-) menos
+
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **-** servirá para _reduzir o tamanho da fonte_ do terminal, é preciso nesse caso manter o Ctrl+b pressionado para só depois teclar  no **-**.
+
+---
+
+#### CTRL + B + símbolo (&) E comercial
+
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **&** servirá para matar a janela atual, estando dentro da janela. Ele pergunta se deseja mesmo matar a janela.
 
 ---
