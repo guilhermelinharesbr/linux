@@ -6,9 +6,10 @@
 - [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
 - [COMANDOS COM CTRL + B](#comandos-com-ctrl--b)
-    - [CTRL + B + símbolo (+)](#ctrl--b--símbolo--mais)
-    - [CTRL + B + símbolo (-)](#ctrl--b--símbolo---menos)
-    - [CTRL + B + símbolo (&)](#ctrl--b--símbolo--e-comercial)
+    - [CTRL + B + símbolo (+) mais](#ctrl--b--símbolo--mais)
+    - [CTRL + B + símbolo (-) menos](#ctrl--b--símbolo---menos)
+    - [CTRL + B + símbolo (&) E comercial](#ctrl--b--símbolo--e-comercial)
+    - [CTRL + B + símbolo (,) vírgula](#ctrl--b--símbolo--vírgula)
 
 ---
 
@@ -65,5 +66,11 @@ O **CTRL + B** habilita a parte de configuração do tmux, digitar **-** servir�
 #### CTRL + B + símbolo (&) E comercial
 
 O **CTRL + B** habilita a parte de configuração do tmux, digitar **&** servirá para matar a janela atual, estando dentro da janela. Ele pergunta se deseja mesmo matar a janela.
+
+---
+
+#### CTRL + B + símbolo (,) vírgula
+
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **,** abre uma opção para renomear uma janela, para confirmar teclar enter.
 
 ---
