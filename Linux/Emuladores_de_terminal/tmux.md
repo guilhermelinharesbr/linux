@@ -15,3 +15,9 @@ O **tmux** é um multiplexador de terminal de código aberto para sistemas opera
 Obs: Se uma sessão do Tmux for criada no _usuário root_ e outra pessoa rodar `tmux ls` com _outro usuário_ a sessão criada no usuário root não será listada.
 
 ---
+
+#### Site Oficial
+
+- [Tmux](https://tmux.app/)
+
+---
