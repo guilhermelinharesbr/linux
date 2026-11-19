@@ -55,7 +55,7 @@ yum install screen
 
 ### COMANDOS COM CTRL + A
 
-Existem diversos subcomandos do screen precisão ser precedidos por CTRL + A.
+Existem diversos subcomandos do screen que precisam ser precedidos por CTRL + A.
 Estes subcomandos serão mostrados mais abaixo neste artigo.
 
 ---

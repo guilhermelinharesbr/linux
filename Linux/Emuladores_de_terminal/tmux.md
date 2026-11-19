@@ -5,6 +5,7 @@
 - [Definição](#definição)
 - [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
+- [COMANDOS COM CTRL + B](#comandos-com-ctrl--b)
 
 ---
 
@@ -35,5 +36,13 @@ dnf install tmux
 ou
 yum install tmux
 ```
+
+---
+
+
+### COMANDOS COM CTRL + B
+
+Existem diversos subcomandos do tmux que precisam ser precedidos por CTRL + B.
+Estes subcomandos serão mostrados mais abaixo neste artigo.
 
 ---
