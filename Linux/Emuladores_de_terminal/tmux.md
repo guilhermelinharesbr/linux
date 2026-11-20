@@ -13,9 +13,9 @@
     - [CTRL + B + símbolo (%) porcentagem](#ctrl--b--símbolo--porcentagem)
     - [CTRL + B + símbolo (") aspas duplas](#ctrl--b--símbolo--aspas-duplas)
     - [CTRL + B + símbolo (→ ou ← ou ↑ ou ↓) setas](#ctrl--b--símbolo--ou--ou--ou--setas)
+    - [CTRL + B + d](#ctrl--b--d)
 
 
-    #### 
 
 ---
 
@@ -96,5 +96,11 @@ O **CTRL + B** habilita a parte de configuração do tmux, digitar **"**  divide
 #### CTRL + B + símbolo (→ ou ← ou ↑ ou ↓) setas
 
 O **CTRL + B** habilita a parte de configuração do tmux, digitar **→** ou **←** ou **↑** ou **↓** para navegar entre as janelas que foram divididas no split.
+
+---
+
+#### CTRL + B + d
+
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **d** para sair do terminal. O d vem de **d**etached.
 
 ---
