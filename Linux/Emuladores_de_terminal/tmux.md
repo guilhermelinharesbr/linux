@@ -10,6 +10,7 @@
     - [CTRL + B + símbolo (-) menos](#ctrl--b--símbolo---menos)
     - [CTRL + B + símbolo (&) E comercial](#ctrl--b--símbolo--e-comercial)
     - [CTRL + B + símbolo (,) vírgula](#ctrl--b--símbolo--vírgula)
+    - [CTRL + B + símbolo (%) porcentagem](#ctrl--b--símbolo--porcentagem)
 
 ---
 
@@ -72,5 +73,11 @@ O **CTRL + B** habilita a parte de configuração do tmux, digitar **&** servir�
 #### CTRL + B + símbolo (,) vírgula
 
 O **CTRL + B** habilita a parte de configuração do tmux, digitar **,** abre uma opção para renomear uma janela, para confirmar teclar enter.
+
+---
+
+#### CTRL + B + símbolo (%) porcentagem
+
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **%** divide(**split**) a tela criando uma nova janela dentro da mesma seção na **vertical**.
 
 ---
