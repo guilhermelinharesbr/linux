@@ -16,6 +16,7 @@
     - [CTRL + B + c](#ctrl--b--c)
     - [CTRL + B + d](#ctrl--b--d)
     - [CTRL + B + p](#ctrl--b--p)
+    - [CTRL + B + n](#ctrl--b--n)
     
 
 
@@ -116,6 +117,12 @@ O **CTRL + B** habilita a parte de configuração do tmux, digitar **d** para sa
 
 #### CTRL + B + p
 
-O **CTRL + B** habilita a parte de configuração do tmux, digitar **p** para  navegar entre as janelas criadas, p de **p**review.
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **p** para navegar entre as janelas criadas, p de **p**review.
+
+---
+
+#### CTRL + B + n
+
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **n** para  navegar entre as janelas criadas, n de **n**ext.
 
 ---
