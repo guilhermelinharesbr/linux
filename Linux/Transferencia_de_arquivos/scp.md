@@ -4,7 +4,7 @@
 ### Sumário
 - [Definição](#definição)
 - [Pacote de instalação](#site-oficial)
-- [Opções](#)
+- [Opções](#opções)
 
 
 ---
@@ -36,5 +36,17 @@ yum install openssh-clients
 ```
 
 Obs: Existe a diferença no nome dos pacotes, sendo no derivado do Debian no singular e no derivado do Red Hat no plural.
+
+---
+
+#### Opções
+
+
+As opções podem ser vistas por meio do comando `scp --help` ou `man scp` sendo elas:
+
+- **-C** -> Comprime(**C**ompression enable) os arquivos durante a transferência;
+- **-p** -> preserva(**p**reserves) as permissões dos arquivos e datas de acesso e modificação;
+- **-P** -> definir a porta(**P**ort) do SSH;
+- **-r** -> Copia recursivamente(**r**ecursively) subdiretórios e arquivos.
 
 ---
