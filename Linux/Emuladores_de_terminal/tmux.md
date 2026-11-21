@@ -15,8 +15,10 @@
     - [CTRL + B + símbolo (→ ou ← ou ↑ ou ↓) setas](#ctrl--b--símbolo--ou--ou--ou--setas)
     - [CTRL + B + c](#ctrl--b--c)
     - [CTRL + B + d](#ctrl--b--d)
-    - [CTRL + B + p](#ctrl--b--p)
-    - [CTRL + B + n](#ctrl--b--n)
+    - [Navegação nas janelas](#navegação-nas-janelas)
+        - [CTRL + B + p](#ctrl--b--p)
+        - [CTRL + B + n](#ctrl--b--n)
+        - [CTRL + B + w](#ctrl--b--w)
     
 
 
@@ -115,6 +117,10 @@ O **CTRL + B** habilita a parte de configuração do tmux, digitar **d** para sa
 
 ---
 
+### Navegação nas janelas
+
+---
+
 #### CTRL + B + p
 
 O **CTRL + B** habilita a parte de configuração do tmux, digitar **p** para navegar entre as janelas criadas, p de **p**review.
@@ -124,5 +130,11 @@ O **CTRL + B** habilita a parte de configuração do tmux, digitar **p** para na
 #### CTRL + B + n
 
 O **CTRL + B** habilita a parte de configuração do tmux, digitar **n** para  navegar entre as janelas criadas, n de **n**ext.
+
+---
+
+#### CTRL + B + w
+
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **w** abre um menu, listando as janelas, mais prático de navegar, w de **w**indow.
 
 ---
