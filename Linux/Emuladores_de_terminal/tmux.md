@@ -15,6 +15,7 @@
     - [CTRL + B + símbolo (→ ou ← ou ↑ ou ↓) setas](#ctrl--b--símbolo--ou--ou--ou--setas)
     - [CTRL + B + c](#ctrl--b--c)
     - [CTRL + B + d](#ctrl--b--d)
+    - [CTRL + B + p](#ctrl--b--p)
     
 
 
@@ -110,5 +111,11 @@ O **CTRL + B** habilita a parte de configuração do tmux, digitar **c** para cr
 #### CTRL + B + d
 
 O **CTRL + B** habilita a parte de configuração do tmux, digitar **d** para sair do terminal. O d vem de **d**etached.
+
+---
+
+#### CTRL + B + p
+
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **p** para  navegar entre as janelas criadas, p de **p**review.
 
 ---
