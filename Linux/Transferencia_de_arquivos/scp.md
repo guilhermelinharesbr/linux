@@ -21,6 +21,20 @@ Um caminho remoto tem a seguinte sintaxe: usuário@endereço:/diretório.
 
 ---
 
+#### Pacote de instalação
 
+Derivados do Debian:
+```bash
+apt install openssh-client
+```
+
+Derivados do Red Hat:
+```bash
+dnf install openssh-clients
+ou
+yum install openssh-clients
+```
+
+Obs: Existe a diferença no nome dos pacotes, sendo no derivado do Debian no singular e no derivado do Red Hat no plural.
 
 ---
