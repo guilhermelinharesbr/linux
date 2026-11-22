@@ -7,6 +7,7 @@
 - [Pacote de instalação](#pacote-de-instalação)
 - [COMANDOS](#comandos)
     - [tmux](#tmux-comando)
+    - [list-sessions / ls](#list-sessions--ls)
     - [-V maiúsculo](#-v-maiúsculo)
 - [COMANDOS COM CTRL + B](#comandos-com-ctrl--b)
     - [CTRL + B + símbolo (+) mais](#ctrl--b--símbolo--mais)
@@ -67,6 +68,12 @@ yum install tmux
 #### tmux comando
 
 Ao digitar apenas **tmux** ele cria um novo terminal.
+
+---
+
+#### list-sessions / ls
+
+Ao digitar **tmux list-sessions** ou seu alias **tmux ls** são listadas as sessões existentes. 
 
 ---
 
