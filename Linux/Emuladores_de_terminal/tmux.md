@@ -19,6 +19,7 @@
         - [CTRL + B + p](#ctrl--b--p)
         - [CTRL + B + n](#ctrl--b--n)
         - [CTRL + B + w](#ctrl--b--w)
+        - [CTRL + B + (Nº) número](#ctrl--b--nº-número)
     
 
 
@@ -136,5 +137,13 @@ O **CTRL + B** habilita a parte de configuração do tmux, digitar **n** para  n
 #### CTRL + B + w
 
 O **CTRL + B** habilita a parte de configuração do tmux, digitar **w** abre um menu, listando as janelas, mais prático de navegar, w de **w**indow.
+
+---
+
+#### CTRL + B + (Nº) número
+
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **Nº** seleciona a janela com o respectivo número.
+
+Ex: CTRL + b + 5 -> vai para a janela 5.
 
 ---
