@@ -15,6 +15,7 @@
     - [CTRL + B + símbolo (%) porcentagem](#ctrl--b--símbolo--porcentagem)
     - [CTRL + B + símbolo (") aspas duplas](#ctrl--b--símbolo--aspas-duplas)
     - [CTRL + B + símbolo (→ ou ← ou ↑ ou ↓) setas](#ctrl--b--símbolo--ou--ou--ou--setas)
+    - [CTRL + B + símbolo (→ ou ← ou ↑ ou ↓) setas Mantendo pressionado](#ctrl--b--símbolo--ou--ou--ou--setas-mantendo-pressionado)
     - [CTRL + B + c](#ctrl--b--c)
     - [CTRL + B + d](#ctrl--b--d)
     - [Navegação nas janelas](#navegação-nas-janelas)
@@ -114,6 +115,12 @@ O **CTRL + B** habilita a parte de configuração do tmux, digitar **"**  divide
 #### CTRL + B + símbolo (→ ou ← ou ↑ ou ↓) setas
 
 O **CTRL + B** habilita a parte de configuração do tmux, digitar **→** ou **←** ou **↑** ou **↓** para navegar entre as janelas que foram divididas no split.
+
+---
+
+#### CTRL + B + símbolo (→ ou ← ou ↑ ou ↓) setas Mantendo pressionado
+
+O **CTRL + B** habilita a parte de configuração do tmux, digitar **→** ou **←** ou **↑** ou **↓** mantendo pressionado é usado para ajustar a largura e a altura da janela.
 
 ---
 
