@@ -6,6 +6,7 @@
 - [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
 - [COMANDOS](#comandos)
+    - [tmux](#tmux-comando)
     - [-V maiúsculo](#-v-maiúsculo)
 - [COMANDOS COM CTRL + B](#comandos-com-ctrl--b)
     - [CTRL + B + símbolo (+) mais](#ctrl--b--símbolo--mais)
@@ -63,9 +64,15 @@ yum install tmux
 
 ---
 
+#### tmux comando
+
+Ao digitar apenas **tmux** ele cria um novo terminal.
+
+---
+
 #### -V maiúsculo
 
-Mostra a versão do tmux.
+Ao digitar **tmux -V** ele mostra a versão do tmux.
 
 ---
 
