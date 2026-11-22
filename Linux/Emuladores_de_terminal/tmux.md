@@ -5,6 +5,8 @@
 - [Definição](#definição)
 - [Site oficial](#site-oficial)
 - [Pacote de instalação](#pacote-de-instalação)
+- [COMANDOS](#comandos)
+    - [-V maiúsculo](#-v-maiúsculo)
 - [COMANDOS COM CTRL + B](#comandos-com-ctrl--b)
     - [CTRL + B + símbolo (+) mais](#ctrl--b--símbolo--mais)
     - [CTRL + B + símbolo (-) menos](#ctrl--b--símbolo---menos)
@@ -56,6 +58,15 @@ yum install tmux
 
 ---
 
+### COMANDOS
+
+---
+
+#### -V maiúsculo
+
+Mostra a versão do tmux.
+
+---
 
 ### COMANDOS COM CTRL + B
 
