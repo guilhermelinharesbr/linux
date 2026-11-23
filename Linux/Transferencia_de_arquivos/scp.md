@@ -5,6 +5,7 @@
 - [Definição](#definição)
 - [Pacote de instalação](#site-oficial)
 - [Opções](#opções)
+- [Exemplos](#)
 
 
 ---
@@ -48,5 +49,19 @@ As opções podem ser vistas por meio do comando `scp --help` ou `man scp` sendo
 - **-p** -> preserva(**p**reserves) as permissões dos arquivos e datas de acesso e modificação;
 - **-P** -> definir a porta(**P**ort) do SSH;
 - **-r** -> Copia recursivamente(**r**ecursively) subdiretórios e arquivos.
+
+---
+
+#### Exemplos
+
+Ex1.0. Enviando um arquivo local para uma outra VM:
+```bash
+scp /caminho_arquivo/nome_arquivo nome_usuario_da_vm_destino@ip_vm:/diretorio_destino
+```
+
+Ex1.1. Enviando um arquivo de nome metas.txt para a VM que possui o usuário de nome administrator, ip 192.168.1.105 e colocando na pasta /tmp:
+```bash
+scp /home/administrator/metas.txt root@192.168.1.105:/tmp
+```
 
 ---
