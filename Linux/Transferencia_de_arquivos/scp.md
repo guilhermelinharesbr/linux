@@ -64,10 +64,16 @@ Ex1.1. Enviando um arquivo de nome metas.txt para a VM que possui o usuário de 
 scp /home/administrator/metas.txt root@192.168.1.105:/tmp
 ```
 
-Ex1.2. Enviando o conteúdo inteiro do diretório /tmp/diretorio1 para a VM que possui o usuário de nome administrator, ip 192.168.1.105 e colocando na pasta /tmp, com o detalhe que dessa forma não preserva as permissões dos arquivos e informando a porta do SSH, que no caso não é padrão 22:
+Ex1.2. Enviando o conteúdo inteiro do diretório /tmp/diretorio1 de forma **recursiva** para a VM que possui o usuário de nome administrator, ip 192.168.1.105 e colocando na pasta /tmp, com o detalhe que dessa forma **não preserva as permissões** dos arquivos e informando a **porta** do SSH, que no caso não é padrão 22:
 ```bash
 scp -P12578 -r /tmp/diretorio1 root@192.168.1.105:/tmp
 ```
+
+Ex1.3. Enviando o conteúdo inteiro do diretório /tmp/diretorio1 de forma recursiva para a VM que possui o usuário de nome administrator, ip 192.168.1.105 e colocando na pasta /tmp, agora **preservando as permissões**, **datas de acesso** e **modificação dos arquivos** e informando a porta do SSH, que no caso não é padrão 22:
+```bash
+scp -P12578 -r -p /tmp/diretorio1 root@192.168.1.105:/tmp
+```
+
 
 --
 
