@@ -54,7 +54,7 @@ As opções podem ser vistas por meio do comando `scp --help` ou `man scp` sendo
 
 #### Exemplos
 
-Ex1.0. Enviando um arquivo local para uma outra VM:
+Ex1.0. **Enviando** um arquivo local para uma outra VM:
 ```bash
 scp /caminho_arquivo/nome_arquivo usuario_da_vm_destino@ip_vm:/diretorio_destino
 ```
@@ -64,7 +64,7 @@ Ex1.1. Enviando um arquivo de nome metas.txt para a VM que possui o usuário de 
 scp /home/administrator/metas.txt root@192.168.1.105:/tmp
 ```
 
-Ex2.0. Recebendo/pegando um arquivo de um servidor remoto:
+Ex2.0. **Recebendo/pegando** um arquivo de um servidor remoto:
 ```bash
 scp usuario_da_vm_origem@ip_vm:/diretorio_origem/nome_arquivo /diretorio_destino 
 ```
