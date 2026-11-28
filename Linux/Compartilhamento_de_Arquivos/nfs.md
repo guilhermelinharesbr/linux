@@ -31,6 +31,8 @@ Nesta seção serão mostrados os principais diretórios usados pelo NFS:
 Nesta seção serão mostrados os principais arquivos usados pelo NFS:
 
 - **/etc/exports** -> Derivados do Red Hat/Debian. Principal arquivo de configuração.
-- **/etc/nfs.conf** -> Derivados do Red Hat 8 ou superiores. Arquivo com algumas configurações do NFS. 
+- **/etc/nfs.conf** -> Derivados do Red Hat 8 ou superiores. Arquivo com algumas configurações do NFS.
+- **/etc/sysconfig/nfs** -> Derivados do Red Hat 7 ou anterioes. Arquivo com algumas configurações do NFS.
+- **/etc/default/nfs-common** -> Derivados do Debian. Arquivo com algumas configurações do NFS.  
 
 ---
