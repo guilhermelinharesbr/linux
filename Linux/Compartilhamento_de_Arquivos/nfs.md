@@ -5,6 +5,7 @@
 ### Sumário
 - [Definição](#definição)
 - [Diretórios](#diretórios)
+- [Arquivos](#arquivos)
 
 ---
 
@@ -23,6 +24,13 @@ Nesta seção serão mostrados os principais diretórios usados pelo NFS:
 - **/etc/sysconfig/** -> Derivados do Red Hat 7 ou anterioes. Diretório onde fica o arquivo _nfs_.
 - **/etc/default/** -> Derivados do Debian. Diretório onde ficam os arquivos _nfs-common_ e _nfs-kernel-server_.
 
-
 ---
 
+#### Arquivos
+
+Nesta seção serão mostrados os principais arquivos usados pelo NFS:
+
+- **/etc/exports** -> Derivados do Red Hat/Debian. Principal arquivo de configuração.
+- **/etc/nfs.conf** -> Derivados do Red Hat 8 ou superiores. Arquivo com algumas configurações do NFS. 
+
+---
